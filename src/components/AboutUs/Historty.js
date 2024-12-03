@@ -39,7 +39,7 @@ function Historty() {
       <Box sx={styles.coverBox}>
         <img
           style={styles.coverImage}
-          src="images/modern.png"
+          src="/images/modern.png"
           alt="Portada de Nuestra Historia"
         />
         <Typography variant="h3" sx={styles.header}>
