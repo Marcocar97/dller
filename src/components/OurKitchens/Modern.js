@@ -110,20 +110,20 @@ const Modern = () => {
     {
       title: 'Delicadeza Moderna',
       description: 'A la hora de renovar su piso, esta pareja entrada en los cuarenta, deseaba ante todo crear un espacio luminoso en el que convivieran naturaleza y colores armoniosos. Eso es lo que les sedujo especialmente en esta cocina. El motivo Botanic Black asociado al color Mossa y al tono Stone Grey crea un ambiente vegetal especialmente logrado. Perfectamente adaptada a la forma de la habitación, la cocina en U forma un espacio para compartir momentos en familia, especialmente alrededor de la isla, que contribuye a delimitar claramente la estancia. ',
-      images: ['/images/1.jpg', '/images/2.jpg', '/images/3.jpg'],
-      coverImage: '/images/1.jpg',
+      images: ['/Images/1.jpg', '/Images/2.jpg', '/Images/3.jpg'],
+      coverImage: '/Images/1.jpg',
     },
     {
       title: 'Cocina Minimalista',
       description: 'A la hora de renovar su piso, esta pareja entrada en los cuarenta, deseaba ante todo crear un espacio luminoso en el que convivieran naturaleza y colores armoniosos. Eso es lo que les sedujo especialmente en esta cocina. El motivo Botanic Black asociado al color Mossa y al tono Stone Grey crea un ambiente vegetal especialmente logrado. Perfectamente adaptada a la forma de la habitación, la cocina en U forma un espacio para compartir momentos en familia, especialmente alrededor de la isla, que contribuye a delimitar claramente la estancia. ',
-      images: ['/images/1.jpg', '/images/2.jpg', '/images/3.jpg'],
-      coverImage: '/images/1.jpg',
+      images: ['/Images/1.jpg', '/Images/2.jpg', '/Images/3.jpg'],
+      coverImage: '/Images/1.jpg',
     },
     {
       title: 'Cocina Elegante',
       description: 'A la hora de renovar su piso, esta pareja entrada en los cuarenta, deseaba ante todo crear un espacio luminoso en el que convivieran naturaleza y colores armoniosos. Eso es lo que les sedujo especialmente en esta cocina. El motivo Botanic Black asociado al color Mossa y al tono Stone Grey crea un ambiente vegetal especialmente logrado. Perfectamente adaptada a la forma de la habitación, la cocina en U forma un espacio para compartir momentos en familia, especialmente alrededor de la isla, que contribuye a delimitar claramente la estancia.',
-      images: ['/images/1.jpg', '/images/2.jpg', '/images/3.jpg'],
-      coverImage: '/images/1.jpg',
+      images: ['/Images/1.jpg', '/Images/2.jpg', '/Images/3.jpg'],
+      coverImage: '/Images/1.jpg',
     },
   ];
 
@@ -136,7 +136,7 @@ const Modern = () => {
         style={{
           position: 'relative',
           height: '350px',
-          backgroundImage: 'url(/images/modern.png)',
+          backgroundImage: 'url(/Images/modern.png)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           display: 'flex',
