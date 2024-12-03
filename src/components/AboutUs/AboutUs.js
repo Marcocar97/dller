@@ -103,7 +103,10 @@ function AboutUs() {
     <CustomListItem
       button
       key={text}
-      onClick={() => setSelectedSection(text)}
+      onClick={() => {
+        setSelectedSection(text); // Actualiza la sección seleccionada
+        window.scrollTo(0, 0); // Lleva la página al inicio
+      }}
       selected={selectedSection === text}
     >
       {index === 0 && <HistoryEduIcon sx={{ color: selectedSection === text ? '#fffff' : '#E30613' }} />}
