@@ -6,6 +6,11 @@ import History from './Historty';  // Corrige los nombres de archivo si es neces
 import Vision from './Vission';
 import Mission from './Mission';
 import OurTeam from './OurTeam';
+import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
+import VisibilityIcon from '@mui/icons-material/Visibility';
+import FlagIcon from '@mui/icons-material/Flag';
+import GroupIcon from '@mui/icons-material/Group';
+
 
 const drawerWidth = 240;
 
@@ -15,30 +20,61 @@ const StyledDrawer = styled(Drawer)({
   '& .MuiDrawer-paper': {
     width: drawerWidth,
     boxSizing: 'border-box',
-    backgroundColor: '#FFFFFF', // Color de fondo blanco
     color: '#333',
+    borderRight: 'none',
     marginTop: '10%',
-    height: `calc(100% - 1%)`
+    height: 'calc(100% - 1%)',
+    boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',
   },
 });
+
 
 const SidebarContent = styled('div')({
-  height: '100%',
+  height: '60%',
   backgroundColor: '#FFFFFF',
-  padding: '20px',
+  padding: '1px',
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'space-between', // Ajusta para dejar espacio inferior
 });
 
+const Title = styled(Typography)({
+  fontWeight: 'bold',
+  textAlign: 'center',
+  textTransform: 'uppercase',
+  fontSize: '1.5rem',
+  marginBottom: '8px 0',
+  marginTop: '20px',
+  color: 'black', // Color distintivo para el título
+});
+
+
 const CustomListItem = styled(ListItem)({
+  display: 'flex',
+  alignItems: 'center', // Centra los iconos y texto
+  padding: '10px 16px',
+  borderRadius: '8px', // Bordes redondeados
+  marginBottom: '12px',
+  marginTop: '20px',
+  cursor: 'pointer',
+  transition: 'all 0.3s ease',
   '&.Mui-selected': {
-    backgroundColor: "transparent",
+    backgroundColor: '#E30613',
+    color: '#fff',
     '& .MuiListItemText-primary': {
       fontWeight: 'bold',
-    }
+      color: '#fff',
+    },
   },
   '&:hover': {
-    backgroundColor: "#CC0511",
-    color: "white"
-  }
+    backgroundColor: 'rgba(227, 6, 19, 0.1)', // Fondo rojo claro al pasar el ratón
+    color: '#E30613',
+  },
+  '& .MuiListItemText-primary': {
+    marginLeft: '10px', // Espaciado entre icono y texto
+    fontSize: '1rem',
+    fontWeight: '500',
+  },
 });
 
 function AboutUs() {
@@ -60,25 +96,25 @@ function AboutUs() {
     <Box sx={{ display: 'flex', height: '100vh', backgroundColor: '#FFFFFF' }}>
       <StyledDrawer variant="permanent" anchor="left">
         <SidebarContent>
-          <Typography variant="h6" sx={{ my: 2, fontWeight: 'bold', textAlign: 'center' }}>
-            About Dller
-          </Typography>
-          <Divider />
+        <Title>About Dller</Title>
+        <Divider />
           <List>
-            {sections.map((text) => (
-              <CustomListItem button key={text} onClick={() => setSelectedSection(text)} selected={selectedSection === text}>
-                <ListItemText primary={text} />
-              </CustomListItem>
-            ))}
-          </List>
-          <Divider sx={{ my: 1 }} />
-          <Typography variant="subtitle1" sx={{ mt: 2, fontWeight: 'bold', textAlign: 'center' }}>Contact Us</Typography>
-          <List>
-            <ListItem>
-              <MailOutlineIcon sx={{ mr: 1 }} />
-              <ListItemText primary="sales@dller.com" />
-            </ListItem>
-          </List>
+  {sections.map((text, index) => (
+    <CustomListItem
+      button
+      key={text}
+      onClick={() => setSelectedSection(text)}
+      selected={selectedSection === text}
+    >
+      {index === 0 && <HistoryEduIcon sx={{ color: selectedSection === text ? '#fffff' : '#E30613' }} />}
+      {index === 1 && <VisibilityIcon sx={{ color: selectedSection === text ? '#fffff' : '#E30613' }} />}
+      {index === 2 && <FlagIcon sx={{ color: selectedSection === text ? '#fffff' : '#E30613' }} />}
+      {index === 3 && <GroupIcon sx={{ color: selectedSection === text ? '#fffff' : '#E30613' }} />}
+      <ListItemText primary={text} />
+    </CustomListItem>
+  ))}
+</List>
+
         </SidebarContent>
       </StyledDrawer>
       <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
@@ -88,4 +124,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default AboutUs; 

@@ -1,87 +1,116 @@
 import React from 'react';
-import { Box, Typography, Paper, List, ListItem, ListItemText, ListItemAvatar, Avatar } from '@mui/material';
-import TimelineIcon from '@mui/icons-material/Timeline';
+import { Box, Typography, Grid, Divider, Paper } from '@mui/material';
 
-// Estilos personalizados
+// Estilos para el diseño
 const styles = {
-    paperContainer: {
-      padding: '20px',
-      margin: '20px 0',
-      backgroundColor: '#fff'  // Ajusta al tema de tu página
-    },
-    header: {
-      position: 'absolute', // Posicionamiento absoluto para sobreponer sobre la imagen
-      bottom: '50%', // Ajuste desde la parte inferior de la imagen
-      left: '50%',
-      transform: 'translateX(-50%)', // Centrado horizontal
-      color: '#FFFFFF', // Texto blanco para contraste
-      textShadow: '1px 1px 2px rgba(0,0,0,0.7)', // Sombra para mejorar la legibilidad
-      width: '100%', // Asegura que el texto se ajuste al ancho de la imagen
-      textAlign: 'center', // Centra el texto horizontalmente
-      backgroundColor: 'rgba(0, 0, 0, 0.5)'
-    },
-    coverImage: {
-      width: '100%',
-      height: '300px',
-      objectFit: 'cover'  // Asegura que la imagen cubra completamente el área asignada sin perder proporciones
-    },
-    coverBox: {
-      position: 'relative', // Posición relativa para contener el texto absoluto
-      height: '300px', // Altura fija de la imagen de portada
-      marginBottom: '20px', // Espacio después de la imagen
-    }
-  };
+  coverContainer: {
+    position: 'relative',
+    width: '100%',
+    height: '300px',
+    backgroundImage: `url('/Images/modern.png')`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    color: '#fff',
+    textShadow: '2px 2px 6px rgba(0, 0, 0, 0.7)',
+  },
+  coverText: {
+    fontSize: '2.5rem',
+    fontWeight: 'bold',
+    textAlign: 'center',
+    width: '100%',
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    padding: '10px 20px',
+  },
+  content: {
+    padding: '20px',
+    maxWidth: '1200px',
+    margin: '0 auto',
+    color: '#333',
+  },
+  timelineBox: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: '24px',
+  },
+  timelineYear: {
+    fontWeight: 'bold',
+    fontSize: '1.5rem',
+    color: '#E30613',
+    marginRight: '16px',
+  },
+  timelineContent: {
+    padding: '16px',
+    borderRadius: '8px',
+    backgroundColor: '#f9f9f9',
+    boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
+    flex: 1,
+  },
+  image: {
+    width: '100%',
+    height: 'auto',
+    borderRadius: '8px',
+    marginTop: '16px',
+  },
+};
 
 function Historty() {
   return (
-    <Box sx={{ width: '100%', maxWidth: '99%', mx: 'auto' }}>
-        {/* Imagen de portada con texto */}
-      <Box sx={styles.coverBox}>
-        <img
-          style={styles.coverImage}
-          src="/Images/modern.png"
-          alt="Portada de Nuestra Historia"
-        />
-        <Typography variant="h3" sx={styles.header}>
+    <Box>
+      {/* Imagen de portada */}
+      <Box sx={styles.coverContainer}>
+        <Typography sx={styles.coverText}>
           Our History
         </Typography>
       </Box>
-      <Paper elevation={2} sx={styles.paperContainer}>
-        <List>
-          <ListItem sx={styles.timelineItem}>
-            <ListItemAvatar>
-              <Avatar>
-                <TimelineIcon />
-              </Avatar>
-            </ListItemAvatar>
-            <ListItemText primary="Fundación" secondary="1990 - La compañía fue fundada en X lugar, comenzando como una pequeña startup." />
-          </ListItem>
-          <ListItem sx={styles.timelineItem}>
-            <ListItemAvatar>
-              <Avatar>
-                <TimelineIcon />
-              </Avatar>
-            </ListItemAvatar>
-            <ListItemText primary="Expansión" secondary="2005 - Expansión a nuevos mercados internacionales." />
-          </ListItem>
-          <ListItem sx={styles.timelineItem}>
-            <ListItemAvatar>
-              <Avatar>
-                <TimelineIcon />
-              </Avatar>
-            </ListItemAvatar>
-            <ListItemText primary="Innovación" secondary="2015 - Lanzamiento de un nuevo producto revolucionario que cambió la industria." />
-          </ListItem>
-          <ListItem sx={styles.timelineItem}>
-            <ListItemAvatar>
-              <Avatar>
-                <TimelineIcon />
-              </Avatar>
-            </ListItemAvatar>
-            <ListItemText primary="Hoy" secondary="2023 - Dller es reconocido como líder en su campo con más de 10,000 empleados globalmente." />
-          </ListItem>
-        </List>
-      </Paper>
+
+      {/* Contenido principal */}
+      <Box sx={styles.content}>
+        <Typography variant="h5" sx={{ textAlign: 'center', color: '#E30613', fontWeight: 'bold', marginBottom: '16px' }}>
+          A Legacy of Excellence
+        </Typography>
+        <Typography variant="body1" gutterBottom sx={{ textAlign: 'center', marginBottom: '32px' }}>
+          From humble beginnings to a leader in the kitchen industry, our journey is marked by innovation, passion, and commitment to quality. Here's a glimpse of our story.
+        </Typography>
+
+        <Divider sx={{ my: 4 }} />
+
+        {/* Línea de tiempo */}
+        <Box>
+          {[
+            { year: '1990', text: 'Founded with a vision to revolutionize kitchens with personalized designs.' },
+            { year: '2000', text: 'Launched our first line of sustainable kitchen solutions.' },
+            { year: '2010', text: 'Expanded globally, bringing our innovative designs to international markets.' },
+            { year: '2020', text: 'Introduced smart kitchen technologies, enhancing daily living.' },
+          ].map((entry, index) => (
+            <Box sx={styles.timelineBox} key={index}>
+              <Typography sx={styles.timelineYear}>{entry.year}</Typography>
+              <Paper sx={styles.timelineContent}>
+                <Typography variant="body1">{entry.text}</Typography>
+              </Paper>
+            </Box>
+          ))}
+        </Box>
+
+        <Divider sx={{ my: 4 }} />
+
+        {/* Sección de cierre */}
+        <Typography variant="h5" sx={{ textAlign: 'center', color: '#E30613', fontWeight: 'bold', marginBottom: '16px' }}>
+          A Journey of Innovation and Trust
+        </Typography>
+        <Typography variant="body1" sx={{ textAlign: 'center', marginBottom: '32px' }}>
+          Our history is a testament to our dedication to creating spaces where memories are made. As we look to the future, we remain committed to crafting kitchens that inspire.
+        </Typography>
+        <Box 
+          component="img" 
+          src="/Images/modern.png" 
+          alt="Journey of Innovation and Trust" 
+          sx={styles.image} 
+        />
+      </Box>
     </Box>
   );
 }
