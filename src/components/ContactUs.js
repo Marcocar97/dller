@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Box, Typography, TextField, Button, Grid, Divider } from '@mui/material';
+import emailjs from '@emailjs/browser';
 
 // Estilos para el diseño
 const styles = {
@@ -53,6 +54,29 @@ const styles = {
 };
 
 function ContactUs() {
+  const formRef = useRef();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        'service_8qd27im', // ID del servicio
+        'template_luu9gag', // ID de la plantilla
+        formRef.current,
+        'q8SYdWtSShPPbGI8c' // Clave pública
+      )
+      .then(
+        () => {
+          alert('Message sent successfully!');
+        },
+        (error) => {
+          console.error('Error:', error);
+          alert('Failed to send the message. Please try again.');
+        }
+      );
+  };
+
   return (
     <Box>
       {/* Imagen de portada */}
@@ -79,46 +103,57 @@ function ContactUs() {
               <Typography variant="h6" gutterBottom>
                 Contact Form
               </Typography>
-              <TextField
-                fullWidth
-                label="Name"
-                variant="outlined"
-                margin="normal"
-              />
-              <TextField
-                fullWidth
-                label="Email"
-                variant="outlined"
-                margin="normal"
-              />
-              <TextField
-                fullWidth
-                label="Subject"
-                variant="outlined"
-                margin="normal"
-              />
-              <TextField
-                fullWidth
-                label="Message"
-                variant="outlined"
-                multiline
-                rows={4}
-                margin="normal"
-              />
-              <Button
-                fullWidth
-                variant="contained"
-                sx={{
-                  backgroundColor: '#E30613',
-                  color: '#fff',
-                  marginTop: '10px',
-                  '&:hover': {
-                    backgroundColor: '#CC0511',
-                  },
-                }}
-              >
-                Send Message
-              </Button>
+              <form ref={formRef} onSubmit={handleSubmit}>
+                <TextField
+                  fullWidth
+                  label="Name"
+                  name="user_name"
+                  variant="outlined"
+                  margin="normal"
+                  required
+                />
+                <TextField
+                  fullWidth
+                  label="Email"
+                  name="user_email"
+                  variant="outlined"
+                  margin="normal"
+                  required
+                />
+                <TextField
+                  fullWidth
+                  label="Subject"
+                  name="user_subject"
+                  variant="outlined"
+                  margin="normal"
+                  required
+                />
+                <TextField
+                  fullWidth
+                  label="Message"
+                  name="message"
+                  variant="outlined"
+                  multiline
+                  rows={4}
+                  margin="normal"
+                  required
+                />
+                <Button
+                  fullWidth
+                  type="submit"
+                  variant="contained"
+                  sx={{
+                    backgroundColor: '#E30613',
+                    color: '#fff',
+                    marginTop: '10px',
+                    '&:hover': {
+                      backgroundColor: '#CC0511',
+                    },
+                  }}
+                >
+                  Send Message
+                </Button>
+              </form>
             </Box>
           </Grid>
 
