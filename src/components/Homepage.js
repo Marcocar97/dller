@@ -138,6 +138,7 @@ const StyledDialog = styled(Dialog)(() => ({
     top: '50%',
     transform: 'translateY(-50%)',
     color: 'white',
+    backgroundColor: 'rgba(0, 0, 0, 0.6)',
     zIndex: 1000, // Asegura que el botón esté sobre otros elementos si es necesario
     '&:hover': {
       backgroundColor: 'rgba(255, 255, 255, 0.3)',

@@ -7,60 +7,58 @@ import CloseIcon from '@mui/icons-material/Close';
 
 // Estilización del diálogo para que abarque toda la pantalla
 const StyledDialog = styled(Dialog)(() => ({
-  '& .MuiDialog-paper': {
-    backgroundColor: 'rgba(0, 0, 0, 0.1)', // Fondo semitransparente
+    '& .MuiDialog-paper': {
+      backgroundColor: 'rgba(0, 0, 0, 0.8)',
+      color: '#fff',
+      width: '100%',
+      height: '90vh',
+      margin: 0,
+      maxWidth: '100%',
+      maxHeight: 'none',
+      borderRadius: 0,
+      padding: '0', // Se elimina el padding para que la imagen pueda ocupar todo el espacio
+      position: 'relative',
+      display: 'flex',
+      alignItems: 'center', // Centra la imagen y los botones verticalmente
+      justifyContent: 'center', // Centra la imagen horizontalmente
+    },
+    '& .MuiBackdrop-root': {
+      backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    },
+  }));
+  
+  const CloseButton = styled(Button)({
+    position: 'absolute',
+    top: '5%',
+    right: '20%',
+    right: '20px',  // Ajusta esta posición para alinear con el borde derecho de la imagen si es necesario
     color: '#fff',
-    width: '100%', // Ocupa todo el ancho de la pantalla
-    height: '100vh', // Ocupa todo el alto de la pantalla
-    margin: 0,
-    maxWidth: '100%', // Sin límites máximos de ancho
-    maxHeight: 'none', // Sin límites máximos de alto
-    borderRadius: 0, // Sin bordes redondeados
-    padding: '20px',
-    position: 'relative',
-  },
-  '& .MuiBackdrop-root': {
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
-  },
-}));
-
-const NavigationButton = styled(Button)(({ theme }) => ({
-  position: 'absolute',
-  top: '50%', // Mantiene los botones centrados verticalmente respecto a la imagen
-  transform: 'translateY(-50%)',
-  color: 'red',
-  backgroundColor: 'rgba(0, 0, 0, 0.5)', // Menor opacidad para mejor integración visual
-  borderRadius: '50%',
-  padding: '10px',
-  zIndex: 10,
-  '&:hover': {
-    backgroundColor: 'white',
-    transform: 'scale(1.2) translateY(-50%)', // Asegura que el hover no altere la posición vertical
-  },
-}));
-
-// Ajustes específicos para los botones Prev y Next
-const PrevButton = styled(NavigationButton)({
-  left: '10px', // Más cerca del borde de la imagen
-});
-
-const NextButton = styled(NavigationButton)({
-  right: '10px', // Más cerca del borde de la imagen
-});
-
-// Ajustes para el botón de cierre
-const CloseButton = styled(Button)({
-  position: 'absolute',
-  top: '20px', // Más cerca del borde superior de la imagen
-  right: '20px', // Más cerca del borde derecho de la imagen
-  color: '#fff',
-  backgroundColor: 'rgba(0, 0, 0, 0.5)',
-  borderRadius: '80%',
-  padding: '5px',
-  '&:hover': {
-    backgroundColor: 'red',
-  },
-});
+    backgroundColor: 'rgba(0, 0, 0, 0.6)', // Fondo ligeramente transparente
+    '&:hover': {
+      backgroundColor: 'rgba(255, 255, 255, 0.3)',  // Cambio de color al pasar el ratón por encima
+    },
+    zIndex: 1050,
+  });
+  
+  const NavigationButton = styled(Button)(({ theme }) => ({
+    position: 'absolute',
+    top: '50%',
+    transform: 'translateY(-50%)',
+    color: 'white',
+    backgroundColor: 'rgba(0, 0, 0, 0.6)',
+    zIndex: 1000, // Asegura que el botón esté sobre otros elementos si es necesario
+    '&:hover': {
+      backgroundColor: 'rgba(255, 255, 255, 0.3)',
+    },
+  }));
+  
+  const PrevButton = styled(NavigationButton)({
+    left: 'calc(5% + 10px)', // Ajusta esta cantidad para acercar más el botón a la imagen
+  });
+  
+  const NextButton = styled(NavigationButton)({
+    right: 'calc(5% + 10px)', // Ajusta esta cantidad para acercar más el botón a la imagen
+  });
 
 const ProgressIndicators = ({ count, currentIndex }) => {
   return (
