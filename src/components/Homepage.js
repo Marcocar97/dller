@@ -5,6 +5,7 @@ import Carousel from 'react-material-ui-carousel';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import CloseIcon from '@mui/icons-material/Close';
+import { useTheme, useMediaQuery } from '@mui/material';
 
 const styles = {
   heroSection: {
@@ -98,19 +99,21 @@ const carouselItems = [
   },
 ];
 
-// Estilización del diálogo para que abarque toda la pantalla
 const StyledDialog = styled(Dialog)(() => ({
     '& .MuiDialog-paper': {
       backgroundColor: 'rgba(0, 0, 0, 0.8)',
       color: '#fff',
       width: '100%',
-      height: '100vh',
+      height: '90vh',
       margin: 0,
       maxWidth: '100%',
       maxHeight: 'none',
       borderRadius: 0,
-      padding: '20px',
+      padding: '0', // Se elimina el padding para que la imagen pueda ocupar todo el espacio
       position: 'relative',
+      display: 'flex',
+      alignItems: 'center', // Centra la imagen y los botones verticalmente
+      justifyContent: 'center', // Centra la imagen horizontalmente
     },
     '& .MuiBackdrop-root': {
       backgroundColor: 'rgba(0, 0, 0, 0.5)',
@@ -119,12 +122,15 @@ const StyledDialog = styled(Dialog)(() => ({
   
   const CloseButton = styled(Button)({
     position: 'absolute',
-    top: '10px',
-    right: '10px',
+    top: '5%',
+    right: '20%',
+    right: '20px',  // Ajusta esta posición para alinear con el borde derecho de la imagen si es necesario
     color: '#fff',
+    backgroundColor: 'rgba(0, 0, 0, 0.6)', // Fondo ligeramente transparente
     '&:hover': {
-      backgroundColor: 'rgba(255, 255, 255, 0.3)',
+      backgroundColor: 'rgba(255, 255, 255, 0.3)',  // Cambio de color al pasar el ratón por encima
     },
+    zIndex: 1050,
   });
   
   const NavigationButton = styled(Button)(({ theme }) => ({
@@ -132,18 +138,20 @@ const StyledDialog = styled(Dialog)(() => ({
     top: '50%',
     transform: 'translateY(-50%)',
     color: 'white',
+    zIndex: 1000, // Asegura que el botón esté sobre otros elementos si es necesario
     '&:hover': {
       backgroundColor: 'rgba(255, 255, 255, 0.3)',
     },
   }));
   
   const PrevButton = styled(NavigationButton)({
-    left: '10px',
+    left: 'calc(5% + 10px)', // Ajusta esta cantidad para acercar más el botón a la imagen
   });
   
   const NextButton = styled(NavigationButton)({
-    right: '10px',
+    right: 'calc(5% + 10px)', // Ajusta esta cantidad para acercar más el botón a la imagen
   });
+  
 
 // Datos de los estilos de cocinas
 const kitchenStyles = [
@@ -174,6 +182,10 @@ const HomePage = () => {
     const [openPopup, setOpenPopup] = useState(false);
   const [currentImages, setCurrentImages] = useState([]);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const theme = useTheme();
+const isMobile = useMediaQuery(theme.breakpoints.down('sm')); // Detecta pantallas pequeñas
+
 
   const handleOpenPopup = (images) => {
     setCurrentImages(images);
@@ -395,29 +407,29 @@ We work in partnership with a small number of Kitchen companies to take the worr
         alignItems: 'center',
         margin: 20,
         padding: '10px',
-        backgroundColor: '#fff', // Fondo blanco para el botón
-        boxShadow: '0 2px 4px rgba(0,0,0,0.1)', // Sombra ligera para el botón
-        borderRadius: '8px', // Bordes redondeados para todo el botón
-        width: 'calc(100% / 4 - 40px)', // Tres elementos por fila, ajustando el margen
-        boxSizing: 'border-box' // Incluye padding y border en el width
+        backgroundColor: '#fff',
+        boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+        borderRadius: '8px',
+        width: isMobile ? 'calc(100% - 40px)' : 'calc(25% - 40px)', // 100% en móviles para un botón por fila, 25% para cuatro botones por fila en pantallas más grandes
+        boxSizing: 'border-box'
       }}
     >
       <img
         src={style.coverImage}
         alt={style.name}
         style={{
-          width: '100%', // Asegura que la imagen cubra el ancho del botón
-          height: 'auto', // Altura automática para mantener la proporción
-          objectFit: 'cover', // Asegura que la imagen cubra el espacio asignado sin deformarse
-          borderRadius: '8px 8px 0 0', // Redondea las esquinas superiores
+          width: '100%',
+          height: 'auto',
+          objectFit: 'cover',
+          borderRadius: '8px 8px 0 0',
         }}
       />
       <Typography
-        component="span" // Usa span para el texto dentro del botón
+        component="span"
         style={{
-          fontWeight: 'bold', // Texto en negrita
-          marginTop: '10px', // Espacio entre la imagen y el texto
-          textAlign: 'center', // Centra el texto
+          fontWeight: 'bold',
+          marginTop: '10px',
+          textAlign: 'center',
           color: 'red',
         }}
       >
