@@ -155,16 +155,71 @@ function Navbar() {
     >
       Modern
     </Box>
-            <Box>Classic</Box>
-            <Box>Rustic</Box>
+    <Box
+      component={Link}
+      to="/kitchens/modern"
+      sx={{ 
+        textDecoration: 'none', // Eliminar subrayado
+        color: '#000', // Mantener el color heredado
+        padding: '10px 20px', 
+        fontSize: '14px',
+        display: 'block', // Asegura que ocupe todo el ancho
+        '&:hover': {
+          backgroundColor: '#F5F5F5', // Fondo claro en hover
+          color: '#E30613', // Texto rojo en hover
+          transform: 'translateX(5px)', // Movimiento hacia la derecha
+          transition: 'all 0.3s ease',
+        },
+      }}
+    >
+      Classic
+    </Box>
+    <Box
+      component={Link}
+      to="/kitchens/modern"
+      sx={{ 
+        textDecoration: 'none', // Eliminar subrayado
+        color: '#000', // Mantener el color heredado
+        padding: '10px 20px', 
+        fontSize: '14px',
+        display: 'block', // Asegura que ocupe todo el ancho
+        '&:hover': {
+          backgroundColor: '#F5F5F5', // Fondo claro en hover
+          color: '#E30613', // Texto rojo en hover
+          transform: 'translateX(5px)', // Movimiento hacia la derecha
+          transition: 'all 0.3s ease',
+        },
+      }}
+    >
+      European
+    </Box>
+    <Box
+      component={Link}
+      to="/kitchens/modern"
+      sx={{ 
+        textDecoration: 'none', // Eliminar subrayado
+        color: '#000', // Mantener el color heredado
+        padding: '10px 20px', 
+        fontSize: '14px',
+        display: 'block', // Asegura que ocupe todo el ancho
+        '&:hover': {
+          backgroundColor: '#F5F5F5', // Fondo claro en hover
+          color: '#E30613', // Texto rojo en hover
+          transform: 'translateX(5px)', // Movimiento hacia la derecha
+          transition: 'all 0.3s ease',
+        },
+      }}
+    >
+      Unique
+    </Box>
           </Submenu>
         </SubmenuContainer>
 
         {/* Otros botones */}
         <NavButton component={Link} to="/about">About Us</NavButton>
-        <NavButton component={Link} to="/kuchnie">Services</NavButton>
-        <NavButton component={Link} to="/contact">Why Dller</NavButton>
-        <NavButton component={Link} to="/contact">Contact Us</NavButton>
+        <NavButton component={Link} to="/services">Services</NavButton>
+        <NavButton component={Link} to="/why-dller">Why Dller</NavButton>
+        <NavButton component={Link} to="/contac">Contact Us</NavButton>
       </BottomBar>
     </StyledAppBar>
   );

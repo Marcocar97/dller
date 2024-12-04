@@ -45,7 +45,7 @@ const Title = styled(Typography)({
   fontSize: '1.5rem',
   marginBottom: '8px 0',
   marginTop: '20px',
-  color: 'black', // Color distintivo para el título
+  color: '#666', // Color distintivo para el título
 });
 
 
