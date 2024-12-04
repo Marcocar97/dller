@@ -157,7 +157,7 @@ function Navbar() {
     </Box>
     <Box
       component={Link}
-      to="/kitchens/modern"
+      to="/kitchens/classic"
       sx={{ 
         textDecoration: 'none', // Eliminar subrayado
         color: '#000', // Mantener el color heredado
@@ -176,7 +176,7 @@ function Navbar() {
     </Box>
     <Box
       component={Link}
-      to="/kitchens/modern"
+      to="/kitchens/european"
       sx={{ 
         textDecoration: 'none', // Eliminar subrayado
         color: '#000', // Mantener el color heredado
@@ -195,7 +195,7 @@ function Navbar() {
     </Box>
     <Box
       component={Link}
-      to="/kitchens/modern"
+      to="/kitchens/unique"
       sx={{ 
         textDecoration: 'none', // Eliminar subrayado
         color: '#000', // Mantener el color heredado

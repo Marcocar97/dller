@@ -133,33 +133,41 @@ const Classic = () => {
     <Box>
       {/* Portada con título */}
       <Box
-        style={{
-          position: 'relative',
-          height: '350px',
-          backgroundImage: 'url(/Images/modern.png)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-        }}
-      >
-        <Typography
-          variant="h2"
-          style={{
-            color: '#fff',
-            fontSize: '2.5rem',
-            fontWeight: 'bold',
-            textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-            textAlign: 'center',
-            backgroundColor: 'rgba(0, 0, 0, 0.5)', // Añade transparencia si es necesario
-            padding: '10px 20px',
-            borderRadius: '10px',
-          }}
-        >
-          Styles Modern Simplicity
-        </Typography>
-      </Box>
+  style={{
+    position: 'relative',
+    height: '350px',
+    backgroundImage: 'url(/Images/modern.png)',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  }}
+>
+  <Box
+    style={{
+      position: 'absolute',
+      bottom: 0,
+      width: '100%',
+      marginBottom: '11%',
+      backgroundColor: 'rgba(0, 0, 0, 0.5)', // Fondo oscuro transparente
+      color: '#fff',
+      textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)', // Sombra de texto
+      textAlign: 'center',
+      padding: '10px 20px',
+    }}
+  >
+    <Typography
+      variant="h2"
+      style={{
+        fontSize: '2.5rem',
+        fontWeight: 'bold',
+      }}
+    >
+      Classic English Elegant
+    </Typography>
+  </Box>
+</Box>
 
       {/* Descripción debajo de la imagen */}
       <Typography
