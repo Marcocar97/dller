@@ -36,7 +36,6 @@ function App() {
         <Route path="/contac" element={<ContactUs />} />
         </Routes>
         </MainContent>
-        <Footer />
       </div>
     </Router>
   );
