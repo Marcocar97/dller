@@ -65,7 +65,7 @@ const styles = {
   imageHome: {
     width: '90%',
     height: '500px',
-    marginTop: '1px',
+    marginTop: '0px',
     boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
   },
 };
@@ -262,8 +262,6 @@ We work in partnership with a small number of Kitchen companies to take the worr
               />
               </div>
                <Typography variant="body1" sx={{ color: '#666', maxWidth: '90%', margin: '0 auto', textAlign: 'left' }}>
-
-            <br />
             <strong>Experts in Handmade Excellence</strong>
             <br />
             At <strong>Dller</strong> we specialize in crafting custom-made wooden kitchens tailored to your clients' exact specifications. With over three decades of expertise, a team of 40+ highly skilled carpenters, and a commitment to quality, we deliver bespoke kitchens to your designs with our superior craftsmanship.
@@ -400,7 +398,8 @@ We work in partnership with a small number of Kitchen companies to take the worr
         backgroundColor: '#fff', // Fondo blanco para el botón
         boxShadow: '0 2px 4px rgba(0,0,0,0.1)', // Sombra ligera para el botón
         borderRadius: '8px', // Bordes redondeados para todo el botón
-        width: '20%', // Anchura fija para cada botón
+        width: 'calc(100% / 4 - 40px)', // Tres elementos por fila, ajustando el margen
+        boxSizing: 'border-box' // Incluye padding y border en el width
       }}
     >
       <img
@@ -408,7 +407,7 @@ We work in partnership with a small number of Kitchen companies to take the worr
         alt={style.name}
         style={{
           width: '100%', // Asegura que la imagen cubra el ancho del botón
-          height: '85%', // Altura fija para la imagen
+          height: 'auto', // Altura automática para mantener la proporción
           objectFit: 'cover', // Asegura que la imagen cubra el espacio asignado sin deformarse
           borderRadius: '8px 8px 0 0', // Redondea las esquinas superiores
         }}
@@ -427,6 +426,7 @@ We work in partnership with a small number of Kitchen companies to take the worr
     </Button>
   ))}
 </Box>
+
 
 
       <StyledDialog open={openPopup} onClose={handleClosePopup}>
