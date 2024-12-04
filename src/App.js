@@ -11,6 +11,8 @@ import AboutUs from './components/AboutUs/AboutUs';
 import Services from './components/Services';
 import WhyDller from './components/WhyDller';
 import ContactUs from './components/ContactUs';
+import HomePage from './components/Homepage';
+import Footer from './components/Footer';
 
 const MainContent = styled('div')({
   paddingTop: '150px',  // Ajusta este valor según la altura de tu navbar
@@ -23,6 +25,7 @@ function App() {
         <Navbar />
         <MainContent>
         <Routes>
+        <Route path="/" element={<HomePage />} />
         <Route path="/kitchens/modern" element={<Modern />} />
         <Route path="/kitchens/classic" element={<Classic />} />
         <Route path="/kitchens/european" element={<European />} />
@@ -33,6 +36,7 @@ function App() {
         <Route path="/contac" element={<ContactUs />} />
         </Routes>
         </MainContent>
+        <Footer />
       </div>
     </Router>
   );
