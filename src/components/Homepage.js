@@ -65,13 +65,19 @@ const styles = {
   imageHome: {
     width: '90%',
     height: '500px',
-    alignItems: 'center',
     marginTop: '1px',
-    marginLeft: '60px',
-    marginRight: '50px',
     boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
   },
 };
+
+// Estilos para el contenedor Image
+const containerStyle = {
+    display: 'flex',
+    justifyContent: 'center', // Centra horizontalmente
+    alignItems: 'center', // Centra verticalmente (si es necesario)
+    height: '100vh', // Altura del viewport para centrado vertical completo
+    width: '100%', // Asume el ancho completo (ajusta según necesites)
+  };
 
 const carouselItems = [
   {
@@ -247,13 +253,16 @@ We work in partnership with a small number of Kitchen companies to take the worr
       </Box>
 
       {/* Image Section */}
+      <div style={containerStyle}> 
       <Box 
                 component="img" 
                 src="/Images/modern.png" 
                 alt="Excellence in Design" 
                 sx={styles.imageHome} 
               />
+              </div>
                <Typography variant="body1" sx={{ color: '#666', maxWidth: '90%', margin: '0 auto', textAlign: 'left' }}>
+
             <br />
             <strong>Experts in Handmade Excellence</strong>
             <br />
@@ -399,7 +408,7 @@ We work in partnership with a small number of Kitchen companies to take the worr
         alt={style.name}
         style={{
           width: '100%', // Asegura que la imagen cubra el ancho del botón
-          height: '220px', // Altura fija para la imagen
+          height: '85%', // Altura fija para la imagen
           objectFit: 'cover', // Asegura que la imagen cubra el espacio asignado sin deformarse
           borderRadius: '8px 8px 0 0', // Redondea las esquinas superiores
         }}
