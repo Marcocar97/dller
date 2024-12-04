@@ -13,6 +13,7 @@ import WhyDller from './components/WhyDller';
 import ContactUs from './components/ContactUs';
 import HomePage from './components/Homepage';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollTop';
 
 const MainContent = styled('div')({
   paddingTop: '150px',  // Ajusta este valor según la altura de tu navbar
@@ -21,6 +22,7 @@ const MainContent = styled('div')({
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
         <Navbar />
         <MainContent>
@@ -36,6 +38,7 @@ function App() {
         <Route path="/contac" element={<ContactUs />} />
         </Routes>
         </MainContent>
+        <Footer />
       </div>
     </Router>
   );

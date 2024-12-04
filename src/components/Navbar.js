@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-import { AppBar, Toolbar, Button, Box } from '@mui/material';
+import { AppBar, Toolbar, Button, Box, IconButton, Drawer, List, ListItem, ListItemText } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { styled } from '@mui/system';
+import CloseIcon from '@mui/icons-material/Close';
+import { styled, useTheme } from '@mui/system';
 import { Link } from 'react-router-dom';
+import { Typography } from '@mui/material'; 
 
 // Estilización personalizada
 const StyledAppBar = styled(AppBar)({
@@ -13,6 +15,14 @@ const StyledAppBar = styled(AppBar)({
   width: '100%',  // Asegúrate de que se extiende a lo largo de toda la ventana
   zIndex: 1300, 
 });
+// MOVIL
+
+
+
+
+
+//
+
 
 const TopBar = styled(Toolbar)({
   justifyContent: 'center',
@@ -20,13 +30,16 @@ const TopBar = styled(Toolbar)({
   borderBottom: '1px solid #E0E0E0', // Separador entre las dos líneas
 });
 
-const BottomBar = styled(Toolbar)({
+const BottomBar = styled(Toolbar) (({ theme }) => ({
     justifyContent: 'center',
     alignItems: 'center',
     minHeight: '80px',
     padding: '0', // Eliminar el padding extra
     gap: '45px', 
-});
+    [theme.breakpoints.down('sm')]: {
+        display: 'none', // Ocultar en pantallas pequeñas
+      },
+}));
 
 const Logo = styled('img')({
   height: '50px',
@@ -96,6 +109,9 @@ const Submenu = styled(Box)(({ theme }) => ({
 function Navbar() {
   const [submenuVisible, setSubmenuVisible] = useState(false);
   const [aboutUsSubmenuVisible, setAboutUsSubmenuVisible] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+const toggleMobileMenu = () => setMobileMenuOpen((prev) => !prev); // Alternar el menú móvil
 
   const handleSubmenuEnter = () => {
     setSubmenuVisible(true); // Mostrar el submenú al entrar
@@ -120,6 +136,15 @@ function Navbar() {
         <Link to="/">
         <Logo src=".././dllerlogo.png" alt="dller logo" />
         </Link>
+
+        <IconButton
+  sx={{ display: { xs: 'block', md: 'none' }, position: 'absolute', right: '20px' }}
+  onClick={toggleMobileMenu}
+>
+  <MenuIcon />
+</IconButton>
+
+
       </TopBar>
 
       {/* Línea inferior para los enlaces y Kitchens */}
@@ -220,6 +245,205 @@ function Navbar() {
         <NavButton component={Link} to="/services">Services</NavButton>
         <NavButton component={Link} to="/why-dller">Why Dller</NavButton>
         <NavButton component={Link} to="/contac">Contact Us</NavButton>
+
+
+        <Drawer
+  anchor="left"
+  open={mobileMenuOpen}
+  onClose={toggleMobileMenu}
+  sx={{ display: { xs: 'block', md: 'none' } }}
+>
+  <Box
+    sx={{
+      width: 300,
+      padding: '20px',
+      backgroundColor: '#FFFFFF', // Fondo blanco
+      height: '100%',
+    }}
+  >
+    {/* Botón de cierre */}
+    <IconButton onClick={toggleMobileMenu} sx={{ marginBottom: '20px', color: '#E30613' }}>
+      <CloseIcon />
+    </IconButton>
+
+    {/* Sección Our Kitchens */}
+    <Typography
+      variant="h6"
+      sx={{
+        fontWeight: 'bold',
+        fontSize: '1.2rem',
+        color: '#E30613',
+        marginBottom: '10px',
+      }}
+    >
+      Our Kitchens
+    </Typography>
+    <List>
+      <ListItem
+        button
+        component={Link}
+        to="/kitchens/modern"
+        onClick={toggleMobileMenu}
+        sx={{
+          padding: '10px 20px',
+          color: '#333',
+          borderRadius: '8px',
+          '&:hover': {
+            backgroundColor: '#F5F5F5',
+            color: '#E30613',
+          },
+        }}
+      >
+        <ListItemText primary="Modern Kitchens" />
+      </ListItem>
+      <ListItem
+        button
+        component={Link}
+        to="/kitchens/classic"
+        onClick={toggleMobileMenu}
+        sx={{
+          padding: '10px 20px',
+          color: '#333',
+          borderRadius: '8px',
+          '&:hover': {
+            backgroundColor: '#F5F5F5',
+            color: '#E30613',
+          },
+        }}
+      >
+        <ListItemText primary="Classic Kitchens" />
+      </ListItem>
+      <ListItem
+        button
+        component={Link}
+        to="/kitchens/european"
+        onClick={toggleMobileMenu}
+        sx={{
+          padding: '10px 20px',
+          color: '#333',
+          borderRadius: '8px',
+          '&:hover': {
+            backgroundColor: '#F5F5F5',
+            color: '#E30613',
+          },
+        }}
+      >
+        <ListItemText primary="European Kitchens" />
+      </ListItem>
+      <ListItem
+        button
+        component={Link}
+        to="/kitchens/unique"
+        onClick={toggleMobileMenu}
+        sx={{
+          padding: '10px 20px',
+          color: '#333',
+          borderRadius: '8px',
+          '&:hover': {
+            backgroundColor: '#F5F5F5',
+            color: '#E30613',
+          },
+        }}
+      >
+        <ListItemText primary="Unique Kitchens" />
+      </ListItem>
+    </List>
+
+    {/* Separador */}
+    <Box
+      sx={{
+        height: '1px',
+        backgroundColor: '#E0E0E0',
+        margin: '20px 0',
+      }}
+    />
+
+    {/* Otras secciones */}
+    <Typography
+      variant="h6"
+      sx={{
+        fontWeight: 'bold',
+        fontSize: '1.2rem',
+        color: '#E30613',
+        marginBottom: '10px',
+      }}
+    >
+      More
+    </Typography>
+    <List>
+      <ListItem
+        button
+        component={Link}
+        to="/about"
+        onClick={toggleMobileMenu}
+        sx={{
+          padding: '10px 20px',
+          color: '#333',
+          borderRadius: '8px',
+          '&:hover': {
+            backgroundColor: '#F5F5F5',
+            color: '#E30613',
+          },
+        }}
+      >
+        <ListItemText primary="About Us" />
+      </ListItem>
+      <ListItem
+        button
+        component={Link}
+        to="/services"
+        onClick={toggleMobileMenu}
+        sx={{
+          padding: '10px 20px',
+          color: '#333',
+          borderRadius: '8px',
+          '&:hover': {
+            backgroundColor: '#F5F5F5',
+            color: '#E30613',
+          },
+        }}
+      >
+        <ListItemText primary="Services" />
+      </ListItem>
+      <ListItem
+        button
+        component={Link}
+        to="/why-dller"
+        onClick={toggleMobileMenu}
+        sx={{
+          padding: '10px 20px',
+          color: '#333',
+          borderRadius: '8px',
+          '&:hover': {
+            backgroundColor: '#F5F5F5',
+            color: '#E30613',
+          },
+        }}
+      >
+        <ListItemText primary="Why Dller" />
+      </ListItem>
+      <ListItem
+        button
+        component={Link}
+        to="/contac"
+        onClick={toggleMobileMenu}
+        sx={{
+          padding: '10px 20px',
+          color: '#333',
+          borderRadius: '8px',
+          '&:hover': {
+            backgroundColor: '#F5F5F5',
+            color: '#E30613',
+          },
+        }}
+      >
+        <ListItemText primary="Contact Us" />
+      </ListItem>
+    </List>
+  </Box>
+</Drawer>
+
+
       </BottomBar>
     </StyledAppBar>
   );

@@ -22,6 +22,7 @@ const styles = {
     textAlign: 'center',
     width: '100%',
      backgroundColor: 'rgba(0, 0, 0, 0.5)',
+     padding: '10px 20px',
   },
   sectionTitle: {
     fontWeight: 'bold',
