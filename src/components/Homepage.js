@@ -306,7 +306,7 @@ We work in partnership with a small number of Kitchen companies to take the worr
               Expertise
               </Typography>
               <Typography variant="body1">
-              35 years of creating bespoke kitchens.
+              35 years of creating bespoke kitchens
               </Typography>
             </Box>
           </Grid>
