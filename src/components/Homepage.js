@@ -285,7 +285,7 @@ We work in partnership with a small number of Kitchen companies to take the worr
       <Box sx={{ padding: '40px', textAlign: 'center' }}>
             <video controls style={styles.video}>
             <source src="/Images/video.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
+            Your browser does not support the video tag..
             </video>
         </Box>
 
