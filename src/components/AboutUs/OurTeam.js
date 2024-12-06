@@ -55,27 +55,39 @@ const styles = {
 function OurTeam() {
   const teamMembers = [
     {
-      name: 'John Doe',
-      position: 'CEO',
-      bio: 'John has over 20 years of experience in the kitchen design industry, leading the company to global success.',
+      name: 'Tomasz',
+      position: 'Founder and Master Craftsman',
+      bio: 'Tomas started Dller over 35 years ago with a focus on quality woodworking and traditional techniques. As the founder, he continues to work hands-on in the workshop, ensuring every piece meets the standards that built the company’s reputation.',
       image: '/Images/modern.png',
     },
     {
-      name: 'Jane Smith',
-      position: 'Head of Design',
-      bio: 'Jane specializes in creating innovative and personalized kitchen designs that reflect client individuality.',
+      name: 'Chiles',
+      position: 'Client Director',
+      bio: 'Working face to face with our clients to understand their needs and create a bespoke package of support, offering as much or as little collaboration as required, from full process solutions to simple toll manufacturing, Chiles works to understand your needs and ensure Dller exceeds them.',
       image: '/Images/modern.png',
     },
     {
-      name: 'Emily Johnson',
-      position: 'Sustainability Manager',
-      bio: 'Emily ensures all our processes and materials align with our commitment to the environment.',
+      name: 'Sebastian',
+      position: 'Co-Founder and Furniture Architect',
+      bio: 'Sebastian works directly with each of our clients to meet their needs. As co-founder, he works closely with clients to understand their vision, ensuring designs are both practical and aligned with their preferences. His role bridges creative concepts with execution, making sure the results are both beautiful and usable.',
       image: '/Images/modern.png',
     },
     {
-      name: 'Michael Brown',
-      position: 'Tech Lead',
-      bio: 'Michael is passionate about integrating smart technologies into our kitchen solutions.',
+      name: 'Mateusz',
+      position: 'Furniture Designer and CAD Specialist',
+      bio: 'Mataus combines creative design with technical expertise, using CAD software to ensure every project is detailed and precise. His work helps streamline the process from concept to construction, keeping client expectations aligned with final outcomes.',
+      image: '/Images/modern.png',
+    },
+    {
+      name: 'Kamil',
+      position: 'Chief Carpenter',
+      bio: 'Kamil leads the carpentry team, overseeing production and ensuring high standards are met at every stage of the build. With years of experience in both traditional and modern methods, he ensures every project is completed efficiently and to specification.',
+      image: '/Images/modern.png',
+    },
+    {
+      name: 'Ana',
+      position: 'Customer Care Manager',
+      bio: 'Ana manages client logistics ensuring the entire process runs smoothly. From order placement to final delivery, she keeps clients informed and makes sure their needs are addressed promptly and professionally.',
       image: '/Images/modern.png',
     },
   ];
@@ -92,7 +104,7 @@ function OurTeam() {
       {/* Contenido principal */}
       <Box sx={styles.content}>
         <Typography variant="h5" sx={styles.sectionTitle}>
-          Meet Our Team
+        Meet the Dller Team
         </Typography>
         <Typography variant="body1" sx={{ textAlign: 'center', marginBottom: '32px' }}>
           Our talented team brings expertise, creativity, and passion to every project. Meet the people behind our success.

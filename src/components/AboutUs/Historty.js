@@ -70,46 +70,71 @@ function Historty() {
       {/* Contenido principal */}
       <Box sx={styles.content}>
         <Typography variant="h5" sx={{ textAlign: 'center', color: '#E30613', fontWeight: 'bold', marginBottom: '16px' }}>
-          A Legacy of Excellence
+        35 Years of Carpentry Excellence
         </Typography>
         <Typography variant="body1" gutterBottom sx={{ textAlign: 'center', marginBottom: '32px' }}>
-          From humble beginnings to a leader in the kitchen industry, our journey is marked by innovation, passion, and commitment to quality. Here's a glimpse of our story.
+        For over three decades, Dller has been at the forefront of craftsmanship, delivering bespoke carpentry solutions that combine timeless artistry with cutting-edge innovation. Founded 35 years ago with a vision to create handcrafted masterpieces, we’ve built a reputation for quality, reliability, and collaboration. From our humble beginnings as a small workshop, we’ve grown into a thriving community of over 40 skilled artisans, known for turning our clients’ visions into realities.
         </Typography>
-
-        <Divider sx={{ my: 4 }} />
-
-        {/* Línea de tiempo */}
-        <Box>
-          {[
-            { year: '1990', text: 'Founded with a vision to revolutionize kitchens with personalized designs.' },
-            { year: '2000', text: 'Launched our first line of sustainable kitchen solutions.' },
-            { year: '2010', text: 'Expanded globally, bringing our innovative designs to international markets.' },
-            { year: '2020', text: 'Introduced smart kitchen technologies, enhancing daily living.' },
-          ].map((entry, index) => (
-            <Box sx={styles.timelineBox} key={index}>
-              <Typography sx={styles.timelineYear}>{entry.year}</Typography>
-              <Paper sx={styles.timelineContent}>
-                <Typography variant="body1">{entry.text}</Typography>
-              </Paper>
-            </Box>
-          ))}
-        </Box>
 
         <Divider sx={{ my: 4 }} />
 
         {/* Sección de cierre */}
+        <Box sx={{textAlign: 'center', padding: '20px'} }> 
         <Typography variant="h5" sx={{ textAlign: 'center', color: '#E30613', fontWeight: 'bold', marginBottom: '16px' }}>
-          A Journey of Innovation and Trust
+        Where Tradition Meets Innovation
         </Typography>
-        <Typography variant="body1" sx={{ textAlign: 'center', marginBottom: '32px' }}>
-          Our history is a testament to our dedication to creating spaces where memories are made. As we look to the future, we remain committed to crafting kitchens that inspire.
-        </Typography>
-        <Box 
-          component="img" 
-          src="/Images/modern.png" 
-          alt="Journey of Innovation and Trust" 
-          sx={styles.image} 
-        />
+       {/* Sección con tarjetas */}
+       <Grid container spacing={4}>
+          <Grid item xs={12} md={4}>
+            <Paper sx={styles.card}>
+              <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#fffff', padding:'10px' }}>
+              Traditional Techniques
+                            </Typography>
+              <Typography variant="body2" sx={{ marginTop: '8px' }}>
+              Hand waxing, mortise-and-tenon joinery, and intricate hand-carving to preserve the authenticity and soul of the craft.
+              </Typography>
+              <Box 
+                component="img" 
+                src="/Images/modern.png" 
+                alt="Excellence in Design" 
+                sx={styles.image} 
+              />
+            </Paper>
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <Paper sx={styles.card}>
+              <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#fffff', padding:'10px' }}>
+              Modern Tools
+              </Typography>
+              <Typography variant="body2" sx={{ marginTop: '8px' }}>
+              Precision cutting and 3D modelling, to ensure our designs are as efficient and durable as they are beautiful.
+              </Typography>
+              <Box 
+                component="img" 
+                src="/Images/modern.png" 
+                alt="Functionality First" 
+                sx={styles.image} 
+              />
+            </Paper>
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <Paper sx={styles.card}>
+              <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#fffff', padding:'10px' }}>
+              Environmental
+              </Typography>
+              <Typography variant="body2" sx={{ marginTop: '8px' }}>
+              We constantly look to improve our sustainability through responsible sourcing right through to a fully heated factory fuelled by our sawdust waste.
+              </Typography>
+              <Box 
+                component="img" 
+                src="/Images/modern.png" 
+                alt="Sustainable Living" 
+                sx={styles.image} 
+              />
+            </Paper>
+          </Grid>
+        </Grid>
+        </Box>
       </Box>
     </Box>
   );

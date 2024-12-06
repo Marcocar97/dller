@@ -283,9 +283,6 @@ We work in partnership with a small number of Kitchen companies to take the worr
 
            {/* Video Section */}
       <Box sx={{ padding: '40px', textAlign: 'center' }}>
-            <Typography variant="h4" sx={styles.sectionTitle}>
-            Watch Our Story
-            </Typography>
             <video controls style={styles.video}>
             <source src="/Images/video.mp4" type="video/mp4" />
             Your browser does not support the video tag.

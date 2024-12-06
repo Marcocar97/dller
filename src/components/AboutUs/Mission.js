@@ -58,10 +58,10 @@ function Mission() {
       {/* Contenido principal */}
       <Box sx={styles.content}>
         <Typography variant="h5" sx={{ textAlign: 'center', color: '#E30613', fontWeight: 'bold', marginBottom: '16px' }}>
-          Empowering Lives Through Kitchen Design
+          Exceptional manufacturing solutions
         </Typography>
         <Typography variant="body1" gutterBottom sx={{ textAlign: 'center', marginBottom: '32px' }}>
-          Our mission is to craft kitchens that empower families and individuals to thrive, combining aesthetics, functionality, and sustainability. We believe every kitchen should be a perfect blend of innovation and comfort.
+        "Our mission is to deliver exceptional manufacturing solutions to luxury kitchen companies by combining superior craftsmanship, efficient service, and cost-effective pricing. We are committed to building strong partnerships through consistent quality, reliability, and responsiveness, enabling our clients to thrive in a competitive market."
         </Typography>
 
         <Divider sx={{ my: 4 }} />

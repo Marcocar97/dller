@@ -1,5 +1,5 @@
-import React from 'react';
-import { Box, Typography, Grid, Divider } from '@mui/material';
+import React  from 'react';
+import { Box, Typography, Grid, Divider, Card, CardContent, CardMedia, Link } from '@mui/material';
 
 // Estilos para el diseño
 const styles = {
@@ -7,7 +7,7 @@ const styles = {
     position: 'relative',
     width: '100%',
     height: '300px',
-    backgroundImage: `url('/Images/modern.png')`,
+    backgroundImage: 'url("/Images/modern.png")',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     display: 'flex',
@@ -29,6 +29,7 @@ const styles = {
     marginBottom: '16px',
     textTransform: 'uppercase',
     color: '#E30613',
+    textAlign: 'center',
   },
   content: {
     padding: '20px',
@@ -37,13 +38,19 @@ const styles = {
     color: '#333',
     textAlign: 'center',
   },
+  card: {
+    marginBottom: '20px',
+    boxShadow: '0 2px 5px rgba(0, 0, 0, 0.1)',
+    padding: '16px',
+  },
   image: {
     width: '100%',
     height: 'auto',
+    maxHeight: '300px', // Altura máxima para las imágenes
     borderRadius: '8px',
     boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
   },
-  columnContent: {
+  cardContent: {
     padding: '16px',
   },
 };
@@ -58,78 +65,165 @@ function Services() {
 
       {/* Contenido principal */}
       <Box sx={styles.content}>
-        <Typography variant="h5" sx={styles.sectionTitle}>
-          Tailored Solutions for Every Need
-        </Typography>
-        <Typography variant="body1" gutterBottom>
-          At Dller, we provide a range of services designed to meet the diverse needs of our clients. From personalized kitchen designs to professional installations and after-sales support, we ensure every step of the process exceeds expectations.
-        </Typography>
+        <Typography variant="h5" sx={styles.sectionTitle}>How We Can Help</Typography>
 
-        <Divider sx={{ my: 4 }} />
-
-        {/* Sección con columnas para servicios */}
         <Grid container spacing={4}>
-          <Grid item xs={12} md={4}>
-            <Box sx={styles.columnContent}>
-              <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
-                Custom Kitchen Design
-              </Typography>
-              <Typography variant="body1" gutterBottom>
-                Work with our expert designers to create a kitchen that reflects your unique style and needs.
-              </Typography>
-              <Box 
-                component="img" 
-                src="/Images/modern.png" 
-                alt="Custom Kitchen Design" 
-                sx={styles.image} 
+          <Grid item xs={12} md={6}>
+            <Card sx={styles.card}>
+              <CardMedia
+                component="img"
+                height="140"
+                image="/Images/modern.png"
+                alt="Manufacturing Only"
               />
-            </Box>
+              <CardContent sx={styles.cardContent}>
+                <Typography gutterBottom variant="h6" component="div">
+                  Manufacturing Only
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  Provide us with your kitchen design, and we’ll craft it to perfection.
+                </Typography>
+              </CardContent>
+            </Card>
           </Grid>
-
-          <Grid item xs={12} md={4}>
-            <Box sx={styles.columnContent}>
-              <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
-                Professional Installation
-              </Typography>
-              <Typography variant="body1" gutterBottom>
-                Our team ensures that every piece is installed with precision and care for a flawless finish.
-              </Typography>
-              <Box 
-                component="img" 
-                src="/Images/modern.png" 
-                alt="Professional Installation" 
-                sx={styles.image} 
+          <Grid item xs={12} md={6}>
+            <Card sx={styles.card}>
+              <CardMedia
+                component="img"
+                height="140"
+                image="/Images/modern.png"
+                alt="Collaborative Design"
               />
-            </Box>
-          </Grid>
-
-          <Grid item xs={12} md={4}>
-            <Box sx={styles.columnContent}>
-              <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
-                After-Sales Support
-              </Typography>
-              <Typography variant="body1" gutterBottom>
-                Enjoy peace of mind with our dedicated after-sales team, ready to assist with any needs.
-              </Typography>
-              <Box 
-                component="img" 
-                src="/Images/modern.png" 
-                alt="After-Sales Support" 
-                sx={styles.image} 
-              />
-            </Box>
+              <CardContent sx={styles.cardContent}>
+                <Typography gutterBottom variant="h6" component="div">
+                  Collaborative Design
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  Let’s work together to design kitchens that reflect your customer needs.
+                </Typography>
+              </CardContent>
+            </Card>
           </Grid>
         </Grid>
 
         <Divider sx={{ my: 4 }} />
+        
+        {/* Dller Services Section */}
+        <Typography variant="h5" sx={styles.sectionTitle}>Dller Services</Typography>
 
-        {/* Texto destacado final */}
-        <Typography variant="h5" sx={styles.sectionTitle}>
-          Excellence in Every Detail
-        </Typography>
-        <Typography variant="body1" gutterBottom>
-          Our commitment to quality and customer satisfaction sets us apart. Let us transform your kitchen into a space that inspires.
-        </Typography>
+        <Grid container spacing={4} justifyContent="center">
+          {/* Cada servicio en su propia línea */}
+          <Grid item xs={12}>
+            <Card sx={styles.card}>
+              <CardMedia
+                component="img"
+                sx={styles.image}
+                image="/Images/modern.png"
+                alt="Kitchens Tailored to Your Vision"
+              />
+              <CardContent sx={styles.cardContent}>
+                <Typography gutterBottom variant="h6" component="div">
+                  Kitchens Tailored to Your Vision
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  If you already have your own designs, our team can produce them with precision and care. We use traditional techniques and modern technology to create kitchens that are durable, functional, and beautifully finished.
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+
+          <Grid item xs={12}>
+            <Card sx={styles.card}>
+              <CardMedia
+                component="img"
+                sx={styles.image}
+                image="/Images/modern.png"
+                alt="Manufacturing Excellence"
+              />
+              <CardContent sx={styles.cardContent}>
+                <Typography gutterBottom variant="h6" component="div">
+                  Manufacturing Excellence
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  If you already have your own designs, our team can produce them with precision and care. We use traditional techniques and modern technology to create kitchens that are durable, functional, and beautifully finished.
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+
+          {/* Collaborative Design and Customization */}
+          <Grid item xs={12}>
+            <Card sx={styles.card}>
+            <CardMedia
+                component="img"
+                sx={styles.image}
+                image="/Images/modern.png"
+                alt="Manufacturing Excellence"
+              />
+              <CardContent sx={styles.cardContent}>
+                <Typography gutterBottom variant="h6" component="div">
+                  Collaborative Design and Customization
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  For clients seeking more than manufacturing, we offer a collaborative kitchen design service. Whether you have a general idea or need guidance, our team works closely with you to develop kitchens that suit your clients.
+                </Typography>
+                {/* Sub-cards for the "Collaborative Design and Customization" service */}
+                <Grid container spacing={2}>
+                  <Grid item xs={4}>
+                    <Card sx={styles.card}>
+                      <CardContent sx={styles.cardContent}>
+                        <Typography gutterBottom variant="h6" component="div">
+                          Consultation
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                          We start by understanding your needs and style.
+                        </Typography>
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid item xs={4}>
+                    <Card sx={styles.card}>
+                      <CardContent sx={styles.cardContent}>
+                        <Typography gutterBottom variant="h6" component="div">
+                          Concept Development
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                          Working with our kitchen architects and designers, we turn your vision into detailed plans using sketches and CAD modelling.
+                        </Typography>
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid item xs={4}>
+                    <Card sx={styles.card}>
+                      <CardContent sx={styles.cardContent}>
+                        <Typography gutterBottom variant="h6" component="div">
+                          Material Selection
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                          Together, we choose materials that fit the design & budget, ensuring durability, practicality, and style.
+                        </Typography>
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                </Grid>
+              </CardContent>
+            </Card>
+          </Grid>
+        </Grid>
+        <Divider sx={{ my: 4 }} />
+
+<Typography variant="h5" sx={styles.sectionTitle}>Let’s start with a No-Obligation Confidential Consultation</Typography>
+<Typography variant="body1" gutterBottom>
+  At Dller, we believe that every successful project begins with understanding your companies unique needs and vision. That’s why we start with an initial <strong> no-obligation, confidential face-to-face consultation.</strong> This meeting is an opportunity for us to get to know your requirements, explore your ideas, and discuss how we might be able to help.
+  <br />
+  <br />
+  Our goal is to provide you with clarity and insight while determining if there’s a good fit for us to work together. Whether you choose to proceed or not, this consultation is entirely commitment-free, ensuring you have the freedom to explore your options without any pressure.
+  <br />
+  <br />
+  Simply contact  <Link href="mailto:contact@dller.com" sx={styles.link}>
+                chiles@dller.com
+              </Link>
+</Typography>
       </Box>
     </Box>
   );

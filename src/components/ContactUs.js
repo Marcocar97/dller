@@ -90,7 +90,13 @@ function ContactUs() {
           Get in Touch
         </Typography>
         <Typography variant="body1" gutterBottom>
-          We'd love to hear from you! Reach out using the form below or contact us through our email, phone, or visit us at our location.
+        At Dller, we understand the importance of discretion in every collaboration. Whether you're looking for manufacturing support or simply exploring your options, we're here to help—no strings attached.
+        <br />
+        <br />
+<strong> Complete Confidentiality:</strong> For over 30 years we have built our business on trust. We ensure absolute discretion and respect for your intellectual property.
+<br />
+<br />
+<strong>No Obligation:</strong> Reaching out doesn’t commit you to anything. We're here to guide, answer questions, and help you explore the possibilities whether that’s over the phone or face to face. 
         </Typography>
 
         <Divider sx={{ my: 4 }} />
@@ -116,14 +122,6 @@ function ContactUs() {
                   fullWidth
                   label="Email"
                   name="user_email"
-                  variant="outlined"
-                  margin="normal"
-                  required
-                />
-                <TextField
-                  fullWidth
-                  label="Subject"
-                  name="user_subject"
                   variant="outlined"
                   margin="normal"
                   required
@@ -164,18 +162,18 @@ function ContactUs() {
                 Contact Information
               </Typography>
               <Typography variant="body1" gutterBottom>
-                Email: <a href="mailto:contact@dller.com">contact@dller.com</a>
+                Email: <a href="mailto:contact@dller.com">chiles@dller.com</a>
               </Typography>
               <Typography variant="body1" gutterBottom>
-                Phone: +1 (123) 456-7890
+                Phone: +44 7779621607
               </Typography>
               <Typography variant="body1" gutterBottom>
-                Address: 123 Main Street, City, Country
+                Address: Dller Whitchurch Shropshire UK SY13 1TT
               </Typography>
               {/* Mapa de Ubicación */}
               <Box
                 component="iframe"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.836981206287!2d-122.42100568468106!3d37.77928097975732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c7d2c3d03%3A0x38a6f674d657679!2s123%20Main%20St%2C%20San%20Francisco%2C%20CA%2094105%2C%20USA!5e0!3m2!1sen!2sin!4v1633535432928!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4806.175864576056!2d-2.6731439071067125!3d52.96483255077641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487a925c6767ab93%3A0x8a988865743eff2e!2sWhitchurch%20SY13%201TT%2C%20Reino%20Unido!5e0!3m2!1ses!2ses!4v1733486484655!5m2!1ses!2ses"
                 sx={styles.map}
                 title="Map Location"
               />

@@ -64,7 +64,10 @@ function Vission() {
         Inspiring the Future of Kitchens
         </Typography>
         <Typography variant="body1" gutterBottom>
-        Our vision is to redefine the experience of kitchen design and manufacturing, merging innovation, sustainability, and functionality. We aim to be recognized as leaders in personalized kitchen solutions, where every design reflects the individuality of our clients.
+        For over 30 years we have worked with a small number of luxury Kitchen Companies across Europe, we have used this experience to adapt and change to ensure we always exceed our partners expectations.
+        <br />
+        <br />
+"Our vision remains to be the leading manufacturing partner to a select number of luxury kitchen companies, recognized for exceptional quality, reliable service, and competitive pricing that supports our partners' growth and success."
         </Typography>
 
         <Divider sx={{ my: 4 }} />
