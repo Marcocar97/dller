@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect  } from 'react';
 import { AppBar, Toolbar, Button, Box, IconButton, Drawer, List, ListItem, ListItemText } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
@@ -6,6 +6,8 @@ import CloseIcon from '@mui/icons-material/Close';
 import { styled, useTheme } from '@mui/system';
 import { Link } from 'react-router-dom';
 import { Typography } from '@mui/material'; 
+
+import useScrollDirection from './useScrollDirection';
 
 // Estilización personalizada
 const StyledAppBar = styled(AppBar)({
@@ -30,20 +32,33 @@ const TopBar = styled(Toolbar)({
   borderBottom: '1px solid #E0E0E0', // Separador entre las dos líneas
 });
 
-const BottomBar = styled(Toolbar) (({ theme }) => ({
+const BottomBar = styled(Toolbar)(({ theme }) => ({
     justifyContent: 'center',
     alignItems: 'center',
-    minHeight: '80px',
-    padding: '0', // Eliminar el padding extra
-    gap: '45px', 
+    padding: '0',
+    gap: '45px',
     [theme.breakpoints.down('sm')]: {
-        display: 'none', // Ocultar en pantallas pequeñas
-      },
-}));
+      display: 'none', // Ocultar en pantallas pequeñas
+    },
+  }));
 
-const Logo = styled('img')({
-  height: '50px',
-});
+  const LogoContainer = styled('div')({
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    margin: 0, // Remueve cualquier margen para eliminar la separación
+  });
+  
+  const Logo = styled('img')({
+    height: '50px',
+    width: 'auto', // Mantiene la proporción del logo
+  });
+  
+  const VideoContainer = styled('video')({
+    width: '100%', // Asegura que el video no sea más ancho que el logo
+    maxWidth: '300px', // Ajusta esto según el ancho deseado que debe ser proporcional al logo
+  });
 
 const KitchensButton = styled(Button)({
   backgroundColor: '#E30613',
@@ -111,6 +126,11 @@ function Navbar() {
   const [aboutUsSubmenuVisible, setAboutUsSubmenuVisible] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  const scrollDirection = useScrollDirection();
+  const showBottomBar = scrollDirection === 'up';
+
+
+
 const toggleMobileMenu = () => setMobileMenuOpen((prev) => !prev); // Alternar el menú móvil
 
   const handleSubmenuEnter = () => {
@@ -133,9 +153,20 @@ const toggleMobileMenu = () => setMobileMenuOpen((prev) => !prev); // Alternar e
     <StyledAppBar position="static">
       {/* Línea superior para el logo */}
       <TopBar>
-        <Link to="/">
+      <LogoContainer>
+      <Link to="/">
         <Logo src=".././dllerlogo.png" alt="dller logo" />
-        </Link>
+      </Link>
+      <VideoContainer
+         autoPlay
+         muted
+         playsInline
+         controls={false} // Opcional: oculta el video después de reproducirlo
+      >
+        <source src="logo.texto.mp4" type="video/mp4" />
+        Tu navegador no soporta videos HTML5.
+      </VideoContainer>
+    </LogoContainer>
 
         <IconButton
   sx={{ display: { xs: 'block', md: 'none' }, position: 'absolute', right: '20px' }}
@@ -148,7 +179,9 @@ const toggleMobileMenu = () => setMobileMenuOpen((prev) => !prev); // Alternar e
       </TopBar>
 
       {/* Línea inferior para los enlaces y Kitchens */}
-      <BottomBar>
+      <BottomBar style={{ 
+        display: showBottomBar ? 'flex' : 'none' // Usar display para controlar la visibilidad
+      }}>
         {/* Submenú Our Kitchens */}
         <SubmenuContainer
           onMouseEnter={handleSubmenuEnter}

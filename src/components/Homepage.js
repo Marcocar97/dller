@@ -51,12 +51,13 @@ const styles = {
     textAlign: 'center',
   },
   video: {
-    width: '100%',
-    height: 'auto',
+    width: '90%',
+    maxHeight: '80vh', // Ajusta este valor para cambiar la altura máxima del video
+    objectFit: 'cover', // Mantiene la proporción del contenido sin distorsionarse
     marginTop: '30px',
     borderRadius: '8px',
     boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
-  },
+},
   gridSection: {
     padding: '40px',
     backgroundColor: '#f9f9f9',
@@ -266,28 +267,19 @@ We work in partnership with a small number of Kitchen companies to take the worr
       </Box>
 
       {/* Image Section */}
-      <div style={containerStyle}> 
-      <Box 
-                component="img" 
-                src="/Images/modern.png" 
-                alt="Excellence in Design" 
-                sx={styles.imageHome} 
-              />
-              </div>
+         {/* Video Section */}
+         <Box sx={{ padding: '40px', textAlign: 'center' }}>
+            <video controls style={styles.video}>
+            <source src="/Images/video.mp4" type="video/mp4" />
+            Your browser does not support the video tag..
+            </video>
+        </Box>
                <Typography variant="body1" sx={{ color: '#666', maxWidth: '90%', margin: '0 auto', textAlign: 'left' }}>
             <strong>Experts in Handmade Excellence</strong>
             <br />
             At <strong>Dller</strong> we specialize in crafting custom-made wooden kitchens tailored to your clients' exact specifications. With over three decades of expertise, a team of 40+ highly skilled carpenters, and a commitment to quality, we deliver bespoke kitchens to your designs with our superior craftsmanship.
 
         </Typography>
-
-           {/* Video Section */}
-      <Box sx={{ padding: '40px', textAlign: 'center' }}>
-            <video controls style={styles.video}>
-            <source src="/Images/video.mp4" type="video/mp4" />
-            Your browser does not support the video tag..
-            </video>
-        </Box>
 
       {/* Grid Section */}
       <Box sx={{ padding: '40px' }}>
@@ -449,10 +441,15 @@ We work in partnership with a small number of Kitchen companies to take the worr
       </StyledDialog>
     </Box>
 
-    <Typography variant="h5" sx={styles.sectionSecondTitle}>
+    <Typography variant="h5" sx={{
+    fontWeight: 'bold',
+    marginBottom: '20px',
+    color: '#E30613',
+    textAlign: 'center',
+}}>
         <br />
         <br />
-    "IF YOU CAN IMAGINE IT WE CAN MAKE IT”
+    "Your Partner In Production”
         </Typography>
     </Box>
   );
