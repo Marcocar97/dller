@@ -6,6 +6,8 @@ import CloseIcon from '@mui/icons-material/Close';
 import { styled, useTheme } from '@mui/system';
 import { Link } from 'react-router-dom';
 import { Typography } from '@mui/material'; 
+import { useMediaQuery} from '@mui/material';
+
 
 import useScrollDirection from './useScrollDirection';
 
@@ -126,12 +128,15 @@ function Navbar() {
   const [aboutUsSubmenuVisible, setAboutUsSubmenuVisible] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  const theme = useTheme(); // Obtén el tema actual para acceder a los breakpoints
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+
   const scrollDirection = useScrollDirection();
-  const showBottomBar = scrollDirection === 'up';
+  const showBottomBar = scrollDirection === 'up' && !isMobile;
 
 
 
-const toggleMobileMenu = () => setMobileMenuOpen((prev) => !prev); // Alternar el menú móvil
+  const toggleMobileMenu = () => setMobileMenuOpen((prev) => !prev);
 
   const handleSubmenuEnter = () => {
     setSubmenuVisible(true); // Mostrar el submenú al entrar
@@ -179,9 +184,7 @@ const toggleMobileMenu = () => setMobileMenuOpen((prev) => !prev); // Alternar e
       </TopBar>
 
       {/* Línea inferior para los enlaces y Kitchens */}
-      <BottomBar style={{ 
-        display: showBottomBar ? 'flex' : 'none' // Usar display para controlar la visibilidad
-      }}>
+      <BottomBar style={{ display: showBottomBar ? 'flex' : 'none' }}>
         {/* Submenú Our Kitchens */}
         <SubmenuContainer
           onMouseEnter={handleSubmenuEnter}
