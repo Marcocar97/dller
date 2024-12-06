@@ -28,7 +28,7 @@ const styles = {
     fontWeight: 'bold',
     marginBottom: '16px',
     textTransform: 'uppercase',
-    color: '#E30613',
+    color: '#c41230',
   },
   content: {
     padding: '20px',
@@ -126,6 +126,14 @@ function Vission() {
           sx={styles.image} 
         />
       </Box>
+      <Typography variant="h5" sx={{
+    fontWeight: 'bold',
+    marginBottom: '20px',
+    color: '#c41230',
+    textAlign: 'center',
+}}>
+    "Your Partner In Production”
+        </Typography>
     </Box>
   );
 }

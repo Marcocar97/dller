@@ -39,7 +39,7 @@ const styles = {
   timelineYear: {
     fontWeight: 'bold',
     fontSize: '1.5rem',
-    color: '#E30613',
+    color: '#c41230',
     marginRight: '16px',
   },
   timelineContent: {
@@ -69,7 +69,7 @@ function Historty() {
 
       {/* Contenido principal */}
       <Box sx={styles.content}>
-        <Typography variant="h5" sx={{ textAlign: 'center', color: '#E30613', fontWeight: 'bold', marginBottom: '16px' }}>
+        <Typography variant="h5" sx={{ textAlign: 'center', color: '#c41230', fontWeight: 'bold', marginBottom: '16px' }}>
         35 Years of Carpentry Excellence
         </Typography>
         <Typography variant="body1" gutterBottom sx={{ textAlign: 'center', marginBottom: '32px' }}>
@@ -80,7 +80,7 @@ function Historty() {
 
         {/* Sección de cierre */}
         <Box sx={{textAlign: 'center', padding: '20px'} }> 
-        <Typography variant="h5" sx={{ textAlign: 'center', color: '#E30613', fontWeight: 'bold', marginBottom: '16px' }}>
+        <Typography variant="h5" sx={{ textAlign: 'center', color: '#c41230', fontWeight: 'bold', marginBottom: '16px' }}>
         Where Tradition Meets Innovation
         </Typography>
        {/* Sección con tarjetas */}
@@ -136,6 +136,14 @@ function Historty() {
         </Grid>
         </Box>
       </Box>
+      <Typography variant="h5" sx={{
+    fontWeight: 'bold',
+    marginBottom: '20px',
+    color: '#c41230',
+    textAlign: 'center',
+}}>
+    "Your Partner In Production”
+        </Typography>
     </Box>
   );
 }

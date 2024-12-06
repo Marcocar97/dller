@@ -40,7 +40,7 @@ const CustomListItem = styled(ListItem)(({ theme }) => ({
   cursor: 'pointer',
   transition: 'all 0.3s ease',
   '&.Mui-selected': {
-    backgroundColor: '#E30613',
+    backgroundColor: '#c41230',
     '& svg': { // Asegura que este selector apunte correctamente al ícono
       color: '#fff',  // Cambia el color del ícono a blanco cuando está seleccionado
     },
@@ -62,7 +62,7 @@ const CustomListItem = styled(ListItem)(({ theme }) => ({
     fontWeight: '500',
   },
   '& svg': { // Estiliza el ícono dentro de cada ListItem
-    color: '#E30613',  // Color rojo para el ícono por defecto
+    color: '#c41230',  // Color rojo para el ícono por defecto
     marginBottom: '4px',  // Espacio entre el ícono y el texto
     marginRight: '10px',
   },
@@ -155,7 +155,7 @@ useEffect(() => {
             window.scrollTo(0, 0); }}
           sx={{
             width: '45%', // Ajusta el ancho como prefieras para que se acomode bien en la pantalla
-            backgroundColor: '#E30613',
+            backgroundColor: '#c41230',
             color: '#FFFFFF',
             display: 'flex',
             flexDirection: 'column',

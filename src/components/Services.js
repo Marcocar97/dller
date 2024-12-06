@@ -28,7 +28,7 @@ const styles = {
     fontWeight: 'bold',
     marginBottom: '16px',
     textTransform: 'uppercase',
-    color: '#E30613',
+    color: '#c41230',
     textAlign: 'center',
   },
   content: {
@@ -169,43 +169,43 @@ function Services() {
                 </Typography>
                 {/* Sub-cards for the "Collaborative Design and Customization" service */}
                 <Grid container spacing={2}>
-                  <Grid item xs={4}>
-                    <Card sx={styles.card}>
-                      <CardContent sx={styles.cardContent}>
-                        <Typography gutterBottom variant="h6" component="div">
-                          Consultation
-                        </Typography>
-                        <Typography variant="body2" color="text.secondary">
-                          We start by understanding your needs and style.
-                        </Typography>
-                      </CardContent>
-                    </Card>
-                  </Grid>
-                  <Grid item xs={4}>
-                    <Card sx={styles.card}>
-                      <CardContent sx={styles.cardContent}>
-                        <Typography gutterBottom variant="h6" component="div">
-                          Concept Development
-                        </Typography>
-                        <Typography variant="body2" color="text.secondary">
-                          Working with our kitchen architects and designers, we turn your vision into detailed plans using sketches and CAD modelling.
-                        </Typography>
-                      </CardContent>
-                    </Card>
-                  </Grid>
-                  <Grid item xs={4}>
-                    <Card sx={styles.card}>
-                      <CardContent sx={styles.cardContent}>
-                        <Typography gutterBottom variant="h6" component="div">
-                          Material Selection
-                        </Typography>
-                        <Typography variant="body2" color="text.secondary">
-                          Together, we choose materials that fit the design & budget, ensuring durability, practicality, and style.
-                        </Typography>
-                      </CardContent>
-                    </Card>
-                  </Grid>
-                </Grid>
+  <Grid item xs={12} sm={4}>
+    <Card sx={styles.card}>
+      <CardContent sx={styles.cardContent}>
+        <Typography gutterBottom variant="h6" component="div">
+          Consultation
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          We start by understanding your needs and style.
+        </Typography>
+      </CardContent>
+    </Card>
+  </Grid>
+  <Grid item xs={12} sm={4}>
+    <Card sx={styles.card}>
+      <CardContent sx={styles.cardContent}>
+        <Typography gutterBottom variant="h6" component="div">
+          Concept Development
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          Working with our kitchen architects and designers, we turn your vision into detailed plans using sketches and CAD modelling.
+        </Typography>
+      </CardContent>
+    </Card>
+  </Grid>
+  <Grid item xs={12} sm={4}>
+    <Card sx={styles.card}>
+      <CardContent sx={styles.cardContent}>
+        <Typography gutterBottom variant="h6" component="div">
+          Material Selection
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          Together, we choose materials that fit the design & budget, ensuring durability, practicality, and style.
+        </Typography>
+      </CardContent>
+    </Card>
+  </Grid>
+</Grid>
               </CardContent>
             </Card>
           </Grid>
@@ -225,6 +225,16 @@ function Services() {
               </Link>
 </Typography>
       </Box>
+      <Typography variant="h5" sx={{
+    fontWeight: 'bold',
+    marginBottom: '20px',
+    color: '#c41230',
+    textAlign: 'center',
+}}>
+        <br />
+        <br />
+    "Your Partner In Production”
+        </Typography>
     </Box>
   );
 }

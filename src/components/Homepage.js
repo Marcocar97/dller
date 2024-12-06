@@ -6,6 +6,7 @@ import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import CloseIcon from '@mui/icons-material/Close';
 import { useTheme, useMediaQuery } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 const styles = {
   heroSection: {
@@ -41,7 +42,7 @@ const styles = {
     fontWeight: 'bold',
     marginBottom: '20px',
     textTransform: 'uppercase',
-    color: '#E30613',
+    color: '#c41230',
     textAlign: 'center',
   },
   sectionSecondTitle: {
@@ -83,19 +84,19 @@ const containerStyle = {
 
 const carouselItems = [
   {
-    image: '/Images/modern.png',
-    text: 'Design Your Dream Kitchen',
+    image: '/Images/s1.jpg',
+    text: 'Complete Discretion',
   },
   {
-    image: '/Images/4.jpg',
-    text: 'Transforming Spaces into Art',
+    image: '/Images/s2.jpg',
+    text: 'Aunthentic Luxury Manufacturing',
   },
   {
-    image: '/Images/modern.png',
-    text: 'Innovative Solutions, Timeless Designs',
+    image: '/Images/s3.jpg',
+    text: 'Your Partner in Production',
   },
   {
-    image: '/Images/3.jpg',
+    image: '/Images/s4.png',
     text: 'Experience Elegance in Every Detail',
   },
 ];
@@ -228,9 +229,11 @@ const isMobile = useMediaQuery(theme.breakpoints.down('sm')); // Detecta pantall
       <Box sx={styles.heroTextContainer}>
         <Typography sx={styles.heroText}>{item.text}</Typography>
         <Button
+        component={Link}
+        to="/contac" 
           variant="contained"
           sx={{
-            backgroundColor: '#E30613',
+            backgroundColor: '#c41230',
             color: '#fff',
             padding: '10px 20px',
             fontSize: '1rem',
@@ -239,7 +242,7 @@ const isMobile = useMediaQuery(theme.breakpoints.down('sm')); // Detecta pantall
             },
           }}
         >
-          More Info
+          Get In Touch
         </Button>
       </Box>
     </Box>
@@ -252,7 +255,7 @@ const isMobile = useMediaQuery(theme.breakpoints.down('sm')); // Detecta pantall
         <Typography variant="h4" sx={styles.sectionTitle}>
         Supplying the luxury Kitchen industry for Over 35 Years
         </Typography>
-        <Typography variant="h5" sx={styles.sectionSecondTitle}>
+        <Typography variant="h6" sx={styles.sectionSecondTitle}>
         "Your Trusted Partner in Creating Handmade Kitchens, Combining Timeless Craftsmanship with Modern Innovation."
         <br />
         </Typography>
@@ -420,7 +423,7 @@ We work in partnership with a small number of Kitchen companies to take the worr
           fontWeight: 'bold',
           marginTop: '10px',
           textAlign: 'center',
-          color: 'red',
+          color: '#c41230',
         }}
       >
         {style.name}
@@ -444,7 +447,7 @@ We work in partnership with a small number of Kitchen companies to take the worr
     <Typography variant="h5" sx={{
     fontWeight: 'bold',
     marginBottom: '20px',
-    color: '#E30613',
+    color: '#c41230',
     textAlign: 'center',
 }}>
         <br />

@@ -162,7 +162,7 @@ const European = () => {
         fontWeight: 'bold',
       }}
     >
-      Authentic European Modernity
+      Authentic European Modernity 
     </Typography>
   </Box>
 </Box>
@@ -176,11 +176,14 @@ const European = () => {
           color: '#666',
           textAlign: 'center',
         }}
-      >
-        Fijémonos ahora en la cocina moderna firmada por SCHMIDT. Esta cocina completa de inspiración escandinava gira en torno a la madera y los tonos naturales realzados con acabados cuidados y formas geométricas de lo más elegantes. En torno a la isla de cocina aparecen módulos de almacenaje de lo más prácticos y electrodomésticos de última generación para completar la cocina completa ideal. La nota de fantasía la traen los tiradores en forma de hoja, los frentes realzados con diseños gráficos o con laca de tacto aterciopelado, que aportan un encanto original a la cocina abierta.
+      > 
+       We can craft the sleek sophistication of <strong>European Design Kitchens</strong>, where cutting-edge innovation meets contemporary elegance and functionality. These kitchens feature hallmark elements such as clean, minimalist lines, flat-panel cabinetry, high-gloss finishes, or textured wood veneers, blending modern aesthetics with practical efficiency. Designed to your specifications, we can create <strong>frameless cabinetry</strong> for a streamlined look, handleless doors for a sleek, seamless finish, or bold statement pieces that combine functionality with striking design.
         <br />
         <br />
-En la cocina moderna a medida, todo está pensado para facilitar el día a día de los mejores cocineros. Los nichos de la parte inferior de la isla central acogen los libros de recetas, mientras que el mobiliario mural con puertas correderas aprovecha la iluminación integrada. Los sistemas de apertura y cierre son de lo más sencillos y la altura del mobiliario de la cocina se adapta a tus necesidades ergonómicas. En lo que respecta a los colores, si las variaciones de arena y topo se encuentra entre la lista de favoritos, el gris pizarra y los azules verdosos no pueden ser menos. Tú decides qué tonos prefieres y el conjunto de mesas y sillas de cocina que completará la cocina moderna de tus sueños.
+        For a refined touch, <strong>Scandinavian-inspired styles</strong> emphasize light woods, muted tones, and natural materials, creating a bright and airy atmosphere. Alternatively, <strong>German-engineered</strong> kitchens deliver precision, durability, and smart storage solutions, while <strong>Italian designs</strong> exude luxury with rich textures, bold colors, and innovative features. Key elements such as integrated appliances, intelligent lighting, and durable surfaces like quartz or ceramic complete the modern European aesthetic.
+        <br />
+        <br />
+        Whatever your brand’s vision, let us help you create the perfect <strong>European Design Kitchen</strong> with bespoke solutions tailored to your company's and clients’ style and needs.
       </Typography>
 
     <Box>
@@ -224,7 +227,7 @@ En la cocina moderna a medida, todo está pensado para facilitar el día a día 
                 color: '#fff',
                 fontWeight: 'bold',
                 fontSize: '1.2rem',
-                backgroundColor: 'rgba(255, 0, 0, 0.8)',
+                backgroundColor: '#c41230',
                 padding: '5px 10px',
                 borderRadius: '5px',
                 width: '100%', // Asegura que el texto se extienda a lo ancho
@@ -268,6 +271,16 @@ En la cocina moderna a medida, todo está pensado para facilitar el día a día 
           </Box>
         </DialogContent>
       </StyledDialog>
+      <Typography variant="h5" sx={{
+    fontWeight: 'bold',
+    marginBottom: '20px',
+    color: '#c41230',
+    textAlign: 'center',
+}}>
+        <br />
+        <br />
+    "Your Partner In Production”
+        </Typography>
     </Box>
   );
 };

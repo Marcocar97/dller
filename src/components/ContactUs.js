@@ -29,7 +29,7 @@ const styles = {
     fontWeight: 'bold',
     marginBottom: '16px',
     textTransform: 'uppercase',
-    color: '#E30613',
+    color: '#c41230',
   },
   content: {
     padding: '20px',
@@ -141,7 +141,7 @@ function ContactUs() {
                   type="submit"
                   variant="contained"
                   sx={{
-                    backgroundColor: '#E30613',
+                    backgroundColor: '#c41230',
                     color: '#fff',
                     marginTop: '10px',
                     '&:hover': {
@@ -181,6 +181,16 @@ function ContactUs() {
           </Grid>
         </Grid>
       </Box>
+      <Typography variant="h5" sx={{
+    fontWeight: 'bold',
+    marginBottom: '20px',
+    color: '#c41230',
+    textAlign: 'center',
+}}>
+        <br />
+        <br />
+    "Your Partner In Production”
+        </Typography>
     </Box>
   );
 }

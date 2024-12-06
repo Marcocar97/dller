@@ -1,5 +1,7 @@
 import React from 'react';
 import { Box, Typography, Link, Grid, Divider } from '@mui/material';
+import LinkedInIcon from '@mui/icons-material/LinkedIn'; 
+import { styled} from '@mui/system';
 
 // Estilos para el Footer
 const styles = {
@@ -15,7 +17,7 @@ const styles = {
   },
   logoImage: {
     height: '60px',
-    marginBottom: '10px',
+    marginBottom: '0px',
   },
   description: {
     fontSize: '0.9rem',
@@ -40,7 +42,7 @@ const styles = {
     textTransform: 'uppercase',
   },
   link: {
-    color: '#E30613',
+    color: '#c41230',
     textDecoration: 'none',
     fontSize: '0.9rem',
     marginBottom: '5px',
@@ -54,7 +56,22 @@ const styles = {
     textAlign: 'center',
     marginTop: '20px',
   },
+  socialLinks: {
+    display: 'flex',
+    justifyContent: 'center', // Centra los íconos de las redes sociales horizontalmente
+    marginTop: '10px', // Espacio entre la descripción y los enlaces
+  },
+  socialIcon: {
+    marginLeft: '10px', // Espacio entre los íconos
+    '&:first-child': {
+      marginLeft: 0, // No hay espacio antes del primer ícono
+    }
+  }
 };
+const VideoContainer = styled('video')({
+    width: '100%', // Asegura que el video no sea más ancho que el logo
+    maxWidth: '300px', // Ajusta esto según el ancho deseado que debe ser proporcional al logo
+  });
 
 const Footer = () => {
   return (
@@ -69,9 +86,22 @@ const Footer = () => {
             <Box sx={styles.logoContainer}>
               <img src="/dllerlogo.png" alt="Dller Logo" style={styles.logoImage} />
             </Box>
-            <Typography sx={styles.description}>
-              Transforming kitchen design with innovation, sustainability, and tailored solutions. Let’s create your dream kitchen together!
-            </Typography>
+            <VideoContainer
+         autoPlay
+         muted
+         playsInline
+         controls={false} // Opcional: oculta el video después de reproducirlo
+      >
+        <source src="logo.texto.mp4" type="video/mp4" />
+        Tu navegador no soporta videos HTML5.
+      </VideoContainer>
+             {/* Contenedor para enlaces de redes sociales */}
+          <Box sx={styles.socialLinks}>
+            <Link href="https://www.linkedin.com/company/dller/" target="_blank" rel="noopener noreferrer" sx={styles.socialIcon}>
+              <LinkedInIcon fontSize="large" color="primary" />
+            </Link>
+            {/* Agrega más enlaces aquí si es necesario */}
+          </Box>
           </Box>
         </Grid>
 
@@ -80,15 +110,15 @@ const Footer = () => {
           <Box sx={styles.column}>
             <Typography sx={styles.columnTitle}>Contact Us</Typography>
             <Typography variant="body2" sx={{ marginBottom: '5px', color: '#666' }}>
-              123 Main Street, City, Country
+            Dller, Whitchurch, Shropshire
             </Typography>
             <Typography variant="body2" sx={{ marginBottom: '5px', color: '#666' }}>
-              Phone: +1 (123) 456-7890
+              Phone: +44 777 9621607 
             </Typography>
             <Typography variant="body2" sx={{ color: '#666' }}>
               Email:{' '}
               <Link href="mailto:contact@dller.com" sx={styles.link}>
-                contact@dller.com
+              Enquiry@dller.com
               </Link>
             </Typography>
           </Box>
@@ -101,14 +131,14 @@ const Footer = () => {
             <Link href="/kitchens/modern" sx={styles.link}>
               Modern Kitchens
             </Link>
-            <Link href="/kitchens/unique" sx={styles.link}>
-              Unique Kitchens
-            </Link>
             <Link href="/kitchens/classic" sx={styles.link}>
               Classic Kitchens
             </Link>
-            <Link href="/kitchens/rustic" sx={styles.link}>
-              Rustic Kitchens
+            <Link href="/kitchens/european" sx={styles.link}>
+              European Kitchens
+            </Link>
+            <Link href="/kitchens/unique" sx={styles.link}>
+              Unique Kitchens
             </Link>
           </Box>
         </Grid>

@@ -28,7 +28,7 @@ const styles = {
     fontWeight: 'bold',
     marginBottom: '16px',
     textTransform: 'uppercase',
-    color: '#E30613',
+    color: '#c41230',
   },
   content: {
     padding: '20px',
@@ -48,7 +48,7 @@ const styles = {
   },
   iconContainer: {
     fontSize: '50px',
-    color: '#E30613',
+    color: '#c41230',
     marginBottom: '10px',
   },
 };
@@ -66,8 +66,13 @@ function WhyDller() {
         <Typography variant="h5" sx={styles.sectionTitle}>
           The Dller Difference
         </Typography>
+        <Typography variant="h8" sx={styles.sectionTitle}>
+        Why Dller: Your Trusted Partner in Luxury Kitchen Manufacturing
+        <br />
+        <br />
+        </Typography>
         <Typography variant="body1" gutterBottom>
-          At Dller, we don't just design kitchens; we craft experiences. Here's why thousands of clients trust us to create their dream spaces.
+        At <strong>Dller</strong>, we believe exceptional kitchens are born from a synergy of creativity, precision, and craftsmanship. As a premier luxury kitchen manufacturer, we specialize in partnering with kitchen companies across the UK and Europe to bring their designs to life with the utmost discretion and professionalism. Here's why Dller is the partner of choice for forward-thinking kitchen brands.
         </Typography>
 
         <Divider sx={{ my: 4 }} />
@@ -81,7 +86,7 @@ function WhyDller() {
                 Unmatched Quality
               </Typography>
               <Typography variant="body1" gutterBottom>
-                Every kitchen we design is built with the highest quality materials, ensuring longevity and elegance.
+              Every kitchen we build is with the highest quality materials, and the best skills in the industry.
               </Typography>
             </Box>
           </Grid>
@@ -93,7 +98,7 @@ function WhyDller() {
                 Sustainability
               </Typography>
               <Typography variant="body1" gutterBottom>
-                We prioritize eco-friendly materials and practices to reduce our environmental impact.
+              We look to source sustainably, minimising waste and recycling off cuts.
               </Typography>
             </Box>
           </Grid>
@@ -105,7 +110,7 @@ function WhyDller() {
                 Innovative Design
               </Typography>
               <Typography variant="body1" gutterBottom>
-                Our team of experts constantly pushes boundaries to deliver modern, cutting-edge kitchen designs.
+              Our team constantly look to innovate, incorporating design features and investing in new technology 
               </Typography>
             </Box>
           </Grid>
@@ -113,12 +118,81 @@ function WhyDller() {
 
         <Divider sx={{ my: 4 }} />
 
+        {/* Sección con tarjetas */}
+        <box> 
+        <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#c41230'}}>
+        A Commitment to Excellence
+        <br />
+        <br />
+              </Typography>
+              <Typography variant="body1" gutterBottom sx={{textAlign: 'left'}}>
+              We understand that luxury kitchens demand nothing less than perfection. Dller combines cutting-edge technology with time-honoured craftsmanship to ensure every piece reflects the highest standards of quality. Our facility combines modern technologies and skilled craftsmen to create kitchens that meet your needs.
+              </Typography>
+              <Divider sx={{ my: 4 }} />
+              <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#c41230' }}>
+              Your Designs, Our Expertise
+              <br />
+        <br />
+              </Typography>
+              <Typography variant="body1" gutterBottom sx={{textAlign: 'left'}}>
+              At Dller, your vision is our mission. We collaborate closely with your team to understand your brand’s unique needs, ensuring every detail aligns with your design philosophy. Whether it’s intricate woodwork, flawless finishes, modern or classical, we transform your ideas and designs into reality with precision and care. 
+              </Typography>
+              <Divider sx={{ my: 4 }} />
+              <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#c41230' }}>
+              Discreet and Reliable Partnership
+              <br />
+        <br />
+              </Typography>
+              <Typography variant="body1" gutterBottom sx={{textAlign: 'left'}}>
+              We value the trust you place in us. As a silent partner in your production process, we maintain strict confidentiality and ensure our role remains behind the scenes. Our goal is to empower your brand to shine while providing seamless, reliable manufacturing support. 
+              </Typography>
+              <Divider sx={{ my: 4 }} />
+              <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#c41230' }}>
+              Tailored Solutions for Every Project
+              <br />
+        <br />
+              </Typography>
+              <Typography variant="body1" gutterBottom sx={{textAlign: 'left'}}>
+              Every kitchen tells a story. That’s why Dller offers customized solutions to bring your designs to life. From bespoke cabinetry to revolutionary storage solutions, we tailor our production processes to meet your specific requirements, no matter how complex or ambitious. 
+              </Typography>
+              <Divider sx={{ my: 4 }} />
+              <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#c41230' }}>
+              Sustainability at the Core
+              <br />
+        <br />
+              </Typography>
+              <Typography variant="body1" gutterBottom sx={{textAlign: 'left'}}>
+              We are constantly looking at ways to be more sustainable whether that is though responsible sourcing, minimising waste and most recently investing in innovative heating solutions to fuel our factory entirely from waste.. By choosing Dller, you contribute to a greener future without compromising on quality or style. 
+              </Typography>
+              <Divider sx={{ my: 4 }} />
+              <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#c41230' }}>
+              Why Choose Dller?
+              <br />
+        <br />
+              </Typography>
+              <Typography variant="body1" gutterBottom sx={{textAlign: 'left'}}>
+              <lu>
+                <li> <strong> Unparalleled Quality:</strong> Flawless craftsmanship meets advanced manufacturing.</li>
+                <br />
+        <br />
+                <li> <strong> Dedicated Collaboration:</strong> A true extension of your team, understanding your needs inside out.</li>
+                <br />
+        <br />
+                <li> <strong> Confidentiality Assured:</strong> A discreet partnership built on trust. </li>
+                <br />
+        <br />
+                <li> <strong> Innovative Solutions:</strong> Pushing boundaries to achieve your creative vision. </li>
+                <br />
+        <br />
+                <li> <strong> Sustainability Focused:</strong> Luxury production with a conscience. </li>
+              </lu>
+              </Typography>
+              <Divider sx={{ my: 4 }} />
+        </box>
+
         {/* Texto destacado final */}
         <Typography variant="h5" sx={styles.sectionTitle}>
-          Transform Your Space Today
-        </Typography>
-        <Typography variant="body1" gutterBottom>
-          Experience the Dller difference and elevate your kitchen to the next level. Let us turn your vision into reality.
+        Partner with Dller, and let us help you redefine luxury in the kitchen. Together, we’ll create designs that inspire, endure, and elevate the art of living.
         </Typography>
         <Box
           component="img"
@@ -127,6 +201,16 @@ function WhyDller() {
           sx={styles.image}
         />
       </Box>
+      <Typography variant="h5" sx={{
+    fontWeight: 'bold',
+    marginBottom: '20px',
+    color: '#c41230',
+    textAlign: 'center',
+}}>
+        <br />
+        <br />
+    "Your Partner In Production”
+        </Typography>
     </Box>
   );
 }

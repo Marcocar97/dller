@@ -63,7 +63,7 @@ const BottomBar = styled(Toolbar)(({ theme }) => ({
   });
 
 const KitchensButton = styled(Button)({
-  backgroundColor: '#E30613',
+  backgroundColor: '#c41230',
   color: '#FFFFFF',
   fontSize: '18px',
   fontWeight: 'bold',
@@ -84,7 +84,7 @@ const NavButton = styled(Button)({
   padding: '8px 12px',
   textTransform: 'none',
   '&:hover': {
-    color: '#E30613',
+    color: '#c41230',
     textDecoration: 'underline',
   },
 });
@@ -115,7 +115,7 @@ const Submenu = styled(Box)(({ theme }) => ({
       cursor: 'pointer',
       '&:hover': {
         backgroundColor: '#F5F5F5', // Fondo claro en hover
-        color: '#E30613', // Texto rojo en hover
+        color: '#c41230', // Texto rojo en hover
         transform: 'translateX(5px)', // Movimiento sutil hacia la derecha
         transition: 'all 0.3s ease',
       },
@@ -208,7 +208,7 @@ function Navbar() {
         display: 'block', // Asegura que ocupe todo el ancho
         '&:hover': {
           backgroundColor: '#F5F5F5', // Fondo claro en hover
-          color: '#E30613', // Texto rojo en hover
+          color: '#c41230', // Texto rojo en hover
           transform: 'translateX(5px)', // Movimiento hacia la derecha
           transition: 'all 0.3s ease',
         },
@@ -227,7 +227,7 @@ function Navbar() {
         display: 'block', // Asegura que ocupe todo el ancho
         '&:hover': {
           backgroundColor: '#F5F5F5', // Fondo claro en hover
-          color: '#E30613', // Texto rojo en hover
+          color: '#c41230', // Texto rojo en hover
           transform: 'translateX(5px)', // Movimiento hacia la derecha
           transition: 'all 0.3s ease',
         },
@@ -246,7 +246,7 @@ function Navbar() {
         display: 'block', // Asegura que ocupe todo el ancho
         '&:hover': {
           backgroundColor: '#F5F5F5', // Fondo claro en hover
-          color: '#E30613', // Texto rojo en hover
+          color: '#c41230', // Texto rojo en hover
           transform: 'translateX(5px)', // Movimiento hacia la derecha
           transition: 'all 0.3s ease',
         },
@@ -265,7 +265,7 @@ function Navbar() {
         display: 'block', // Asegura que ocupe todo el ancho
         '&:hover': {
           backgroundColor: '#F5F5F5', // Fondo claro en hover
-          color: '#E30613', // Texto rojo en hover
+          color: '#c41230', // Texto rojo en hover
           transform: 'translateX(5px)', // Movimiento hacia la derecha
           transition: 'all 0.3s ease',
         },
@@ -298,7 +298,7 @@ function Navbar() {
     }}
   >
     {/* Botón de cierre */}
-    <IconButton onClick={toggleMobileMenu} sx={{ marginBottom: '20px', color: '#E30613' }}>
+    <IconButton onClick={toggleMobileMenu} sx={{ marginBottom: '20px', color: '#c41230' }}>
       <CloseIcon />
     </IconButton>
 
@@ -308,7 +308,7 @@ function Navbar() {
       sx={{
         fontWeight: 'bold',
         fontSize: '1.2rem',
-        color: '#E30613',
+        color: '#c41230',
         marginBottom: '10px',
       }}
     >
@@ -326,7 +326,7 @@ function Navbar() {
           borderRadius: '8px',
           '&:hover': {
             backgroundColor: '#F5F5F5',
-            color: '#E30613',
+            color: '#c41230',
           },
         }}
       >
@@ -343,7 +343,7 @@ function Navbar() {
           borderRadius: '8px',
           '&:hover': {
             backgroundColor: '#F5F5F5',
-            color: '#E30613',
+            color: '#c41230',
           },
         }}
       >
@@ -360,7 +360,7 @@ function Navbar() {
           borderRadius: '8px',
           '&:hover': {
             backgroundColor: '#F5F5F5',
-            color: '#E30613',
+            color: '#c41230',
           },
         }}
       >
@@ -377,7 +377,7 @@ function Navbar() {
           borderRadius: '8px',
           '&:hover': {
             backgroundColor: '#F5F5F5',
-            color: '#E30613',
+            color: '#c41230',
           },
         }}
       >
@@ -400,7 +400,7 @@ function Navbar() {
       sx={{
         fontWeight: 'bold',
         fontSize: '1.2rem',
-        color: '#E30613',
+        color: '#c41230',
         marginBottom: '10px',
       }}
     >
@@ -418,7 +418,7 @@ function Navbar() {
           borderRadius: '8px',
           '&:hover': {
             backgroundColor: '#F5F5F5',
-            color: '#E30613',
+            color: '#c41230',
           },
         }}
       >
@@ -435,7 +435,7 @@ function Navbar() {
           borderRadius: '8px',
           '&:hover': {
             backgroundColor: '#F5F5F5',
-            color: '#E30613',
+            color: '#c41230',
           },
         }}
       >
@@ -452,7 +452,7 @@ function Navbar() {
           borderRadius: '8px',
           '&:hover': {
             backgroundColor: '#F5F5F5',
-            color: '#E30613',
+            color: '#c41230',
           },
         }}
       >
@@ -469,7 +469,7 @@ function Navbar() {
           borderRadius: '8px',
           '&:hover': {
             backgroundColor: '#F5F5F5',
-            color: '#E30613',
+            color: '#c41230',
           },
         }}
       >

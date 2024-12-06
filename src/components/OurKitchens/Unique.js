@@ -162,7 +162,7 @@ const Unique = () => {
         fontWeight: 'bold',
       }}
     >
-      If you can dream it, we can build it
+      If you can Design it we can create it 
     </Typography>
   </Box>
 </Box>
@@ -178,10 +178,13 @@ const Unique = () => {
           textAlign: 'center',
         }}
       >
-        Fijémonos ahora en la cocina moderna firmada por SCHMIDT. Esta cocina completa de inspiración escandinava gira en torno a la madera y los tonos naturales realzados con acabados cuidados y formas geométricas de lo más elegantes. En torno a la isla de cocina aparecen módulos de almacenaje de lo más prácticos y electrodomésticos de última generación para completar la cocina completa ideal. La nota de fantasía la traen los tiradores en forma de hoja, los frentes realzados con diseños gráficos o con laca de tacto aterciopelado, que aportan un encanto original a la cocina abierta.
+        We specialize in crafting the natural beauty of <strong>Unique Wood Kitchens</strong>, where bespoke designs meet exceptional craftsmanship to create one-of-a-kind spaces. These kitchens feature hallmark elements such as hand-selected wood grains, custom finishes, and intricate detailing, blending timeless elegance with modern functionality. Designed to your specifications, we can bring any vision to life, from rustic charm to contemporary sophistication.
         <br />
         <br />
-En la cocina moderna a medida, todo está pensado para facilitar el día a día de los mejores cocineros. Los nichos de la parte inferior de la isla central acogen los libros de recetas, mientras que el mobiliario mural con puertas correderas aprovecha la iluminación integrada. Los sistemas de apertura y cierre son de lo más sencillos y la altura del mobiliario de la cocina se adapta a tus necesidades ergonómicas. En lo que respecta a los colores, si las variaciones de arena y topo se encuentra entre la lista de favoritos, el gris pizarra y los azules verdosos no pueden ser menos. Tú decides qué tonos prefieres y el conjunto de mesas y sillas de cocina que completará la cocina moderna de tus sueños.
+        For a distinctive touch, farmhouse-inspired styles incorporate exposed beams, reclaimed wood cabinets, and warm, inviting tones, while <strong>modern wood kitchens</strong> emphasize sleek, minimalist lines and innovative storage solutions. Alternatively, <strong>artisan-crafted kitchens</strong> showcase bold, statement-making designs with custom joinery, intricate carvings, and unique textures. Key features like live-edge countertops, wood-panelled islands, and custom stains or paints highlight the natural beauty of the materials, ensuring each kitchen is a true original.
+        <br />
+        <br /> 
+        If you can design it, we can create it. Whatever your brand’s vision, let us help you bring the perfect <strong>Unique Wood Kitchen</strong> to life with bespoke solutions tailored to your company's and clients’ style and needs.
       </Typography>
 
     <Box>
@@ -225,7 +228,7 @@ En la cocina moderna a medida, todo está pensado para facilitar el día a día 
                 color: '#fff',
                 fontWeight: 'bold',
                 fontSize: '1.2rem',
-                backgroundColor: 'rgba(255, 0, 0, 0.8)',
+                backgroundColor: '#c41230',
                 padding: '5px 10px',
                 borderRadius: '5px',
                 width: '100%', // Asegura que el texto se extienda a lo ancho
@@ -269,6 +272,16 @@ En la cocina moderna a medida, todo está pensado para facilitar el día a día 
           </Box>
         </DialogContent>
       </StyledDialog>
+      <Typography variant="h5" sx={{
+    fontWeight: 'bold',
+    marginBottom: '20px',
+    color: '#c41230',
+    textAlign: 'center',
+}}>
+        <br />
+        <br />
+    "Your Partner In Production”
+        </Typography>
     </Box>
   );
 };

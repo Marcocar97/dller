@@ -34,7 +34,7 @@ const styles = {
     fontWeight: 'bold',
     marginBottom: '16px',
     textTransform: 'uppercase',
-    color: '#E30613',
+    color: '#c41230',
     textAlign: 'center',
   },
   card: {
@@ -124,7 +124,7 @@ function OurTeam() {
                   <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
                     {member.name}
                   </Typography>
-                  <Typography variant="subtitle1" sx={{ color: '#E30613', marginBottom: '8px' }}>
+                  <Typography variant="subtitle1" sx={{ color: '#c41230', marginBottom: '8px' }}>
                     {member.position}
                   </Typography>
                   <Typography variant="body2">{member.bio}</Typography>
@@ -134,6 +134,14 @@ function OurTeam() {
           ))}
         </Grid>
       </Box>
+      <Typography variant="h5" sx={{
+    fontWeight: 'bold',
+    marginBottom: '20px',
+    color: '#c41230',
+    textAlign: 'center',
+}}>
+    "Your Partner In Production”
+        </Typography>
     </Box>
   );
 }

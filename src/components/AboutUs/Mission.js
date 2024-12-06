@@ -57,7 +57,7 @@ function Mission() {
 
       {/* Contenido principal */}
       <Box sx={styles.content}>
-        <Typography variant="h5" sx={{ textAlign: 'center', color: '#E30613', fontWeight: 'bold', marginBottom: '16px' }}>
+        <Typography variant="h5" sx={{ textAlign: 'center', color: '#c41230', fontWeight: 'bold', marginBottom: '16px' }}>
           Exceptional manufacturing solutions
         </Typography>
         <Typography variant="body1" gutterBottom sx={{ textAlign: 'center', marginBottom: '32px' }}>
@@ -70,7 +70,7 @@ function Mission() {
         <Grid container spacing={4}>
           <Grid item xs={12} md={4}>
             <Paper sx={styles.card}>
-              <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#E30613' }}>
+              <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#c41230' }}>
                 Excellence in Design
               </Typography>
               <Typography variant="body2" sx={{ marginTop: '8px' }}>
@@ -86,7 +86,7 @@ function Mission() {
           </Grid>
           <Grid item xs={12} md={4}>
             <Paper sx={styles.card}>
-              <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#E30613' }}>
+              <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#c41230' }}>
                 Functionality First
               </Typography>
               <Typography variant="body2" sx={{ marginTop: '8px' }}>
@@ -102,7 +102,7 @@ function Mission() {
           </Grid>
           <Grid item xs={12} md={4}>
             <Paper sx={styles.card}>
-              <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#E30613' }}>
+              <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#c41230' }}>
                 Sustainable Living
               </Typography>
               <Typography variant="body2" sx={{ marginTop: '8px' }}>
@@ -121,7 +121,7 @@ function Mission() {
         <Divider sx={{ my: 4 }} />
 
         {/* Sección final con énfasis */}
-        <Typography variant="h5" sx={{ textAlign: 'center', color: '#E30613', fontWeight: 'bold', marginBottom: '16px' }}>
+        <Typography variant="h5" sx={{ textAlign: 'center', color: '#c41230', fontWeight: 'bold', marginBottom: '16px' }}>
           Building Memories in Every Kitchen
         </Typography>
         <Typography variant="body1" sx={{ textAlign: 'center' }}>
@@ -134,6 +134,14 @@ function Mission() {
           sx={{ ...styles.image, marginTop: '24px' }} 
         />
       </Box>
+      <Typography variant="h5" sx={{
+    fontWeight: 'bold',
+    marginBottom: '20px',
+    color: '#c41230',
+    textAlign: 'center',
+}}>
+    "Your Partner In Production”
+        </Typography>
     </Box>
   );
 }
