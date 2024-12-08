@@ -318,7 +318,7 @@ function Navbar() {
       <ListItem
         button
         component={Link}
-        to="/kitchens/modern"
+        to="/modern"
         onClick={toggleMobileMenu}
         sx={{
           padding: '10px 20px',
@@ -335,7 +335,7 @@ function Navbar() {
       <ListItem
         button
         component={Link}
-        to="/kitchens/classic"
+        to="/classic"
         onClick={toggleMobileMenu}
         sx={{
           padding: '10px 20px',
@@ -352,7 +352,7 @@ function Navbar() {
       <ListItem
         button
         component={Link}
-        to="/kitchens/european"
+        to="/european"
         onClick={toggleMobileMenu}
         sx={{
           padding: '10px 20px',
@@ -369,7 +369,7 @@ function Navbar() {
       <ListItem
         button
         component={Link}
-        to="/kitchens/unique"
+        to="/unique"
         onClick={toggleMobileMenu}
         sx={{
           padding: '10px 20px',
