@@ -162,7 +162,7 @@ function ContactUs() {
                 Contact Information
               </Typography>
               <Typography variant="body1" gutterBottom>
-                Email: <a href="mailto:contact@dller.com">chiles@dller.com</a>
+                Email: <a href="mailto:contact@dller.com">Enquiry@dller.com</a>
               </Typography>
               <Typography variant="body1" gutterBottom>
                 Phone: +44 7779621607

@@ -215,7 +215,7 @@ const isMobile = useMediaQuery(theme.breakpoints.down('sm')); // Detecta pantall
       <Carousel
   indicators={false}
   navButtonsAlwaysVisible
-  interval={3000} // Time (in milliseconds) between automatic slide transitions
+  interval={5000} // Time (in milliseconds) between automatic slide transitions
   animation="fade"
   autoPlay={true} // Enables auto-play
 >
@@ -230,7 +230,7 @@ const isMobile = useMediaQuery(theme.breakpoints.down('sm')); // Detecta pantall
         <Typography sx={styles.heroText}>{item.text}</Typography>
         <Button
         component={Link}
-        to="/contac" 
+        to="/contact" 
           variant="contained"
           sx={{
             backgroundColor: '#c41230',

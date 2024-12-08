@@ -146,16 +146,16 @@ const Footer = () => {
         <Grid item xs={12} sm={6} md={3}>
           <Box sx={styles.column}>
             <Typography sx={styles.columnTitle}>Our Kitchens</Typography>
-            <StyledLink to="/kitchens/modern">
+            <StyledLink to="/modern">
         Mondern Kitchens
       </StyledLink>
-      <StyledLink to="/kitchens/classic">
+      <StyledLink to="/classic">
         Classic Kitchens
       </StyledLink>
-      <StyledLink to="/kitchens/european">
+      <StyledLink to="/european">
         European Kitchens
       </StyledLink>
-      <StyledLink to="/kitchens/unique">
+      <StyledLink to="/unique">
         Unique Kitchens
       </StyledLink>
           </Box>

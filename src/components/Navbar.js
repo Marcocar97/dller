@@ -199,7 +199,7 @@ function Navbar() {
           <Submenu className={submenuVisible ? 'active' : ''}>
           <Box
       component={Link}
-      to="/kitchens/modern"
+      to="/modern"
       sx={{ 
         textDecoration: 'none', // Eliminar subrayado
         color: '#000', // Mantener el color heredado
@@ -218,7 +218,7 @@ function Navbar() {
     </Box>
     <Box
       component={Link}
-      to="/kitchens/classic"
+      to="/classic"
       sx={{ 
         textDecoration: 'none', // Eliminar subrayado
         color: '#000', // Mantener el color heredado
@@ -237,7 +237,7 @@ function Navbar() {
     </Box>
     <Box
       component={Link}
-      to="/kitchens/european"
+      to="/european"
       sx={{ 
         textDecoration: 'none', // Eliminar subrayado
         color: '#000', // Mantener el color heredado
@@ -256,7 +256,7 @@ function Navbar() {
     </Box>
     <Box
       component={Link}
-      to="/kitchens/unique"
+      to="/unique"
       sx={{ 
         textDecoration: 'none', // Eliminar subrayado
         color: '#000', // Mantener el color heredado
@@ -280,7 +280,7 @@ function Navbar() {
         <NavButton component={Link} to="/about">About Us</NavButton>
         <NavButton component={Link} to="/services">Services</NavButton>
         <NavButton component={Link} to="/why-dller">Why Dller</NavButton>
-        <NavButton component={Link} to="/contac">Contact Us</NavButton>
+        <NavButton component={Link} to="/contact">Contact Us</NavButton>
 
 
         <Drawer

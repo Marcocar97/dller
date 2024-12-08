@@ -28,14 +28,14 @@ function App() {
         <MainContent>
         <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/kitchens/modern" element={<Modern />} />
-        <Route path="/kitchens/classic" element={<Classic />} />
-        <Route path="/kitchens/european" element={<European />} />
-        <Route path="/kitchens/unique" element={<Unique />} />
+        <Route path="/modern" element={<Modern />} />
+        <Route path="/classic" element={<Classic />} />
+        <Route path="/european" element={<European />} />
+        <Route path="/unique" element={<Unique />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/services" element={<Services />} />
         <Route path="/why-dller" element={<WhyDller />} />
-        <Route path="/contac" element={<ContactUs />} />
+        <Route path="/contact" element={<ContactUs />} />
         </Routes>
         </MainContent>
         <Footer />
