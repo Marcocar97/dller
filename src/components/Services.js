@@ -73,7 +73,7 @@ function Services() {
               <CardMedia
                 component="img"
                 height="140"
-                image="/Images/modern.png"
+                image="/Images/manufacture.png"
                 alt="Manufacturing Only"
               />
               <CardContent sx={styles.cardContent}>
@@ -91,7 +91,7 @@ function Services() {
               <CardMedia
                 component="img"
                 height="140"
-                image="/Images/modern.png"
+                image="/Images/colaborative.png"
                 alt="Collaborative Design"
               />
               <CardContent sx={styles.cardContent}>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Typography, Button, Dialog, DialogContent, Grid } from '@mui/material';
+import { Box, Typography, Button, Dialog, DialogContent, Grid, Card, CardContent, CardMedia } from '@mui/material';
 import { styled } from '@mui/system';
 import Carousel from 'react-material-ui-carousel';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
@@ -159,22 +159,22 @@ const StyledDialog = styled(Dialog)(() => ({
 // Datos de los estilos de cocinas
 const kitchenStyles = [
     {
-      name: 'Modern',
+      name: 'Modern Kitchens',
       images: ['/Images/modern.png', '/Images/modern.png', '/Images/modern.png', '/Images/modern.png', '/Images/modern.png'],
       coverImage: '/Images/1.jpg',
     },
     {
-      name: 'Classic',
+      name: 'Classic Kitchens',
       images: ['/Images/1.jpg', '/Images/2.jpg', '/Images/1.jpg', '/Images/2.jpg', '/Images/1.jpg'],
       coverImage: '/Images/1.jpg',
     },
     {
-      name: 'European',
+      name: 'European Kitchens',
       images: ['/Images/1.jpg', '/Images/2.jpg', '/Images/3.jpg', '/Images/4.jpg', '/Images/1.jpg'],
       coverImage: '/Images/1.jpg',
     },
     {
-      name: 'Unique',
+      name: 'Unique Kitchens',
       images: ['/Images/1.jpg', '/Images/2.jpg', '/Images/3.jpg', '/Images/1.jpg', '/Images/4.jpg'],
       coverImage: '/Images/1.jpg',
     },
@@ -382,56 +382,69 @@ We work in partnership with a small number of Kitchen companies to take the worr
           </Grid>
         </Grid>
       </Box>
+
+
 {/* Show case seccion*/}
 
       <Typography variant="h5" sx={styles.sectionSecondTitle}>
       Explore Our Craftsmanship
         </Typography>
-
-        <Box>
-        <Box display="flex" flexDirection="row" flexWrap="wrap" justifyContent="center">
-  {kitchenStyles.map((style, index) => (
-    <Button
-      key={index}
-      onClick={() => handleOpenPopup(style.images)}
-      style={{
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        margin: 20,
-        padding: '10px',
-        backgroundColor: '#fff',
-        boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
-        borderRadius: '8px',
-        width: isMobile ? 'calc(100% - 40px)' : 'calc(25% - 40px)', // 100% en móviles para un botón por fila, 25% para cuatro botones por fila en pantallas más grandes
-        boxSizing: 'border-box'
-      }}
-    >
-      <img
-        src={style.coverImage}
-        alt={style.name}
+    <Box>
+  <Box display="flex" flexDirection="row" flexWrap="wrap" justifyContent="center">
+    {kitchenStyles.map((style, index) => (
+      <Button
+        key={index}
+        onClick={() => handleOpenPopup(style.images)}
         style={{
-          width: '100%',
-          height: 'auto',
-          objectFit: 'cover',
-          borderRadius: '8px 8px 0 0',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          margin: 20,
+          padding: '10px',
+          backgroundColor: '#fff',
+          boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+          borderRadius: '8px',
+          width: isMobile ? 'calc(100% - 40px)' : 'calc(25% - 40px)', // 100% en móviles para un botón por fila, 25% para cuatro botones por fila en pantallas más grandes
+          boxSizing: 'border-box',
+          transition: 'transform 0.3s ease, box-shadow 0.3s ease', // Transición suave para el aumento y sombra
         }}
-      />
-      <Typography
-        component="span"
-        style={{
-          fontWeight: 'bold',
-          marginTop: '10px',
-          textAlign: 'center',
-          color: '#c41230',
+        onMouseEnter={(e) => {
+          // Efecto al pasar el mouse
+          e.target.style.transform = 'scale(1.05)';
+          e.target.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.2)';
+        }}
+        onMouseLeave={(e) => {
+          // Vuelve a la normalidad cuando se deja de pasar el mouse
+          e.target.style.transform = 'scale(1)';
+          e.target.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)';
         }}
       >
-        {style.name}
-      </Typography>
-    </Button>
-  ))}
+        <img
+          src={style.coverImage}
+          alt={style.name}
+          style={{
+            width: '100%',
+            height: 'auto',
+            objectFit: 'cover',
+            borderRadius: '8px 8px 0 0',
+            transition: 'transform 0.3s ease', // Asegura que la imagen también tenga una transición suave
+          }}
+        />
+        <Typography
+          component="span"
+          style={{
+            fontWeight: 'bold',
+            marginTop: '10px',
+            textAlign: 'center',
+            color: '#c41230',
+            textTransform: 'none',
+          }}
+        >
+          {style.name}
+        </Typography>
+      </Button>
+    ))}
 </Box>
-
 
 
       <StyledDialog open={openPopup} onClose={handleClosePopup}>
