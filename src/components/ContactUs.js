@@ -168,12 +168,12 @@ function ContactUs() {
                 Phone: +44 7779621607
               </Typography>
               <Typography variant="body1" gutterBottom>
-                Address: Dller Whitchurch Shropshire UK SY13 1TT
+                Address: Dller Spinningfields Manchester, M3 3AJ
               </Typography>
               {/* Mapa de Ubicación */}
               <Box
                 component="iframe"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4806.175864576056!2d-2.6731439071067125!3d52.96483255077641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487a925c6767ab93%3A0x8a988865743eff2e!2sWhitchurch%20SY13%201TT%2C%20Reino%20Unido!5e0!3m2!1ses!2ses!4v1733486484655!5m2!1ses!2ses"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d37989.24414639973!2d-2.3290645!3d53.4804733!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1dc5639fb79%3A0x327fd04edc446cca!2sLeft%20Bank%2C%20Manchester%20M3%203AJ%2C%20UK!5e0!3m2!1sen!2ses!4v1733682306429!5m2!1sen!2ses"
                 sx={styles.map}
                 title="Map Location"
               />

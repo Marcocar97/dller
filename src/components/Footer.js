@@ -1,7 +1,8 @@
 import React from 'react';
-import { Box, Typography, Link, Grid, Divider } from '@mui/material';
+import { Box, Typography, Grid, Divider } from '@mui/material';
 import LinkedInIcon from '@mui/icons-material/LinkedIn'; 
 import { styled} from '@mui/system';
+import { Link } from 'react-router-dom';
 
 // Estilos para el Footer
 const styles = {
@@ -73,6 +74,17 @@ const VideoContainer = styled('video')({
     maxWidth: '300px', // Ajusta esto según el ancho deseado que debe ser proporcional al logo
   });
 
+  const StyledLink = styled(Link)(({ theme }) => ({
+    color: '#c41230',
+    textDecoration: 'none',
+    fontSize: '0.9rem',
+    marginBottom: '5px',
+    '&:hover': {
+      textDecoration: 'underline',
+    },
+
+  }));
+
 const Footer = () => {
   return (
     <Box sx={styles.footerContainer}>
@@ -95,11 +107,17 @@ const Footer = () => {
         <source src="logo.texto.mp4" type="video/mp4" />
         Tu navegador no soporta videos HTML5.
       </VideoContainer>
+
              {/* Contenedor para enlaces de redes sociales */}
           <Box sx={styles.socialLinks}>
-            <Link href="https://www.linkedin.com/company/dller/" target="_blank" rel="noopener noreferrer" sx={styles.socialIcon}>
-              <LinkedInIcon fontSize="large" color="primary" />
-            </Link>
+          <a
+    href="https://www.linkedin.com/company/dller/"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ textDecoration: 'none', ...styles.socialIcon }}
+  >
+    <LinkedInIcon fontSize="large" color="primary" />
+  </a>
             {/* Agrega más enlaces aquí si es necesario */}
           </Box>
           </Box>
@@ -110,16 +128,16 @@ const Footer = () => {
           <Box sx={styles.column}>
             <Typography sx={styles.columnTitle}>Contact Us</Typography>
             <Typography variant="body2" sx={{ marginBottom: '5px', color: '#666' }}>
-            Dller, Whitchurch, Shropshire
+            Dller Spinningfields Manchester, M3 3AJ
             </Typography>
             <Typography variant="body2" sx={{ marginBottom: '5px', color: '#666' }}>
               Phone: +44 777 9621607 
             </Typography>
             <Typography variant="body2" sx={{ color: '#666' }}>
-              Email:{' '}
-              <Link href="mailto:contact@dller.com" sx={styles.link}>
-              Enquiry@dller.com
-              </Link>
+              Email:
+              <a href="mailto:contact@dller.com" style={{ textDecoration: 'none', ...styles.link }}>
+    Enquiry@dller.com
+  </a>
             </Typography>
           </Box>
         </Grid>
@@ -128,18 +146,18 @@ const Footer = () => {
         <Grid item xs={12} sm={6} md={3}>
           <Box sx={styles.column}>
             <Typography sx={styles.columnTitle}>Our Kitchens</Typography>
-            <Link href="/kitchens/modern" sx={styles.link}>
-              Modern Kitchens
-            </Link>
-            <Link href="/kitchens/classic" sx={styles.link}>
-              Classic Kitchens
-            </Link>
-            <Link href="/kitchens/european" sx={styles.link}>
-              European Kitchens
-            </Link>
-            <Link href="/kitchens/unique" sx={styles.link}>
-              Unique Kitchens
-            </Link>
+            <StyledLink to="/kitchens/modern">
+        Mondern Kitchens
+      </StyledLink>
+      <StyledLink to="/kitchens/classic">
+        Classic Kitchens
+      </StyledLink>
+      <StyledLink to="/kitchens/european">
+        European Kitchens
+      </StyledLink>
+      <StyledLink to="/kitchens/unique">
+        Unique Kitchens
+      </StyledLink>
           </Box>
         </Grid>
 
@@ -147,15 +165,15 @@ const Footer = () => {
         <Grid item xs={12} sm={6} md={3}>
           <Box sx={styles.column}>
             <Typography sx={styles.columnTitle}>Legal</Typography>
-            <Link href="/cookies-policy" sx={styles.link}>
+            <StyledLink href="/cookies-policy" sx={styles.StyledLink}>
               Cookies Policy
-            </Link>
-            <Link href="/privacy-policy" sx={styles.link}>
+            </StyledLink>
+            <StyledLink href="/privacy-policy" sx={styles.StyledLink}>
               Privacy Policy
-            </Link>
-            <Link href="/terms-of-service" sx={styles.link}>
+            </StyledLink>
+            <StyledLink href="/terms-of-service" sx={styles.StyledLink}>
               Terms of Service
-            </Link>
+            </StyledLink>
           </Box>
         </Grid>
       </Grid>

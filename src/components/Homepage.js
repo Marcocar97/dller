@@ -97,7 +97,7 @@ const carouselItems = [
   },
   {
     image: '/Images/s4.png',
-    text: 'Experience Elegance in Every Detail',
+    text: 'You Design It, We Create It',
   },
 ];
 

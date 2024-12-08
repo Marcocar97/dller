@@ -7,7 +7,7 @@ const styles = {
     position: 'relative',
     width: '100%',
     height: '300px',
-    backgroundImage: 'url("/Images/modern.png")',
+    backgroundImage: 'url("/Images/servi.jpg")',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     display: 'flex',

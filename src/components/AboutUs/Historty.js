@@ -7,7 +7,7 @@ const styles = {
     position: 'relative',
     width: '100%',
     height: '300px',
-    backgroundImage: `url('/Images/modern.png')`,
+    backgroundImage: `url('/Images/historycover.png')`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     display: 'flex',
@@ -92,10 +92,12 @@ function Historty() {
                             </Typography>
               <Typography variant="body2" sx={{ marginTop: '8px' }}>
               Hand waxing, mortise-and-tenon joinery, and intricate hand-carving to preserve the authenticity and soul of the craft.
+              <br />
+              <br />
               </Typography>
               <Box 
                 component="img" 
-                src="/Images/modern.png" 
+                src="/Images/traditional.png" 
                 alt="Excellence in Design" 
                 sx={styles.image} 
               />
@@ -108,10 +110,12 @@ function Historty() {
               </Typography>
               <Typography variant="body2" sx={{ marginTop: '8px' }}>
               Precision cutting and 3D modelling, to ensure our designs are as efficient and durable as they are beautiful.
+              <br />
+              <br />
               </Typography>
               <Box 
                 component="img" 
-                src="/Images/modern.png" 
+                src="/Images/modetool.png" 
                 alt="Functionality First" 
                 sx={styles.image} 
               />
@@ -124,10 +128,11 @@ function Historty() {
               </Typography>
               <Typography variant="body2" sx={{ marginTop: '8px' }}>
               We constantly look to improve our sustainability through responsible sourcing right through to a fully heated factory fuelled by our sawdust waste.
+              <br />
               </Typography>
               <Box 
                 component="img" 
-                src="/Images/modern.png" 
+                src="/Images/enviro.png" 
                 alt="Sustainable Living" 
                 sx={styles.image} 
               />
