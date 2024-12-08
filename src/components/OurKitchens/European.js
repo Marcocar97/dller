@@ -122,6 +122,16 @@ const StyledDialog = styled(Dialog)(() => ({
     right: 'calc(5% + 10px)', // Ajusta esta cantidad para acercar más el botón a la imagen
   });
   
+  const CustomButton = styled(Button)({
+    color: '#c41230', // Color del texto
+    borderColor: '#c41230', // Color del borde
+    '&:hover': {
+      backgroundColor: '#c41230', // Color de fondo al hacer hover
+      color: '#fff', // Color del texto al hacer hover
+      borderColor: '#c41230', // Mantener el borde en el color deseado
+    },
+  });
+  
 
 // Componente principal "Modern"
 const European = () => {
@@ -217,7 +227,7 @@ const European = () => {
                   {kitchen.description}
                 </Typography>
                 {/* Botón para ver más fotos */}
-                <Button
+                <CustomButton
                   variant="outlined"
                   color="#c41230"
                   onClick={(e) => {
@@ -228,7 +238,7 @@ const European = () => {
                   sx={{ marginTop: '10px' }}
                 >
                   View Gallery
-                </Button>
+                </CustomButton>
               </CardContent>
             </Card>
           </Grid>
