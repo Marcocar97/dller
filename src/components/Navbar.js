@@ -461,7 +461,7 @@ function Navbar() {
       <ListItem
         button
         component={Link}
-        to="/contac"
+        to="/contact"
         onClick={toggleMobileMenu}
         sx={{
           padding: '10px 20px',
