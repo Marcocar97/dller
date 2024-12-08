@@ -167,7 +167,7 @@ const Modern = () => {
     },
     {
       title: 'Cocina Minimalista',
-      description: 'Diseño moderno y limpio, con elementos minimalistas que aprovechan el espacio...',
+      description: 'Diseño moderno y limpio, con elementos minimalistas que aprovechan el espacio..',
       images: ['/Images/1.jpg', '/Images/2.jpg', '/Images/3.jpg'],
       coverImage: '/Images/4.jpg',
     },
