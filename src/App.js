@@ -14,6 +14,8 @@ import ContactUs from './components/ContactUs';
 import HomePage from './components/Homepage';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollTop';
+import CookiePopup from './components/CookiePopup.js';
+import CookieSettings from './components/CookieSettings.js';
 
 const MainContent = styled('div')({
   paddingTop: '150px',  // Ajusta este valor según la altura de tu navbar
@@ -23,6 +25,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
+      <CookiePopup />
       <div className="App">
         <Navbar />
         <MainContent>
@@ -36,6 +39,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/why-dller" element={<WhyDller />} />
         <Route path="/contact" element={<ContactUs />} />
+        <Route path="/configuracion-cookies" element={<CookieSettings />} />
         </Routes>
         </MainContent>
         <Footer />

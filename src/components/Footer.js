@@ -165,13 +165,13 @@ const Footer = () => {
         <Grid item xs={12} sm={6} md={3}>
           <Box sx={styles.column}>
             <Typography sx={styles.columnTitle}>Legal</Typography>
-            <StyledLink href="/cookies-policy" sx={styles.StyledLink}>
+            <StyledLink to="/configuracion-cookies" sx={styles.StyledLink}>
               Cookies Policy
             </StyledLink>
-            <StyledLink href="/privacy-policy" sx={styles.StyledLink}>
+            <StyledLink to="/privacy-policy" sx={styles.StyledLink}>
               Privacy Policy
             </StyledLink>
-            <StyledLink href="/terms-of-service" sx={styles.StyledLink}>
+            <StyledLink to="/terms-of-service" sx={styles.StyledLink}>
               Terms of Service
             </StyledLink>
           </Box>

@@ -73,7 +73,7 @@ function Services() {
               <CardMedia
                 component="img"
                 height="140"
-                image="/Images/manufacture.png"
+                image="/Images/man.webp"
                 alt="Manufacturing Only"
               />
               <CardContent sx={styles.cardContent}>
@@ -91,7 +91,7 @@ function Services() {
               <CardMedia
                 component="img"
                 height="140"
-                image="/Images/colaborative.png"
+                image="/Images/col.webp"
                 alt="Collaborative Design"
               />
               <CardContent sx={styles.cardContent}>
@@ -118,7 +118,7 @@ function Services() {
               <CardMedia
                 component="img"
                 sx={styles.image}
-                image="/Images/modern.png"
+                image="/Images/ss1.webp"
                 alt="Kitchens Tailored to Your Vision"
               />
               <CardContent sx={styles.cardContent}>
@@ -137,7 +137,7 @@ function Services() {
               <CardMedia
                 component="img"
                 sx={styles.image}
-                image="/Images/modern.png"
+                image="/Images/ss2.webp"
                 alt="Manufacturing Excellence"
               />
               <CardContent sx={styles.cardContent}>
@@ -157,7 +157,7 @@ function Services() {
             <CardMedia
                 component="img"
                 sx={styles.image}
-                image="/Images/modern.png"
+                image="/Images/ss31.jpg"
                 alt="Manufacturing Excellence"
               />
               <CardContent sx={styles.cardContent}>
