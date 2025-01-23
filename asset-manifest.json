@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dller/static/css/main.fd26a785.css",
+    "main.js": "/dller/static/js/main.66800999.js",
+    "static/js/453.83724c97.chunk.js": "/dller/static/js/453.83724c97.chunk.js",
+    "index.html": "/dller/index.html",
+    "main.fd26a785.css.map": "/dller/static/css/main.fd26a785.css.map",
+    "main.66800999.js.map": "/dller/static/js/main.66800999.js.map",
+    "453.83724c97.chunk.js.map": "/dller/static/js/453.83724c97.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd26a785.css",
+    "static/js/main.66800999.js"
+  ]
+}
