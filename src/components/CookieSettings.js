@@ -13,7 +13,7 @@ function CookieSettings() {
 
   return (
     <div>
-      <h1>Configuración de Cookies</h1>
+      <h1>Cookies Settings</h1>
       <div>
         <label>
           <input type="checkbox" checked={analytics} onChange={e => setAnalytics(e.target.checked)} />
