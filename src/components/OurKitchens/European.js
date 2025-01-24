@@ -57,7 +57,7 @@ const styles = {
   },
   image: {
     width: '100%',
-    height: 'auto',
+    height: '200px',
     maxHeight: '300px',
     borderRadius: '8px',
     boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
@@ -160,22 +160,22 @@ const European = () => {
   // Datos de las cartas y sus imágenes
   const modernKitchens = [
     {
-      title: 'Delicadeza Moderna',
-      description: 'A la hora de renovar su piso, esta pareja deseaba crear un espacio luminoso...',
-      images: ['/Images/1.jpg', '/Images/2.jpg', '/Images/3.jpg'],
-      coverImage: '/Images/4.jpg',
+      title: 'Chic Sophistication',
+      description: 'A luxurious European kitchen blending modern materials with timeless chandeliers and sleek finishes.',
+      images: ['/Images/e1.jpg', '/Images/e2.jpg', '/Images/e3.jpg', '/Images/e4.jpg', '/Images/e5.jpg', '/Images/e6.jpg', '/Images/e7.jpg', '/Images/e8.jpg', '/Images/e9.jpg'],
+      coverImage: '/Images/e1.jpg',
     },
     {
-      title: 'Cocina Minimalista',
-      description: 'Diseño moderno y limpio, con elementos minimalistas que aprovechan el espacio...',
-      images: ['/Images/1.jpg', '/Images/2.jpg', '/Images/3.jpg'],
-      coverImage: '/Images/4.jpg',
+      title: 'Rustic Elegance',
+      description: 'A cozy European-style kitchen with natural wood finishes and soft lighting for a welcoming atmosphere.',
+      images: ['/Images/e10.jpg', '/Images/e11.jpg', '/Images/e12.jpg'],
+      coverImage: '/Images/e10.jpg',
     },
     {
-      title: 'Cocina Contemporánea',
-      description: 'Estilo contemporáneo con una mezcla de materiales naturales y modernos...',
-      images: ['/Images/1.jpg', '/Images/2.jpg', '/Images/3.jpg'],
-      coverImage: '/Images/4.jpg',
+      title: 'Timeless Heritage',
+      description: ' A refined design featuring warm tones, high ceilings, and intricate woodwork, inspired by European tradition.',
+      images: ['/Images/e13.jpg', '/Images/e14.jpg', '/Images/e15.jpg', '/Images/e16.jpg'],
+      coverImage: '/Images/e13.jpg',
     },
   ];
 

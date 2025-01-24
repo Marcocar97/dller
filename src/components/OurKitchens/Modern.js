@@ -57,7 +57,7 @@ const styles = {
   },
   image: {
     width: '100%',
-    height: 'auto',
+    height: '200px',
     maxHeight: '300px',
     borderRadius: '8px',
     boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
@@ -160,22 +160,22 @@ const Modern = () => {
   // Datos de las cartas y sus imágenes
   const modernKitchens = [
     {
-      title: 'Delicadeza Moderna',
-      description: 'A la hora de renovar su piso, esta pareja deseaba crear un espacio luminoso...',
-      images: ['/Images/1.jpg', '/Images/2.jpg', '/Images/3.jpg'],
-      coverImage: '/Images/4.jpg',
+      title: 'Vibrant Modernity',
+      description: 'A contemporary kitchen with bold yellow accents and a vibrant feature wall, modern vibe.',
+      images: ['/Images/m7.jpg', '/Images/m8.jpg', '/Images/m9.jpg'],
+      coverImage: '/Images/m9.jpg',
     },
     {
-      title: 'Cocina Minimalista',
-      description: 'Diseño moderno y limpio, con elementos minimalistas que aprovechan el espacio..',
-      images: ['/Images/1.jpg', '/Images/2.jpg', '/Images/3.jpg'],
-      coverImage: '/Images/4.jpg',
+      title: 'Function Meets Style',
+      description: 'Sleek lines and neutral tones create a simple yet inviting modern kitchen design.',
+      images: ['/Images/m1.jpg', '/Images/m2.jpg'],
+      coverImage: '/Images/m1.jpg',
     },
     {
-      title: 'Cocina Contemporánea',
-      description: 'Estilo contemporáneo con una mezcla de materiales naturales y modernos...',
-      images: ['/Images/1.jpg', '/Images/2.jpg', '/Images/3.jpg'],
-      coverImage: '/Images/4.jpg',
+      title: 'Modern Versatility',
+      description: 'A blend of modern and classic elements, offering style and practicality for any home.',
+      images: ['/Images/m3.jpg', '/Images/m4.jpg'],
+      coverImage: '/Images/m3.jpg',
     },
   ];
 

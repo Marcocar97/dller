@@ -57,7 +57,7 @@ const styles = {
   },
   image: {
     width: '100%',
-    height: 'auto',
+    height: '200px',
     maxHeight: '300px',
     borderRadius: '8px',
     boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
@@ -161,22 +161,22 @@ const Classic = () => {
   // Datos de las cartas y sus imágenes
   const modernKitchens = [
     {
-      title: 'Delicadeza Moderna',
-      description: 'A la hora de renovar su piso, esta pareja deseaba crear un espacio luminoso...',
-      images: ['/Images/1.jpg', '/Images/2.jpg', '/Images/3.jpg'],
-      coverImage: '/Images/4.jpg',
+      title: 'Soft Elegance',
+      description: 'A bright and cozy kitchen, perfect for renovating with style and functionality.',
+      images: ['/Images/c20.jpg', '/Images/c21.jpg', '/Images/c23.jpg', '/Images/c22.jpg'],
+      coverImage: '/Images/c20.jpg',
     },
     {
-      title: 'Cocina Minimalista',
-      description: 'Diseño moderno y limpio, con elementos minimalistas que aprovechan el espacio...',
-      images: ['/Images/1.jpg', '/Images/2.jpg', '/Images/3.jpg'],
-      coverImage: '/Images/4.jpg',
+      title: 'Classic Minimalism',
+      description: 'Clean lines and warm materials to maximize space with elegance.',
+      images: ['/Images/c4.jpg', '/Images/c5.jpg', '/Images/c6.jpg', '/Images/c7.jpg'],
+      coverImage: '/Images/c4.jpg',
     },
     {
-      title: 'Cocina Contemporánea',
-      description: 'Estilo contemporáneo con una mezcla de materiales naturales y modernos...',
-      images: ['/Images/1.jpg', '/Images/2.jpg', '/Images/3.jpg'],
-      coverImage: '/Images/4.jpg',
+      title: 'Contemporary Kitchen',
+      description: 'A perfect blend of classic and modern materials for a versatile design.',
+      images: ['/Images/c1.jpg', '/Images/c2.jpg', '/Images/c3.jpg'],
+      coverImage: '/Images/c1.jpg',
     },
   ];
 

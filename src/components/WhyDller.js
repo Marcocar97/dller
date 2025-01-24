@@ -38,7 +38,7 @@ const styles = {
     textAlign: 'center',
   },
   image: {
-    width: '100%',
+    width: '90%',
     height: 'auto',
     borderRadius: '8px',
     boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
@@ -196,7 +196,7 @@ function WhyDller() {
         </Typography>
         <Box
           component="img"
-          src="/Images/modern.png"
+          src="/Images/ms.JPG"
           alt="Transform Your Space"
           sx={styles.image}
         />

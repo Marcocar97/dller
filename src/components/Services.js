@@ -7,7 +7,7 @@ const styles = {
     position: 'relative',
     width: '100%',
     height: '300px',
-    backgroundImage: 'url("/Images/servi.jpg")',
+    backgroundImage: 'url("/Images/c1.jpg")',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     display: 'flex',
@@ -73,7 +73,7 @@ function Services() {
               <CardMedia
                 component="img"
                 height="140"
-                image="/Images/man.webp"
+                image="/Images/ss2.png"
                 alt="Manufacturing Only"
               />
               <CardContent sx={styles.cardContent}>
@@ -91,7 +91,7 @@ function Services() {
               <CardMedia
                 component="img"
                 height="140"
-                image="/Images/col.webp"
+                image="/Images/ss6.jpg"
                 alt="Collaborative Design"
               />
               <CardContent sx={styles.cardContent}>
@@ -118,7 +118,7 @@ function Services() {
               <CardMedia
                 component="img"
                 sx={styles.image}
-                image="/Images/ss1.webp"
+                image="/Images/ss1.png"
                 alt="Kitchens Tailored to Your Vision"
               />
               <CardContent sx={styles.cardContent}>
@@ -137,7 +137,7 @@ function Services() {
               <CardMedia
                 component="img"
                 sx={styles.image}
-                image="/Images/ss2.webp"
+                image="/Images/ss3.jpg"
                 alt="Manufacturing Excellence"
               />
               <CardContent sx={styles.cardContent}>
@@ -157,7 +157,7 @@ function Services() {
             <CardMedia
                 component="img"
                 sx={styles.image}
-                image="/Images/ss31.jpg"
+                image="/Images/ss4.jpg"
                 alt="Manufacturing Excellence"
               />
               <CardContent sx={styles.cardContent}>

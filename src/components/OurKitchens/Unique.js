@@ -57,7 +57,7 @@ const styles = {
   },
   image: {
     width: '100%',
-    height: 'auto',
+    height: '200px',
     maxHeight: '300px',
     borderRadius: '8px',
     boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
@@ -161,22 +161,22 @@ const Unique = () => {
   // Datos de las cartas y sus imágenes
   const modernKitchens = [
     {
-      title: 'Delicadeza Moderna',
-      description: 'A la hora de renovar su piso, esta pareja deseaba crear un espacio luminoso...',
-      images: ['/Images/1.jpg', '/Images/2.jpg', '/Images/3.jpg'],
-      coverImage: '/Images/4.jpg',
+      title: 'Forest Green Charm',
+      description: 'A unique kitchen with striking green cabinetry and vintage details, blending boldness with sophistication.',
+      images: ['/Images/c30.jpg', '/Images/c31.jpg', '/Images/c32.jpg', '/Images/c33.jpg', '/Images/c34.jpg', '/Images/c35.jpg', '/Images/c36.jpg'],
+      coverImage: '/Images/c30.jpg',
     },
     {
-      title: 'Cocina Minimalista',
-      description: 'Diseño moderno y limpio, con elementos minimalistas que aprovechan el espacio...',
-      images: ['/Images/1.jpg', '/Images/2.jpg', '/Images/3.jpg'],
-      coverImage: '/Images/4.jpg',
+      title: 'Blue Accents',
+      description: 'A playful design featuring bold blue tones and timeless functionality for a vibrant yet practical space.',
+      images: ['/Images/u1.jpg', '/Images/u2.jpg', '/Images/u3.jpg', '/Images/u4.jpg', '/Images/u5.jpg', '/Images/u6.jpg' ],
+      coverImage: '/Images/u1.jpg',
     },
     {
-      title: 'Cocina Contemporánea',
-      description: 'Estilo contemporáneo con una mezcla de materiales naturales y modernos...',
-      images: ['/Images/1.jpg', '/Images/2.jpg', '/Images/3.jpg'],
-      coverImage: '/Images/4.jpg',
+      title: 'Pink Modern',
+      description: 'A charming kitchen with rustic beams and a pop of pink, perfect for those who love to mix tradition with a modern twist.',
+      images: ['/Images/u10.jpg', '/Images/u11.jpg', '/Images/u12.jpg', '/Images/u13.jpg', '/Images/u14.jpg', '/Images/u15.jpg'],
+      coverImage: '/Images/u10.jpg',
     },
   ];
 

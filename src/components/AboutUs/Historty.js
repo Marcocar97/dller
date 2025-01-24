@@ -51,7 +51,7 @@ const styles = {
   },
   image: {
     width: '100%',
-    height: 'auto',
+    height: '150px',
     borderRadius: '8px',
     marginTop: '16px',
   },
@@ -97,7 +97,7 @@ function Historty() {
               </Typography>
               <Box 
                 component="img" 
-                src="/Images/traditional.png" 
+                src="/Images/at.jpg" 
                 alt="Excellence in Design" 
                 sx={styles.image} 
               />

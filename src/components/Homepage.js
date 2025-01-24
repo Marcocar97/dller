@@ -160,23 +160,23 @@ const StyledDialog = styled(Dialog)(() => ({
 const kitchenStyles = [
     {
       name: 'Modern Kitchens',
-      images: ['/Images/modern.png', '/Images/modern.png', '/Images/modern.png', '/Images/modern.png', '/Images/modern.png'],
-      coverImage: '/Images/1.jpg',
+      images: ['/Images/m1.jpg', '/Images/m2.jpg', '/Images/m3.jpg', '/Images/m4.jpg', '/Images/m7.jpg', '/Images/m8.jpg', '/Images/m9.jpg'],
+      coverImage: '/Images/m1.jpg',
     },
     {
       name: 'Classic Kitchens',
-      images: ['/Images/1.jpg', '/Images/2.jpg', '/Images/1.jpg', '/Images/2.jpg', '/Images/1.jpg'],
-      coverImage: '/Images/1.jpg',
+      images: ['/Images/c1.jpg', '/Images/c2.jpg', '/Images/c3.jpg', '/Images/c4.jpg', '/Images/c5.jpg', '/Images/c6.jpg', '/Images/c8.jpg', '/Images/c9.jpg', '/Images/c10.jpg', '/Images/c13.jpg', '/Images/c14.jpg', '/Images/c15.jpg', '/Images/c16.jpg', '/Images/c19.jpg', '/Images/c20.jpg', '/Images/c21.jpg', '/Images/c22.jpg', '/Images/c28.jpg', '/Images/c29.jpg'],
+      coverImage: '/Images/c5.jpg',
     },
     {
       name: 'European Kitchens',
-      images: ['/Images/1.jpg', '/Images/2.jpg', '/Images/3.jpg', '/Images/4.jpg', '/Images/1.jpg'],
-      coverImage: '/Images/1.jpg',
+      images: ['/Images/e1.jpg', '/Images/e2.jpg', '/Images/e3.jpg', '/Images/e4.jpg', '/Images/e5.jpg', '/Images/e6.jpg', '/Images/e7.jpg', '/Images/e8.jpg', '/Images/e9.jpg', '/Images/e10.jpg', '/Images/e11.jpg', '/Images/e12.jpg', '/Images/e13.jpg', '/Images/e14.jpg', '/Images/e15.jpg', '/Images/e16.jpg', '/Images/e17.jpg', '/Images/e18.jpg', '/Images/e19.jpg', ],
+      coverImage: '/Images/e13.jpg',
     },
     {
       name: 'Unique Kitchens',
-      images: ['/Images/1.jpg', '/Images/2.jpg', '/Images/3.jpg', '/Images/1.jpg', '/Images/4.jpg'],
-      coverImage: '/Images/1.jpg',
+      images: ['/Images/u1.jpg', '/Images/u2.jpg', '/Images/u3.jpg', '/Images/u4.jpg', '/Images/u5.jpg', '/Images/u5.jpg', '/Images/u6.jpg', '/Images/u10.jpg', '/Images/u11.jpg', '/Images/u12.jpg', '/Images/u13.jpg', '/Images/u14.jpg', '/Images/u15.jpg'],
+      coverImage: '/Images/u12.jpg',
     },
   ];
 
@@ -293,9 +293,9 @@ We work in partnership with a small number of Kitchen companies to take the worr
           <Grid item xs={12} md={4}>
             <Box sx={styles.gridSection}>
               <img
-                src="/Images/2.jpg"
+                src="/Images/at.jpg"
                 alt="Quality"
-                style={{ width: '100%', borderRadius: '8px', marginBottom: '20px' }}
+                style={{ width: '100%', borderRadius: '8px', marginBottom: '20px', height: '200px' }}
               />
               <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
               Expertise
@@ -308,9 +308,9 @@ We work in partnership with a small number of Kitchen companies to take the worr
           <Grid item xs={12} md={4}>
             <Box sx={styles.gridSection}>
               <img
-                src="/Images/1.jpg"
+                src="/Images/skl.png"
                 alt="Innovation"
-                style={{ width: '100%', borderRadius: '8px', marginBottom: '20px' }}
+                style={{ width: '100%', borderRadius: '8px', marginBottom: '20px', height: '200px' }}
               />
               <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
               Skilled Craftsmanship
@@ -323,9 +323,9 @@ We work in partnership with a small number of Kitchen companies to take the worr
           <Grid item xs={12} md={4}>
             <Box sx={styles.gridSection}>
               <img
-                src="/Images/3.jpg"
+                src="/Images/mtc.png"
                 alt="Sustainability"
-                style={{ width: '100%', borderRadius: '8px', marginBottom: '20px' }}
+                style={{ width: '100%', borderRadius: '8px', marginBottom: '20px', height: '200px' }}
               />
               <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
               Modern Technology
@@ -338,9 +338,9 @@ We work in partnership with a small number of Kitchen companies to take the worr
           <Grid item xs={12} md={4}>
             <Box sx={styles.gridSection}>
               <img
-                src="/Images/1.jpg"
+                src="/Images/ss3.jpg"
                 alt="Innovation"
-                style={{ width: '100%', borderRadius: '8px', marginBottom: '20px' }}
+                style={{ width: '100%', borderRadius: '8px', marginBottom: '20px', height: '200px' }}
               />
               <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
               Tailored Solutions
@@ -353,12 +353,12 @@ We work in partnership with a small number of Kitchen companies to take the worr
           <Grid item xs={12} md={4}>
             <Box sx={styles.gridSection}>
               <img
-                src="/Images/1.jpg"
+                src="/Images/pr.png"
                 alt="Innovation"
-                style={{ width: '100%', borderRadius: '8px', marginBottom: '20px' }}
+                style={{ width: '100%', borderRadius: '8px', marginBottom: '20px', height: '200px'  }}
               />
               <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
-              Competitive Pricing:
+              Competitive Pricing
               </Typography>
               <Typography variant="body1">
               Working in partnership to meet your needs.
@@ -368,9 +368,9 @@ We work in partnership with a small number of Kitchen companies to take the worr
           <Grid item xs={12} md={4}>
             <Box sx={styles.gridSection}>
               <img
-                src="/Images/1.jpg"
+                src="/Images/cd.jpg"
                 alt="Innovation"
-                style={{ width: '100%', borderRadius: '8px', marginBottom: '20px' }}
+                style={{ width: '100%', borderRadius: '8px', marginBottom: '20px', height: '200px' }}
               />
               <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
                 Innovative Designs
