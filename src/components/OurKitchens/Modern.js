@@ -14,7 +14,7 @@ const styles = {
     position: 'relative',
     width: '100%',
     height: '300px',
-    backgroundImage: 'url("/Images/modern.png")', // Imagen de portada
+    backgroundImage: 'url("/Images/m2.jpg")', // Imagen de portada
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     display: 'flex',
@@ -173,7 +173,7 @@ const Modern = () => {
     },
     {
       title: 'Modern Versatility',
-      description: 'A blend of modern and classic elements, offering style and practicality for any home.',
+      description: 'A blend of modern and classic elements, offering style and practicality.',
       images: ['/Images/m3.jpg', '/Images/m4.jpg'],
       coverImage: '/Images/m3.jpg',
     },
@@ -189,7 +189,7 @@ const Modern = () => {
 
       {/* Contenido principal */}
       <Box sx={styles.content}>
-        <Typography variant="h5" sx={styles.sectionTitle}>Discover Our Modern Kitchen Designs</Typography>
+        <Typography variant="h5" sx={styles.sectionTitle}>Modern Kitchen Designs</Typography>
         <Typography
         variant="body1"
         style={{
@@ -200,13 +200,16 @@ const Modern = () => {
           textAlign: 'center',
         }}
       > 
-        We specialize in crafting the bold charm of <strong>Industrial Kitchen Designs</strong>, where raw materials meet functional elegance to create striking, modern spaces. These kitchens feature hallmark elements such as exposed metal accents, reclaimed wood surfaces, and sleek, practical layouts, blending rugged aesthetics with everyday usability. Designed to your specifications, we can incorporate industrial-style shelving, open layouts, and mixed textures for a bold, contemporary statement.
+        As part of our portfolio, we can offer <strong> Industrial Kitchen Designs </strong> , where raw materials meet functional elegance to create striking, modern spaces. These kitchens feature hallmark elements such as exposed metal accents, exposed wood surfaces, and sleek, practical layouts, blending rugged aesthetics with everyday usability. Designed to your specifications, we can incorporate industrial-style shelving, open layouts, and mixed textures and materials for a bold, contemporary statement.
         <br />
         <br />
-        For a distinctive touch, <strong>urban loft-inspired styles</strong> combine concrete countertops, steel-framed cabinets, and natural wood finishes, while <strong>rustic industrial designs</strong> emphasize warm, weathered materials and vintage-inspired hardware. Alternatively, <strong>minimalist industrial kitchens</strong> showcase clean lines with neutral tones and subtle industrial elements for a more refined look. Key details like matte black fixtures, Edison bulb lighting, and distressed finishes complete the aesthetic, creating a space that is as functional as it is eye-catching.
-        <br />
-        <br />
-        Whatever your brand’s vision, let us help you create the perfect <strong>Industrial Kitchen Design</strong> with bespoke solutions tailored to your company's and clients’ style and needs.
+For a distinctive touch, <strong> urban loft-inspired styles </strong>combine concrete countertops, steel-framed cabinets, and natural wood finishes, while rustic <strong> industrial designs </strong> emphasize warm, weathered materials and vintage-inspired hardware. Alternatively, <strong> minimalist industrial kitchens </strong> showcase clean lines with neutral tones and subtle industrial elements for a more refined look. Key details like matte black fixtures, and distressed finishes complete the aesthetic, creating an installation that is as functional as it is eye-catching.
+<br />
+<br />
+Whatever your brand’s vision, let us help you create the perfect <strong> Industrial Kitchen Design </strong> with bespoke solutions tailored to your company's and clients’ style and needs.
+<br />
+<br />
+View some of our previous creations for our clients:
       </Typography>
         <Grid container spacing={4} justifyContent="center">
           {modernKitchens.map((kitchen, index) => (

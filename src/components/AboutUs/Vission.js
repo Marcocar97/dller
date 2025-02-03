@@ -7,7 +7,7 @@ const styles = {
     position: 'relative',
     width: '100%',
     height: '300px',
-    backgroundImage: `url('/Images/modern.png')`,
+    backgroundImage: `url('/Images/c6.jpg')`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     display: 'flex',
@@ -70,61 +70,6 @@ function Vission() {
 "Our vision remains to be the leading manufacturing partner to a select number of luxury kitchen companies, recognized for exceptional quality, reliable service, and competitive pricing that supports our partners' growth and success."
         </Typography>
 
-        <Divider sx={{ my: 4 }} />
-        
-        {/* Sección con columnas */}
-        <Grid container spacing={4}>
-          <Grid item xs={12} md={6}>
-            <Box sx={styles.columnContent}>
-              <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
-              Innovation and Technology
-              </Typography>
-              <Typography variant="body1" gutterBottom>
-              We implement the latest technologies to create functional and aesthetic designs. Each kitchen is a testament to how technology can improve daily life.
-              </Typography>
-              <Box 
-                component="img" 
-                src="/Images/modern.png" 
-                alt="Innovación y Tecnología" 
-                sx={styles.image} 
-              />
-            </Box>
-          </Grid>
-
-          <Grid item xs={12} md={6}>
-            <Box sx={styles.columnContent}>
-              <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
-              Sustainability
-              </Typography>
-              <Typography variant="body1" gutterBottom>
-              We are committed to the environment by using sustainable materials and processes that minimize our ecological impact.
-                              </Typography>
-              <Box 
-                component="img" 
-                src="/Images/modern.png" 
-                alt="Sostenibilidad" 
-                sx={styles.image} 
-              />
-            </Box>
-          </Grid>
-        </Grid>
-
-        {/* Divider para separar secciones */}
-        <Divider sx={{ my: 4 }} />
-
-        {/* Texto destacado final */}
-        <Typography variant="h5" sx={styles.sectionTitle}>
-        Transforming Spaces into Homes
-        </Typography>
-        <Typography variant="body1" gutterBottom>
-        Our goal is not just to create kitchens but to transform spaces into welcoming homes where families can make memories. We design with our clients' aesthetics, functionality, and emotions in mind.
-        </Typography>
-        <Box 
-          component="img" 
-          src="/Images/modern.png" 
-          alt="Transformando Espacios" 
-          sx={styles.image} 
-        />
       </Box>
       <Typography variant="h5" sx={{
     fontWeight: 'bold',

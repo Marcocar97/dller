@@ -16,6 +16,7 @@ import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollTop';
 import CookiePopup from './components/CookiePopup.js';
 import CookieSettings from './components/CookieSettings.js';
+import ChatbotPopup from './components/Chatbot/ChatbotPopup.js';
 
 const MainContent = styled('div')({
   paddingTop: '150px',  // Ajusta este valor según la altura de tu navbar
@@ -26,6 +27,7 @@ function App() {
     <Router>
       <ScrollToTop />
       <CookiePopup />
+      <ChatbotPopup />
       <div className="App">
         <Navbar />
         <MainContent>

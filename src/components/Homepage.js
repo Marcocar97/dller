@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Box, Typography, Button, Dialog, DialogContent, Grid, Card, CardContent, CardMedia } from '@mui/material';
 import { styled } from '@mui/system';
 import Carousel from 'react-material-ui-carousel';
@@ -182,6 +182,24 @@ const kitchenStyles = [
 
 const HomePage = () => {
 
+  // Función de precarga de imágenes
+  const preloadImages = (imageArray) => {
+    imageArray.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+    });
+  };
+
+  // Precargar imágenes de todas las galerías al montar el componente
+  useEffect(() => {
+    kitchenStyles.forEach((style) => {
+      // Precarga la imagen de portada
+      preloadImages([style.coverImage]);
+      // Precarga todas las imágenes de la galería
+      preloadImages(style.images);
+    });
+  }, []);
+
     const [openPopup, setOpenPopup] = useState(false);
   const [currentImages, setCurrentImages] = useState([]);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -293,7 +311,7 @@ We work in partnership with a small number of Kitchen companies to take the worr
           <Grid item xs={12} md={4}>
             <Box sx={styles.gridSection}>
               <img
-                src="/Images/at.jpg"
+                src="/Images/at.JPG"
                 alt="Quality"
                 style={{ width: '100%', borderRadius: '8px', marginBottom: '20px', height: '200px' }}
               />

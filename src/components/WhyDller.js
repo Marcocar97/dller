@@ -194,12 +194,6 @@ function WhyDller() {
         <Typography variant="h5" sx={styles.sectionTitle}>
         Partner with Dller, and let us help you redefine luxury in the kitchen. Together, we’ll create designs that inspire, endure, and elevate the art of living.
         </Typography>
-        <Box
-          component="img"
-          src="/Images/ms.JPG"
-          alt="Transform Your Space"
-          sx={styles.image}
-        />
       </Box>
       <Typography variant="h5" sx={{
     fontWeight: 'bold',

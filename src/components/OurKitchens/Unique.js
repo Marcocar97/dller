@@ -14,7 +14,7 @@ const styles = {
     position: 'relative',
     width: '100%',
     height: '300px',
-    backgroundImage: 'url("/Images/modern.png")', // Imagen de portada
+    backgroundImage: 'url("/Images/e10.jpg")', // Imagen de portada
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     display: 'flex',
@@ -201,13 +201,17 @@ const Unique = () => {
           textAlign: 'center',
         }}
       > 
-    We specialize in crafting the natural beauty of <strong>Unique Wood Kitchens</strong>, where bespoke designs meet exceptional craftsmanship to create one-of-a-kind spaces. These kitchens feature hallmark elements such as hand-selected wood grains, custom finishes, and intricate detailing, blending timeless elegance with modern functionality. Designed to your specifications, we can bring any vision to life, from rustic charm to contemporary sophistication.
-        <br />
-        <br />
-        For a distinctive touch, farmhouse-inspired styles incorporate exposed beams, reclaimed wood cabinets, and warm, inviting tones, while <strong>modern wood kitchens</strong> emphasize sleek, minimalist lines and innovative storage solutions. Alternatively, <strong>artisan-crafted kitchens</strong> showcase bold, statement-making designs with custom joinery, intricate carvings, and unique textures. Key features like live-edge countertops, wood-panelled islands, and custom stains or paints highlight the natural beauty of the materials, ensuring each kitchen is a true original.
-        <br />
-        <br /> 
-        If you can design it, we can create it. Whatever your brand’s vision, let us help you bring the perfect <strong>Unique Wood Kitchen</strong> to life with bespoke solutions tailored to your company's and clients’ style and needs.
+   With over 30 years experience supplying the UK and Europe we can turn our hands to anything quite literally, crafting the natural beauty of <strong> Unique Wood Kitchens</strong>, where bespoke designs meet exceptional craftsmanship to create one-of-a-kind installations. Kitchens can feature hallmark elements such as hand-selected wood grains, custom finishes, and intricate detailing, blending timeless elegance with modern functionality. Designed to your specifications, we can bring almost any vision to life, from rustic charm to contemporary sophistication.
+   <br />
+   <br />
+For a distinctive touch, farmhouse-inspired styles incorporate solid wood cabinets, and warm inviting tones, while <strong> modern wood kitchens</strong> emphasize sleek, minimalist lines and innovative storage solutions. Alternatively, <strong>artisan-crafted kitchens </strong>  showcase bold, statement-making designs with custom joinery, intricate carvings, and unique textures. Key features like live-edge countertops, wood-panelled islands, and custom stains or paints highlight the natural beauty of the materials, ensuring each kitchen is a true original.
+<br />
+<br />
+If you can design it, we can create it. Whatever your brand’s vision, let us help you bring the perfect <strong> Unique Wood Kitchen </strong>  to life with bespoke solutions tailored to your company's and clients’ style and needs.
+<br />
+<br />
+View some of our previous creations for our clients: 
+
       </Typography>
         <Grid container spacing={4} justifyContent="center">
           {modernKitchens.map((kitchen, index) => (

@@ -7,7 +7,7 @@ const styles = {
     position: 'relative',
     width: '100%',
     height: '300px',
-    backgroundImage: `url('/Images/modern.png')`,
+    backgroundImage: `url('/Images/c29.jpg')`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     display: 'flex',
@@ -63,76 +63,6 @@ function Mission() {
         <Typography variant="body1" gutterBottom sx={{ textAlign: 'center', marginBottom: '32px' }}>
         "Our mission is to deliver exceptional manufacturing solutions to luxury kitchen companies by combining superior craftsmanship, efficient service, and cost-effective pricing. We are committed to building strong partnerships through consistent quality, reliability, and responsiveness, enabling our clients to thrive in a competitive market."
         </Typography>
-
-        <Divider sx={{ my: 4 }} />
-
-        {/* Sección con tarjetas */}
-        <Grid container spacing={4}>
-          <Grid item xs={12} md={4}>
-            <Paper sx={styles.card}>
-              <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#c41230' }}>
-                Excellence in Design
-              </Typography>
-              <Typography variant="body2" sx={{ marginTop: '8px' }}>
-                We strive for design excellence in every kitchen, ensuring every detail enhances the living experience.
-              </Typography>
-              <Box 
-                component="img" 
-                src="/Images/modern.png" 
-                alt="Excellence in Design" 
-                sx={styles.image} 
-              />
-            </Paper>
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Paper sx={styles.card}>
-              <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#c41230' }}>
-                Functionality First
-              </Typography>
-              <Typography variant="body2" sx={{ marginTop: '8px' }}>
-                Our kitchens are designed with functionality at their core, creating spaces that make daily life easier.
-              </Typography>
-              <Box 
-                component="img" 
-                src="/Images/modern.png" 
-                alt="Functionality First" 
-                sx={styles.image} 
-              />
-            </Paper>
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Paper sx={styles.card}>
-              <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#c41230' }}>
-                Sustainable Living
-              </Typography>
-              <Typography variant="body2" sx={{ marginTop: '8px' }}>
-                We commit to sustainability, using eco-friendly materials to create kitchens that are kind to the planet.
-              </Typography>
-              <Box 
-                component="img" 
-                src="/Images/modern.png" 
-                alt="Sustainable Living" 
-                sx={styles.image} 
-              />
-            </Paper>
-          </Grid>
-        </Grid>
-
-        <Divider sx={{ my: 4 }} />
-
-        {/* Sección final con énfasis */}
-        <Typography variant="h5" sx={{ textAlign: 'center', color: '#c41230', fontWeight: 'bold', marginBottom: '16px' }}>
-          Building Memories in Every Kitchen
-        </Typography>
-        <Typography variant="body1" sx={{ textAlign: 'center' }}>
-          At the heart of every kitchen we design is a commitment to building spaces where memories are made. From morning coffees to family dinners, we create the perfect backdrop for life's special moments.
-        </Typography>
-        <Box 
-          component="img" 
-          src="/Images/modern.png" 
-          alt="Building Memories" 
-          sx={{ ...styles.image, marginTop: '24px' }} 
-        />
       </Box>
       <Typography variant="h5" sx={{
     fontWeight: 'bold',

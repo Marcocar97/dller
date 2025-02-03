@@ -14,7 +14,7 @@ const styles = {
     position: 'relative',
     width: '100%',
     height: '300px',
-    backgroundImage: 'url("/Images/modern.png")', // Imagen de portada
+    backgroundImage: 'url("/Images/e1.jpg")', // Imagen de portada
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     display: 'flex',
@@ -167,13 +167,13 @@ const European = () => {
     },
     {
       title: 'Rustic Elegance',
-      description: 'A cozy European-style kitchen with natural wood finishes and soft lighting for a welcoming atmosphere.',
+      description: 'A cozy European-style kitchen with natural wood finishes for a welcoming atmosphere.',
       images: ['/Images/e10.jpg', '/Images/e11.jpg', '/Images/e12.jpg'],
       coverImage: '/Images/e10.jpg',
     },
     {
       title: 'Timeless Heritage',
-      description: ' A refined design featuring warm tones, high ceilings, and intricate woodwork, inspired by European tradition.',
+      description: 'A refined design featuring warm tones and intricate woodwork, inspired by European tradition.',
       images: ['/Images/e13.jpg', '/Images/e14.jpg', '/Images/e15.jpg', '/Images/e16.jpg'],
       coverImage: '/Images/e13.jpg',
     },
@@ -207,6 +207,9 @@ const European = () => {
         <br />
         <br />
         Whatever your brand’s vision, let us help you create the perfect <strong>European Design Kitchen</strong> with bespoke solutions tailored to your company's and clients’ style and needs.
+        <br />
+<br />
+View some of our previous creations for our clients:
       </Typography>
         <Grid container spacing={4} justifyContent="center">
           {modernKitchens.map((kitchen, index) => (

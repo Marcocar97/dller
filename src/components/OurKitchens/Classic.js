@@ -14,7 +14,7 @@ const styles = {
     position: 'relative',
     width: '100%',
     height: '300px',
-    backgroundImage: 'url("/Images/modern.png")', // Imagen de portada
+    backgroundImage: 'url("/Images/c18.jpg")', // Imagen de portada
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     display: 'flex',
@@ -202,6 +202,9 @@ const Classic = () => {
         }}
       > 
     We can create the timeless elegance of <strong>Classic English Kitchen Designs</strong>, where traditional craftsmanship meets refined aesthetics and versatility. These kitchens feature hallmark elements such as shaker-style cabinetry, natural materials like oak and painted wood, soft neutral palettes, unpainted finishes or bold statement pieces, blending functionality with enduring charm. Made to your design, we can make anything from <strong>in-frame designs</strong>—where cabinet doors sit within a solid wood frame for a traditional, bespoke look—or <strong>farmhouse-inspired styles</strong>, emphasizing rustic warmth with exposed wood grains and hand-painted finishes. For those seeking sophistication, <strong>Georgian and Victorian influences</strong> offer rich colours, ornate mouldings, and classic brass or ceramic hardware, while <strong>country manor designs</strong> combine practicality with cozy elegance. Key details like iconic butler sinks, larder cupboards, and corniced crown mouldings complete the classic aesthetic. Whatever your brands style let us help you create the perfect Classic English Kitchen with bespoke solutions tailored to your companies and client’s style and needs.
+    <br />
+    <br />
+    View some of our previous creations for our clients:
       </Typography>
         <Grid container spacing={4} justifyContent="center">
           {modernKitchens.map((kitchen, index) => (
