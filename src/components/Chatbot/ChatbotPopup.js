@@ -56,7 +56,7 @@ function ChatbotPopup() {
     } else if (action === "Chat on Whatsapp") {
       window.location.href = "https://wa.me/+447779621607?text=Hello,+I+am+interested+in+more+information+about+your+company,+Dller";
     } else if (action === "Send an Email") {
-      window.location.href = "mailto:chiles@dller.com?subject=Consulta&body=Hola,%20necesito%20ayuda";
+      window.location.href = "mailto:chiles@dller.com?subject=Inquiry&body=Hello,%20I%20need%20some%20assistance";
     }
   };
 

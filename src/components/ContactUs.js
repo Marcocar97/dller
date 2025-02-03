@@ -1,6 +1,9 @@
-import React, { useRef } from 'react';
-import { Box, Typography, TextField, Button, Grid, Divider } from '@mui/material';
+import React, { useRef, useState } from 'react';
+import { Box, Typography, TextField, Button, Grid, Divider, FormControlLabel, Checkbox } from '@mui/material';
+import { useNavigate } from 'react-router-dom'; // Para redirección
 import emailjs from '@emailjs/browser';
+import { styled} from '@mui/system';
+import { Link } from 'react-router-dom';
 
 // Estilos para el diseño
 const styles = {
@@ -53,8 +56,22 @@ const styles = {
   },
 };
 
+const StyledLink = styled(Link)(({ theme }) => ({
+  color: '#c41230',
+  textDecoration: 'none',
+  fontSize: '0.9rem',
+  marginBottom: '5px',
+  '&:hover': {
+    textDecoration: 'underline',
+  },
+
+}));
+
 function ContactUs() {
+
   const formRef = useRef();
+  const navigate = useNavigate();
+  const [acceptedPolicy, setAcceptedPolicy] = useState(false); // Estado del checkbox
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -68,7 +85,8 @@ function ContactUs() {
       )
       .then(
         () => {
-          alert('Message sent successfully!');
+          alert('We have received your request. One of our agents will contact you shortly.');
+          navigate('/'); // Redirigir a la página de inicio
         },
         (error) => {
           console.error('Error:', error);
@@ -89,15 +107,6 @@ function ContactUs() {
         <Typography variant="h5" sx={styles.sectionTitle}>
           Get in Touch
         </Typography>
-        <Typography variant="body1" gutterBottom>
-        At Dller, we understand the importance of discretion in every collaboration. Whether you're looking for manufacturing support or simply exploring your options, we're here to help—no strings attached.
-        <br />
-        <br />
-<strong> Complete Confidentiality:</strong> For over 30 years we have built our business on trust. We ensure absolute discretion and respect for your intellectual property.
-<br />
-<br />
-<strong>No Obligation:</strong> Reaching out doesn’t commit you to anything. We're here to guide, answer questions, and help you explore the possibilities whether that’s over the phone or face to face. 
-        </Typography>
 
         <Divider sx={{ my: 4 }} />
 
@@ -110,32 +119,31 @@ function ContactUs() {
                 Contact Form
               </Typography>
               <form ref={formRef} onSubmit={handleSubmit}>
-                <TextField
-                  fullWidth
-                  label="Name"
-                  name="user_name"
-                  variant="outlined"
-                  margin="normal"
-                  required
+                <TextField fullWidth label="Name" name="user_name" variant="outlined" margin="normal" required />
+                <TextField fullWidth label="Email" name="user_email" variant="outlined" margin="normal" required />
+                <TextField fullWidth label="Phone" name="user_phone" variant="outlined" margin="normal" />
+                <TextField fullWidth label="Message" name="message" variant="outlined" multiline rows={4} margin="normal" required />
+
+                {/* Checkbox para aceptar las políticas de privacidad */}
+                <FormControlLabel
+                  control={
+                    <Checkbox
+                      checked={acceptedPolicy}
+                      onChange={(e) => setAcceptedPolicy(e.target.checked)}
+                      name="accept_policy"
+                      required
+                    />
+                  }
+                  label={
+                    <Typography variant="body2">
+                     I have read and accept the{' '}
+                      <StyledLink to="/privacy-policy" sx={styles.StyledLink}>
+                Privacy Policy
+            </StyledLink>
+                    </Typography>
+                  }
                 />
-                <TextField
-                  fullWidth
-                  label="Email"
-                  name="user_email"
-                  variant="outlined"
-                  margin="normal"
-                  required
-                />
-                <TextField
-                  fullWidth
-                  label="Message"
-                  name="message"
-                  variant="outlined"
-                  multiline
-                  rows={4}
-                  margin="normal"
-                  required
-                />
+
                 <Button
                   fullWidth
                   type="submit"
@@ -144,10 +152,9 @@ function ContactUs() {
                     backgroundColor: '#c41230',
                     color: '#fff',
                     marginTop: '10px',
-                    '&:hover': {
-                      backgroundColor: '#CC0511',
-                    },
+                    '&:hover': { backgroundColor: '#CC0511' },
                   }}
+                  disabled={!acceptedPolicy} // Deshabilita el botón si el checkbox no está marcado
                 >
                   Send Message
                 </Button>
@@ -170,6 +177,7 @@ function ContactUs() {
               <Typography variant="body1" gutterBottom>
                 Address: Dller Spinningfields Manchester, M3 3AJ
               </Typography>
+
               {/* Mapa de Ubicación */}
               <Box
                 component="iframe"
@@ -180,17 +188,26 @@ function ContactUs() {
             </Box>
           </Grid>
         </Grid>
-      </Box>
-      <Typography variant="h5" sx={{
-    fontWeight: 'bold',
-    marginBottom: '20px',
-    color: '#c41230',
-    textAlign: 'center',
-}}>
+
+        <Divider sx={{ my: 4 }} />
         <br />
-        <br />
-    "Your Partner In Production”
+
+        <Typography variant="body1" gutterBottom>
+          At Dller, we understand the importance of discretion in every collaboration. Whether you're looking for manufacturing support or simply exploring your options, we're here to help—no strings attached.
+          <br />
+          <br />
+          <strong>Complete Confidentiality:</strong> For over 30 years we have built our business on trust. We ensure absolute discretion and respect for your intellectual property.
+          <br />
+          <br />
+          <strong>No Obligation:</strong> Reaching out doesn’t commit you to anything. We're here to guide, answer questions, and help you explore the possibilities whether that’s over the phone or face to face.
         </Typography>
+      </Box>
+    
+      <Typography variant="h5" sx={{ fontWeight: 'bold', marginBottom: '20px', color: '#c41230', textAlign: 'center' }}>
+        <br />
+        <br />
+        "Your Partner In Production"
+      </Typography>
     </Box>
   );
 }
