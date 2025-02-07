@@ -17,6 +17,7 @@ import ScrollToTop from './components/ScrollTop';
 import CookiePopup from './components/CookiePopup.js';
 import CookieSettings from './components/CookieSettings.js';
 import ChatbotPopup from './components/Chatbot/ChatbotPopup.js';
+import PrivacyPolicy from './components/PrivacyPolicy.js';
 
 const MainContent = styled('div')({
   paddingTop: '150px',  // Ajusta este valor según la altura de tu navbar
@@ -42,6 +43,7 @@ function App() {
         <Route path="/why-dller" element={<WhyDller />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/configuracion-cookies" element={<CookieSettings />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Routes>
         </MainContent>
         <Footer />

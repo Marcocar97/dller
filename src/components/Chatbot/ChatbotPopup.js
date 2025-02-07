@@ -11,6 +11,8 @@ function ChatbotPopup() {
   ]);
   const [userInput, setUserInput] = useState("");
 
+    
+
   // Referencia para el contenedor de mensajes
   const messagesEndRef = useRef(null);
 

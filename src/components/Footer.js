@@ -164,15 +164,12 @@ const Footer = () => {
         {/* Columna 4: Enlaces legales */}
         <Grid item xs={12} sm={6} md={3}>
           <Box sx={styles.column}>
-            <Typography sx={styles.columnTitle}>Legal</Typography>
+            <Typography sx={styles.columnTitle}>Useful Links</Typography>
             <StyledLink to="/configuracion-cookies" sx={styles.StyledLink}>
               Cookies Policy
             </StyledLink>
             <StyledLink to="/privacy-policy" sx={styles.StyledLink}>
               Privacy Policy
-            </StyledLink>
-            <StyledLink to="/terms-of-service" sx={styles.StyledLink}>
-              Terms of Service
             </StyledLink>
           </Box>
         </Grid>

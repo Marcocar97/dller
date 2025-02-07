@@ -14,7 +14,7 @@ const styles = {
     position: 'relative',
     width: '100%',
     height: '300px',
-    backgroundImage: 'url("/Images/e10.jpg")', // Imagen de portada
+    backgroundImage: 'url("/Images/s2.jpg")', // Imagen de portada
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     display: 'flex',

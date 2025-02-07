@@ -46,9 +46,12 @@ const styles = {
     },
   },
   cardMedia: {
-    height: '200px',
-    backgroundSize: 'cover',
-    borderRadius: '8px 8px 0 0',
+    cardMedia: {
+      height: '250px',  // Ajuste de altura para más visibilidad
+      objectFit: 'cover',  // Mantiene la imagen sin deformarse
+      objectPosition: 'top center',  // Centra la imagen en la parte superior
+      borderRadius: '8px 8px 0 0',
+    },
   },
 };
 
