@@ -97,7 +97,7 @@ function Historty() {
               </Typography>
               <Box 
                 component="img" 
-                src="/Images/at.jpg" 
+                src="/Images/at.JPG" 
                 alt="Excellence in Design" 
                 sx={styles.image} 
               />
