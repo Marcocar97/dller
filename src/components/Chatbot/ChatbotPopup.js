@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import emailjs from '@emailjs/browser';
 
 function ChatbotPopup() {
   const [isOpen, setIsOpen] = useState(false);
@@ -6,7 +7,7 @@ function ChatbotPopup() {
     { 
       text: "Welcome to Dller! We're here to help you. Please choose one of the following options to continue:", 
       type: "bot", 
-      options: ["Schedule a Callback", "Arrange an In-Person Meeting", "Learn More"] 
+      options: ["Schedule a Callback", "Arrange an In-Person Meeting", "Learn More", "Download Brochure"] 
     },
   ]);
   const [userInput, setUserInput] = useState("");
@@ -39,6 +40,16 @@ function ChatbotPopup() {
   };
 
   const handleOptionClick = (option) => {
+    if (option === "Download Brochure") {
+      setAwaitingInput("name"); // Ahora espera el nombre del usuario
+      setMessages((prev) => [
+        ...prev,
+        { text: option, type: "user" },
+        { text: "Please enter your name:", type: "bot" }
+      ]);
+      return;
+    }
+  
     let botResponse;
     if (
       ["Schedule a Callback", "Arrange an In-Person Meeting", "Learn More"].includes(option.trim())
@@ -51,6 +62,7 @@ function ChatbotPopup() {
     }
     setMessages((prev) => [...prev, { text: option, type: "user" }, botResponse]);
   };
+  
 
   const handleActionClick = (action) => {
     if (action === "Call") {
@@ -62,20 +74,75 @@ function ChatbotPopup() {
     }
   };
 
-  const handleUserMessage = (text) => {
-    if (!text.trim()) return;
-    const userMessage = { text, type: "user" };
-    setMessages((prev) => [...prev, userMessage]);
+  const [userDetails, setUserDetails] = useState({ name: "", email: "" });
+const [awaitingInput, setAwaitingInput] = useState(null);
 
-    setTimeout(() => {
-      const botResponse = { 
-        text: "I'm sorry, I didn't quite catch that. Please select one of the available options:", 
-        type: "bot", 
-        options: ["Schedule a Callback", "Arrange an In-Person Meeting", "Learn More"] 
-      };
-      setMessages((prev) => [...prev, botResponse]);
-    }, 1000);
-  };
+const handleUserMessage = (text) => {
+  if (!text.trim()) return;
+
+  setMessages((prev) => [...prev, { text, type: "user" }]);
+
+  // Si el chatbot está esperando el nombre
+  if (awaitingInput === "name") {
+    setUserDetails((prev) => ({ ...prev, name: text }));
+    setAwaitingInput("email"); // Ahora esperamos el correo
+    setMessages((prev) => [
+      ...prev,
+      { text: "Thank you! Now, please enter your email:", type: "bot" }
+    ]);
+    return;
+  }
+
+  // Si el chatbot está esperando el correo
+  if (awaitingInput === "email") {
+    const updatedUserDetails = { ...userDetails, email: text };
+    setUserDetails(updatedUserDetails);
+    setAwaitingInput(null); // Se resetea, ya no esperamos más datos
+
+    // Enviar datos con EmailJS
+    emailjs.send(
+      "service_8qd27im", // Reemplaza con tu servicio de EmailJS
+      "template_luu9gag", // Reemplaza con tu plantilla de EmailJS
+      { user_name: updatedUserDetails.name, user_email: updatedUserDetails.email },
+      "q8SYdWtSShPPbGI8c" // Tu clave pública de EmailJS
+    ).then(
+      () => {
+        setMessages((prev) => [
+          ...prev,
+          { text: "Thank you! Your brochure is being downloaded now.", type: "bot" }
+        ]);
+
+        // Iniciar la descarga del brochure
+        const link = document.createElement("a");
+        link.href = "/Dller_Brochure.pdf"; // Cambia esto por la URL de tu brochure
+        link.download = "Dller_Brochure.pdf";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      },
+      (error) => {
+        console.error("Error sending email:", error);
+        setMessages((prev) => [
+          ...prev,
+          { text: "Sorry, there was an error. Please try again later.", type: "bot" }
+        ]);
+      }
+    );
+    return;
+  }
+
+  // Respuesta por defecto si no estamos esperando nombre ni correo
+  setMessages((prev) => [
+    ...prev,
+    { 
+      text: "I'm sorry, I didn't quite catch that. Please select one of the available options:", 
+      type: "bot", 
+      options: ["Schedule a Callback", "Arrange an In-Person Meeting", "Learn More", "Download Brochure"] 
+    }
+  ]);
+};
+
+  
 
   return (
     <div style={{ position: "fixed", bottom: "20px", right: "20px", zIndex: 1000 }}>
