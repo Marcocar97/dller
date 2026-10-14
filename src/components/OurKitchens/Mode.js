@@ -174,12 +174,12 @@ const Mode = () => {
     <Box>
       {/* Portada */}
       <Box sx={styles.coverContainer}>
-        <Typography sx={styles.coverText}>Modern Simplicity</Typography>
+        <Typography sx={styles.coverText}>If you can Design it we can create it </Typography>
       </Box>
 
       {/* Contenido principal */}
       <Box sx={styles.content}>
-        <Typography variant="h5" sx={styles.sectionTitle}>Discover Our Modern Kitchen Designs</Typography>
+        <Typography variant="h5" sx={styles.sectionTitle}>Discover Our Unique Kitchen Designs</Typography>
         <Typography
         variant="body1"
         style={{
@@ -190,13 +190,13 @@ const Mode = () => {
           textAlign: 'center',
         }}
       > 
-        We specialize in crafting the bold charm of <strong>Industrial Kitchen Designs</strong>, where raw materials meet functional elegance to create striking, modern spaces. These kitchens feature hallmark elements such as exposed metal accents, reclaimed wood surfaces, and sleek, practical layouts, blending rugged aesthetics with everyday usability. Designed to your specifications, we can incorporate industrial-style shelving, open layouts, and mixed textures for a bold, contemporary statement.
+    We specialize in crafting the natural beauty of <strong>Unique Wood Kitchens</strong>, where bespoke designs meet exceptional craftsmanship to create one-of-a-kind spaces. These kitchens feature hallmark elements such as hand-selected wood grains, custom finishes, and intricate detailing, blending timeless elegance with modern functionality. Designed to your specifications, we can bring any vision to life, from rustic charm to contemporary sophistication.
         <br />
         <br />
-        For a distinctive touch, <strong>urban loft-inspired styles</strong> combine concrete countertops, steel-framed cabinets, and natural wood finishes, while <strong>rustic industrial designs</strong> emphasize warm, weathered materials and vintage-inspired hardware. Alternatively, <strong>minimalist industrial kitchens</strong> showcase clean lines with neutral tones and subtle industrial elements for a more refined look. Key details like matte black fixtures, Edison bulb lighting, and distressed finishes complete the aesthetic, creating a space that is as functional as it is eye-catching.
+        For a distinctive touch, farmhouse-inspired styles incorporate exposed beams, reclaimed wood cabinets, and warm, inviting tones, while <strong>modern wood kitchens</strong> emphasize sleek, minimalist lines and innovative storage solutions. Alternatively, <strong>artisan-crafted kitchens</strong> showcase bold, statement-making designs with custom joinery, intricate carvings, and unique textures. Key features like live-edge countertops, wood-panelled islands, and custom stains or paints highlight the natural beauty of the materials, ensuring each kitchen is a true original.
         <br />
-        <br />
-        Whatever your brand’s vision, let us help you create the perfect <strong>Industrial Kitchen Design</strong> with bespoke solutions tailored to your company's and clients’ style and needs.
+        <br /> 
+        If you can design it, we can create it. Whatever your brand’s vision, let us help you bring the perfect <strong>Unique Wood Kitchen</strong> to life with bespoke solutions tailored to your company's and clients’ style and needs.
       </Typography>
         <Grid container spacing={4} justifyContent="center">
           {modernKitchens.map((kitchen, index) => (

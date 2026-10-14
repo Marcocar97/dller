@@ -1,10 +1,1 @@
-body {
-  margin: 0;
-  font-family: 'Lato', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: 'Lato, sans-serif'
-}
+/* The redesigned site owns its global styles in redesign/site.css. */

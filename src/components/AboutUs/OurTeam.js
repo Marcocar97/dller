@@ -38,6 +38,11 @@ const styles = {
     textAlign: 'center',
   },
   card: {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between', // Asegura que el contenido se distribuya equitativamente
+    alignItems: 'stretch',
+    height: '100%', // Mantiene todas las tarjetas del mismo tamaño
     boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
     borderRadius: '8px',
     transition: 'transform 0.3s ease',
@@ -46,13 +51,19 @@ const styles = {
     },
   },
   cardMedia: {
-    cardMedia: {
-      height: '250px',  // Ajuste de altura para más visibilidad
-      objectFit: 'cover',  // Mantiene la imagen sin deformarse
-      objectPosition: 'top center',  // Centra la imagen en la parte superior
-      borderRadius: '8px 8px 0 0',
-    },
+    flexShrink: 0, // Evita que la imagen se deforme
+    height: '220px', // Mantiene las imágenes con una altura uniforme
+    objectFit: 'cover', // Evita distorsiones
+    objectPosition: 'center top', // Ajusta el enfoque para mostrar mejor las caras
+    borderRadius: '8px 8px 0 0',
   },
+  cardContent: {
+    flexGrow: 1, // Hace que el contenido llene el espacio restante
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'flex-start', // Asegura que el texto no deje espacio en la parte superior
+  },
+  
 };
 
 function OurTeam() {
@@ -116,23 +127,23 @@ function OurTeam() {
         <Grid container spacing={4}>
           {teamMembers.map((member, index) => (
             <Grid item xs={12} sm={6} md={4} key={index}>
-              <Card sx={styles.card}>
-                <CardMedia
-                  component="img"
-                  sx={styles.cardMedia}
-                  image={member.image}
-                  alt={member.name}
-                />
-                <CardContent>
-                  <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
-                    {member.name}
-                  </Typography>
-                  <Typography variant="subtitle1" sx={{ color: '#c41230', marginBottom: '8px' }}>
-                    {member.position}
-                  </Typography>
-                  <Typography variant="body2">{member.bio}</Typography>
-                </CardContent>
-              </Card>
+           <Card sx={styles.card}>
+  <CardMedia
+    component="img"
+    sx={styles.cardMedia}
+    image={member.image}
+    alt={member.name}
+  />
+  <CardContent sx={styles.cardContent}>
+    <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
+      {member.name}
+    </Typography>
+    <Typography variant="subtitle1" sx={{ color: '#c41230', marginBottom: '8px' }}>
+      {member.position}
+    </Typography>
+    <Typography variant="body2">{member.bio}</Typography>
+  </CardContent>
+</Card>
             </Grid>
           ))}
         </Grid>

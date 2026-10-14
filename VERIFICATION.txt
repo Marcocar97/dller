@@ -1,0 +1,9 @@
+Dller renovation — verification
+
+36 automated tests passed.
+Content inventory: 151 text blocks, 119 original images, 6 team profiles.
+Original byte comparison: 152 files verified against master ZIP (source, image/video assets, brochure).
+Production build passed.
+10 direct-entry interior pages, sitemap and 404 generated.
+
+Visual browser inspection and live EmailJS delivery are not verified. See README.md.

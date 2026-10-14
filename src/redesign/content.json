@@ -1,0 +1,947 @@
+{
+  "Homepage.js": {
+    "blocks": [
+      {
+        "kind": "h4",
+        "html": "Supplying the luxury Kitchen industry for Over 35 Years"
+      },
+      {
+        "kind": "h6",
+        "html": "\"Your Trusted Partner in Creating Handmade Kitchens, Combining Timeless Craftsmanship with Modern Innovation.\" <br/>"
+      },
+      {
+        "kind": "body1",
+        "html": "<br/> We pride ourselves on confidentiality, we have been making furniture for some of Europe’s most exclusive brands for over 3 decades, combining their creativity with our craftsmanship to deliver exceptional Kitchen creations. <br/> <br/> We work in partnership with a small number of Kitchen companies to take the worry out of production, delivering exceptional quality, so you can focus on delivering your customers exceptional service."
+      },
+      {
+        "kind": "body1",
+        "html": "<strong>Experts in Handmade Excellence</strong> <br/> At <strong>Dller</strong> we specialize in crafting custom-made wooden kitchens tailored to your clients' exact specifications. With over three decades of expertise, a team of 40+ highly skilled carpenters, and a commitment to quality, we deliver bespoke kitchens to your designs with our superior craftsmanship."
+      },
+      {
+        "kind": "h4",
+        "html": "Why Choose Us"
+      },
+      {
+        "kind": "h6",
+        "html": "Expertise"
+      },
+      {
+        "kind": "body1",
+        "html": "35 years of creating bespoke kitchens"
+      },
+      {
+        "kind": "h6",
+        "html": "Skilled Craftsmanship"
+      },
+      {
+        "kind": "body1",
+        "html": "A team of over 40 dedicated carpenters and designers."
+      },
+      {
+        "kind": "h6",
+        "html": "Modern Technology"
+      },
+      {
+        "kind": "body1",
+        "html": "Precision ensured with state-of-the-art tools."
+      },
+      {
+        "kind": "h6",
+        "html": "Tailored Solutions"
+      },
+      {
+        "kind": "body1",
+        "html": "Kitchens designed to meet your unique designs."
+      },
+      {
+        "kind": "h6",
+        "html": "Competitive Pricing"
+      },
+      {
+        "kind": "body1",
+        "html": "Working in partnership to meet your needs."
+      },
+      {
+        "kind": "h6",
+        "html": "Innovative Designs"
+      },
+      {
+        "kind": "body1",
+        "html": "Combining aesthetics with functionality, our designs are tailored to your lifestyle."
+      },
+      {
+        "kind": "h5",
+        "html": "Explore Our Craftsmanship"
+      },
+      {
+        "kind": "h5",
+        "html": "<br/> <br/> \"Your Partner In Production”"
+      }
+    ],
+    "carouselItems": [
+      {
+        "image": "/Images/s1.jpg",
+        "text": "Complete Discretion"
+      },
+      {
+        "image": "/Images/s2.jpg",
+        "text": "Aunthentic Luxury Manufacturing"
+      },
+      {
+        "image": "/Images/s3.jpg",
+        "text": "Your Partner in Production"
+      },
+      {
+        "image": "/Images/s4.png",
+        "text": "You Design It, We Create It"
+      }
+    ],
+    "kitchenStyles": [
+      {
+        "name": "Modern Kitchens",
+        "images": [
+          "/Images/m1.jpg",
+          "/Images/m2.jpg",
+          "/Images/m3.jpg",
+          "/Images/m4.jpg",
+          "/Images/m7.jpg",
+          "/Images/m8.jpg",
+          "/Images/m9.jpg"
+        ],
+        "coverImage": "/Images/m1.jpg"
+      },
+      {
+        "name": "Classic Kitchens",
+        "images": [
+          "/Images/c1.jpg",
+          "/Images/c2.jpg",
+          "/Images/c3.jpg",
+          "/Images/c4.jpg",
+          "/Images/c5.jpg",
+          "/Images/c6.jpg",
+          "/Images/c8.jpg",
+          "/Images/c9.jpg",
+          "/Images/c10.jpg",
+          "/Images/c13.jpg",
+          "/Images/c14.jpg",
+          "/Images/c15.jpg",
+          "/Images/c16.jpg",
+          "/Images/c19.jpg",
+          "/Images/c20.jpg",
+          "/Images/c21.jpg",
+          "/Images/c22.jpg",
+          "/Images/c28.jpg",
+          "/Images/c29.jpg"
+        ],
+        "coverImage": "/Images/c5.jpg"
+      },
+      {
+        "name": "European Kitchens",
+        "images": [
+          "/Images/e1.jpg",
+          "/Images/e2.jpg",
+          "/Images/e3.jpg",
+          "/Images/e4.jpg",
+          "/Images/e5.jpg",
+          "/Images/e6.jpg",
+          "/Images/e7.jpg",
+          "/Images/e8.jpg",
+          "/Images/e9.jpg",
+          "/Images/e10.jpg",
+          "/Images/e11.jpg",
+          "/Images/e12.jpg",
+          "/Images/e13.jpg",
+          "/Images/e14.jpg",
+          "/Images/e15.jpg",
+          "/Images/e16.jpg",
+          "/Images/e17.jpg",
+          "/Images/e18.jpg",
+          "/Images/e19.jpg"
+        ],
+        "coverImage": "/Images/e13.jpg"
+      },
+      {
+        "name": "Unique Kitchens",
+        "images": [
+          "/Images/u1.jpg",
+          "/Images/u2.jpg",
+          "/Images/u3.jpg",
+          "/Images/u4.jpg",
+          "/Images/u5.jpg",
+          "/Images/u5.jpg",
+          "/Images/u6.jpg",
+          "/Images/u10.jpg",
+          "/Images/u11.jpg",
+          "/Images/u12.jpg",
+          "/Images/u13.jpg",
+          "/Images/u14.jpg",
+          "/Images/u15.jpg"
+        ],
+        "coverImage": "/Images/u12.jpg"
+      }
+    ]
+  },
+  "Services.js": {
+    "blocks": [
+      {
+        "kind": "Typography",
+        "html": "Our Services"
+      },
+      {
+        "kind": "h5",
+        "html": "How We Can Help"
+      },
+      {
+        "kind": "h6",
+        "html": "Manufacturing Only"
+      },
+      {
+        "kind": "body2",
+        "html": "Provide us with your kitchen design, and we’ll craft it to perfection."
+      },
+      {
+        "kind": "h6",
+        "html": "Collaborative Design"
+      },
+      {
+        "kind": "body2",
+        "html": "Let’s work together to design kitchens that reflect your customer needs."
+      },
+      {
+        "kind": "h5",
+        "html": "Dller Services"
+      },
+      {
+        "kind": "h6",
+        "html": "Kitchens Tailored to Your Vision"
+      },
+      {
+        "kind": "body2",
+        "html": "If you already have your own designs, our team can produce them with precision and care. We use traditional techniques and modern technology to create kitchens that are durable, functional, and beautifully finished."
+      },
+      {
+        "kind": "h6",
+        "html": "Manufacturing Excellence"
+      },
+      {
+        "kind": "body2",
+        "html": "If you already have your own designs, our team can produce them with precision and care. We use traditional techniques and modern technology to create kitchens that are durable, functional, and beautifully finished."
+      },
+      {
+        "kind": "h6",
+        "html": "Collaborative Design and Customization"
+      },
+      {
+        "kind": "body2",
+        "html": "For clients seeking more than manufacturing, we offer a collaborative kitchen design service. Whether you have a general idea or need guidance, our team works closely with you to develop kitchens that suit your clients."
+      },
+      {
+        "kind": "h6",
+        "html": "Consultation"
+      },
+      {
+        "kind": "body2",
+        "html": "We start by understanding your needs and style."
+      },
+      {
+        "kind": "h6",
+        "html": "Concept Development"
+      },
+      {
+        "kind": "body2",
+        "html": "Working with our kitchen architects and designers, we turn your vision into detailed plans using sketches and CAD modelling."
+      },
+      {
+        "kind": "h6",
+        "html": "Material Selection"
+      },
+      {
+        "kind": "body2",
+        "html": "Together, we choose materials that fit the design & budget, ensuring durability, practicality, and style."
+      },
+      {
+        "kind": "h5",
+        "html": "Let’s start with a No-Obligation Confidential Consultation"
+      },
+      {
+        "kind": "body1",
+        "html": "At Dller, we believe that every successful project begins with understanding your companies unique needs and vision. That’s why we start with an initial <strong> no-obligation, confidential face-to-face consultation.</strong> This meeting is an opportunity for us to get to know your requirements, explore your ideas, and discuss how we might be able to help. <br/> <br/> Our goal is to provide you with clarity and insight while determining if there’s a good fit for us to work together. Whether you choose to proceed or not, this consultation is entirely commitment-free, ensuring you have the freedom to explore your options without any pressure. <br/> <br/> Simply contact <a href=\"mailto:chiles@dller.com\">chiles@dller.com</a>"
+      },
+      {
+        "kind": "h5",
+        "html": "<br/> <br/> \"Your Partner In Production”"
+      }
+    ]
+  },
+  "WhyDller.js": {
+    "blocks": [
+      {
+        "kind": "Typography",
+        "html": "Why Dller"
+      },
+      {
+        "kind": "h5",
+        "html": "The Dller Difference"
+      },
+      {
+        "kind": "h8",
+        "html": "Why Dller: Your Trusted Partner in Luxury Kitchen Manufacturing <br/> <br/>"
+      },
+      {
+        "kind": "body1",
+        "html": "At <strong>Dller</strong>, we believe exceptional kitchens are born from a synergy of creativity, precision, and craftsmanship. As a premier luxury kitchen manufacturer, we specialize in partnering with kitchen companies across the UK and Europe to bring their designs to life with the utmost discretion and professionalism. Here's why Dller is the partner of choice for forward-thinking kitchen brands."
+      },
+      {
+        "kind": "h6",
+        "html": "Unmatched Quality"
+      },
+      {
+        "kind": "body1",
+        "html": "Every kitchen we build is with the highest quality materials, and the best skills in the industry."
+      },
+      {
+        "kind": "h6",
+        "html": "Sustainability"
+      },
+      {
+        "kind": "body1",
+        "html": "We look to source sustainably, minimising waste and recycling off cuts."
+      },
+      {
+        "kind": "h6",
+        "html": "Innovative Design"
+      },
+      {
+        "kind": "body1",
+        "html": "Our team constantly look to innovate, incorporating design features and investing in new technology"
+      },
+      {
+        "kind": "h6",
+        "html": "A Commitment to Excellence <br/> <br/>"
+      },
+      {
+        "kind": "body1",
+        "html": "We understand that luxury kitchens demand nothing less than perfection. Dller combines cutting-edge technology with time-honoured craftsmanship to ensure every piece reflects the highest standards of quality. Our facility combines modern technologies and skilled craftsmen to create kitchens that meet your needs."
+      },
+      {
+        "kind": "h6",
+        "html": "Your Designs, Our Expertise <br/> <br/>"
+      },
+      {
+        "kind": "body1",
+        "html": "At Dller, your vision is our mission. We collaborate closely with your team to understand your brand’s unique needs, ensuring every detail aligns with your design philosophy. Whether it’s intricate woodwork, flawless finishes, modern or classical, we transform your ideas and designs into reality with precision and care."
+      },
+      {
+        "kind": "h6",
+        "html": "Discreet and Reliable Partnership <br/> <br/>"
+      },
+      {
+        "kind": "body1",
+        "html": "We value the trust you place in us. As a silent partner in your production process, we maintain strict confidentiality and ensure our role remains behind the scenes. Our goal is to empower your brand to shine while providing seamless, reliable manufacturing support."
+      },
+      {
+        "kind": "h6",
+        "html": "Tailored Solutions for Every Project <br/> <br/>"
+      },
+      {
+        "kind": "body1",
+        "html": "Every kitchen tells a story. That’s why Dller offers customized solutions to bring your designs to life. From bespoke cabinetry to revolutionary storage solutions, we tailor our production processes to meet your specific requirements, no matter how complex or ambitious."
+      },
+      {
+        "kind": "h6",
+        "html": "Sustainability at the Core <br/> <br/>"
+      },
+      {
+        "kind": "body1",
+        "html": "We are constantly looking at ways to be more sustainable whether that is though responsible sourcing, minimising waste and most recently investing in innovative heating solutions to fuel our factory entirely from waste.. By choosing Dller, you contribute to a greener future without compromising on quality or style."
+      },
+      {
+        "kind": "h6",
+        "html": "Why Choose Dller? <br/> <br/>"
+      },
+      {
+        "kind": "body1",
+        "html": "<ul> <li> <strong> Unparalleled Quality:</strong> Flawless craftsmanship meets advanced manufacturing.</li> <br/> <br/> <li> <strong> Dedicated Collaboration:</strong> A true extension of your team, understanding your needs inside out.</li> <br/> <br/> <li> <strong> Confidentiality Assured:</strong> A discreet partnership built on trust. </li> <br/> <br/> <li> <strong> Innovative Solutions:</strong> Pushing boundaries to achieve your creative vision. </li> <br/> <br/> <li> <strong> Sustainability Focused:</strong> Luxury production with a conscience. </li> </ul>"
+      },
+      {
+        "kind": "h5",
+        "html": "Partner with Dller, and let us help you redefine luxury in the kitchen. Together, we’ll create designs that inspire, endure, and elevate the art of living."
+      },
+      {
+        "kind": "h5",
+        "html": "<br/> <br/> \"Your Partner In Production”"
+      }
+    ]
+  },
+  "ContactUs.js": {
+    "blocks": [
+      {
+        "kind": "Typography",
+        "html": "Contact Us"
+      },
+      {
+        "kind": "h5",
+        "html": "Get in Touch"
+      },
+      {
+        "kind": "h6",
+        "html": "Contact Form"
+      },
+      {
+        "kind": "body2",
+        "html": "I have read and accept the   Privacy Policy"
+      },
+      {
+        "kind": "h6",
+        "html": "Contact Information"
+      },
+      {
+        "kind": "body1",
+        "html": "Email: <a href=\"mailto:Enquiry@dller.com\">Enquiry@dller.com</a>"
+      },
+      {
+        "kind": "body1",
+        "html": "Phone: +44 7779621607"
+      },
+      {
+        "kind": "body1",
+        "html": "Address: Dller Spinningfields Manchester, M3 3AJ"
+      },
+      {
+        "kind": "body1",
+        "html": "At Dller, we understand the importance of discretion in every collaboration. Whether you're looking for manufacturing support or simply exploring your options, we're here to help, no strings attached. <br/> <br/> <strong>Complete Confidentiality:</strong> For over 30 years we have built our business on trust. We ensure absolute discretion and respect for your intellectual property. <br/> <br/> <strong>No Obligation:</strong> Reaching out doesn’t commit you to anything. We're here to guide, answer questions, and help you explore the possibilities whether that’s over the phone or face to face."
+      },
+      {
+        "kind": "h5",
+        "html": "<br/> <br/> \"Your Partner In Production\""
+      }
+    ]
+  },
+  "AboutUs/Historty.js": {
+    "blocks": [
+      {
+        "kind": "Typography",
+        "html": "Our History"
+      },
+      {
+        "kind": "h5",
+        "html": "35 Years of Carpentry Excellence"
+      },
+      {
+        "kind": "body1",
+        "html": "For over three decades, Dller has been at the forefront of craftsmanship, delivering bespoke carpentry solutions that combine timeless artistry with cutting-edge innovation. Founded 35 years ago with a vision to create handcrafted masterpieces, we’ve built a reputation for quality, reliability, and collaboration. From our humble beginnings as a small workshop, we’ve grown into a thriving community of over 40 skilled artisans, known for turning our clients’ visions into realities."
+      },
+      {
+        "kind": "h5",
+        "html": "Where Tradition Meets Innovation"
+      },
+      {
+        "kind": "h6",
+        "html": "Traditional Techniques"
+      },
+      {
+        "kind": "body2",
+        "html": "Hand waxing, mortise-and-tenon joinery, and intricate hand-carving to preserve the authenticity and soul of the craft. <br/> <br/>"
+      },
+      {
+        "kind": "h6",
+        "html": "Modern Tools"
+      },
+      {
+        "kind": "body2",
+        "html": "Precision cutting and 3D modelling, to ensure our designs are as efficient and durable as they are beautiful. <br/> <br/>"
+      },
+      {
+        "kind": "h6",
+        "html": "Environmental"
+      },
+      {
+        "kind": "body2",
+        "html": "We constantly look to improve our sustainability through responsible sourcing right through to a fully heated factory fuelled by our sawdust waste. <br/>"
+      },
+      {
+        "kind": "h5",
+        "html": "\"Your Partner In Production”"
+      }
+    ]
+  },
+  "AboutUs/Vission.js": {
+    "blocks": [
+      {
+        "kind": "Typography",
+        "html": "Our Vision"
+      },
+      {
+        "kind": "h5",
+        "html": "Inspiring the Future of Kitchens"
+      },
+      {
+        "kind": "body1",
+        "html": "For over 30 years we have worked with a small number of luxury Kitchen Companies across Europe, we have used this experience to adapt and change to ensure we always exceed our partners expectations. <br/> <br/> \"Our vision remains to be the leading manufacturing partner to a select number of luxury kitchen companies, recognized for exceptional quality, reliable service, and competitive pricing that supports our partners' growth and success.\""
+      },
+      {
+        "kind": "h5",
+        "html": "\"Your Partner In Production”"
+      }
+    ]
+  },
+  "AboutUs/Mission.js": {
+    "blocks": [
+      {
+        "kind": "Typography",
+        "html": "Our Mission"
+      },
+      {
+        "kind": "h5",
+        "html": "Exceptional manufacturing solutions"
+      },
+      {
+        "kind": "body1",
+        "html": "\"Our mission is to deliver exceptional manufacturing solutions to luxury kitchen companies by combining superior craftsmanship, efficient service, and cost-effective pricing. We are committed to building strong partnerships through consistent quality, reliability, and responsiveness, enabling our clients to thrive in a competitive market.\""
+      },
+      {
+        "kind": "h5",
+        "html": "\"Your Partner In Production”"
+      }
+    ]
+  },
+  "AboutUs/OurTeam.js": {
+    "blocks": [
+      {
+        "kind": "Typography",
+        "html": "Our Team"
+      },
+      {
+        "kind": "h5",
+        "html": "Meet the Dller Team"
+      },
+      {
+        "kind": "body1",
+        "html": "Our talented team brings expertise, creativity, and passion to every project. Meet the people behind our success."
+      },
+      {
+        "kind": "h5",
+        "html": "\"Your Partner In Production”"
+      }
+    ],
+    "teamMembers": [
+      {
+        "name": "Tomasz",
+        "position": "Founder and Master Craftsman",
+        "bio": "Tomas started Dller over 35 years ago with a focus on quality woodworking and traditional techniques. As the founder, he continues to work hands-on in the workshop, ensuring every piece meets the standards that built the company’s reputation.",
+        "image": "/Images/tom.jpg"
+      },
+      {
+        "name": "Chiles",
+        "position": "Client Director",
+        "bio": "Working face to face with our clients to understand their needs and create a bespoke package of support, offering as much or as little collaboration as required, from full process solutions to simple toll manufacturing, Chiles works to understand your needs and ensure Dller exceeds them.",
+        "image": "/Images/ch.jpg"
+      },
+      {
+        "name": "Sebastian",
+        "position": "Co-Founder and Furniture Architect",
+        "bio": "Sebastian works directly with each of our clients to meet their needs. As co-founder, he works closely with clients to understand their vision, ensuring designs are both practical and aligned with their preferences. His role bridges creative concepts with execution, making sure the results are both beautiful and usable.",
+        "image": "/Images/se.jpg"
+      },
+      {
+        "name": "Mateusz",
+        "position": "Furniture Designer and CAD Specialist",
+        "bio": "Mataus combines creative design with technical expertise, using CAD software to ensure every project is detailed and precise. His work helps streamline the process from concept to construction, keeping client expectations aligned with final outcomes.",
+        "image": "/Images/mz.jpg"
+      },
+      {
+        "name": "Kamil",
+        "position": "Chief Carpenter",
+        "bio": "Kamil leads the carpentry team, overseeing production and ensuring high standards are met at every stage of the build. With years of experience in both traditional and modern methods, he ensures every project is completed efficiently and to specification.",
+        "image": "/Images/km.jpg"
+      },
+      {
+        "name": "Ana",
+        "position": "Customer Care Manager",
+        "bio": "Ana manages client logistics ensuring the entire process runs smoothly. From order placement to final delivery, she keeps clients informed and makes sure their needs are addressed promptly and professionally.",
+        "image": "/Images/w.jpg"
+      }
+    ]
+  },
+  "OurKitchens/Modern.js": {
+    "blocks": [
+      {
+        "kind": "Typography",
+        "html": "Modern Simplicity"
+      },
+      {
+        "kind": "h5",
+        "html": "Modern Kitchen Designs"
+      },
+      {
+        "kind": "body1",
+        "html": "As part of our portfolio, we can offer <strong> Industrial Kitchen Designs </strong> , where raw materials meet functional elegance to create striking, modern spaces. These kitchens feature hallmark elements such as exposed metal accents, exposed wood surfaces, and sleek, practical layouts, blending rugged aesthetics with everyday usability. Designed to your specifications, we can incorporate industrial-style shelving, open layouts, and mixed textures and materials for a bold, contemporary statement. <br/> <br/> For a distinctive touch, <strong> urban loft-inspired styles </strong>combine concrete countertops, steel-framed cabinets, and natural wood finishes, while rustic <strong> industrial designs </strong> emphasize warm, weathered materials and vintage-inspired hardware. Alternatively, <strong> minimalist industrial kitchens </strong> showcase clean lines with neutral tones and subtle industrial elements for a more refined look. Key details like matte black fixtures, and distressed finishes complete the aesthetic, creating an installation that is as functional as it is eye-catching. <br/> <br/> Whatever your brand’s vision, let us help you create the perfect <strong> Industrial Kitchen Design </strong> with bespoke solutions tailored to your company's and clients’ style and needs. <br/> <br/> View some of our previous creations for our clients:"
+      },
+      {
+        "kind": "h5",
+        "html": "<br/> <br/> \"Your Partner In Production”"
+      }
+    ],
+    "modernKitchens": [
+      {
+        "title": "Vibrant Modernity",
+        "description": "A contemporary kitchen with bold yellow accents and a vibrant feature wall, modern vibe.",
+        "images": [
+          "/Images/m7.jpg",
+          "/Images/m8.jpg",
+          "/Images/m9.jpg"
+        ],
+        "coverImage": "/Images/m9.jpg"
+      },
+      {
+        "title": "Function Meets Style",
+        "description": "Sleek lines and neutral tones create a simple yet inviting modern kitchen design.",
+        "images": [
+          "/Images/m1.jpg",
+          "/Images/m2.jpg"
+        ],
+        "coverImage": "/Images/m1.jpg"
+      },
+      {
+        "title": "Modern Versatility",
+        "description": "A blend of modern and classic elements, offering style and practicality.",
+        "images": [
+          "/Images/m3.jpg",
+          "/Images/m4.jpg"
+        ],
+        "coverImage": "/Images/m3.jpg"
+      }
+    ]
+  },
+  "OurKitchens/Classic.js": {
+    "blocks": [
+      {
+        "kind": "Typography",
+        "html": "Classic English Elegance"
+      },
+      {
+        "kind": "h5",
+        "html": "Discover Our Classic Kitchen Designs"
+      },
+      {
+        "kind": "body1",
+        "html": "We can create the timeless elegance of <strong>Classic English Kitchen Designs</strong>, where traditional craftsmanship meets refined aesthetics and versatility. These kitchens feature hallmark elements such as shaker-style cabinetry, natural materials like oak and painted wood, soft neutral palettes, unpainted finishes or bold statement pieces, blending functionality with enduring charm. Made to your design, we can make anything from <strong>in-frame designs</strong>—where cabinet doors sit within a solid wood frame for a traditional, bespoke look—or <strong>farmhouse-inspired styles</strong>, emphasizing rustic warmth with exposed wood grains and hand-painted finishes. For those seeking sophistication, <strong>Georgian and Victorian influences</strong> offer rich colours, ornate mouldings, and classic brass or ceramic hardware, while <strong>country manor designs</strong> combine practicality with cozy elegance. Key details like iconic butler sinks, larder cupboards, and corniced crown mouldings complete the classic aesthetic. Whatever your brands style let us help you create the perfect Classic English Kitchen with bespoke solutions tailored to your companies and client’s style and needs. <br/> <br/> View some of our previous creations for our clients:"
+      },
+      {
+        "kind": "h5",
+        "html": "<br/> <br/> \"Your Partner In Production”"
+      }
+    ],
+    "modernKitchens": [
+      {
+        "title": "Soft Elegance",
+        "description": "A bright and cozy kitchen, perfect for renovating with style and functionality.",
+        "images": [
+          "/Images/c20.jpg",
+          "/Images/c21.jpg",
+          "/Images/c23.jpg",
+          "/Images/c22.jpg"
+        ],
+        "coverImage": "/Images/c20.jpg"
+      },
+      {
+        "title": "Classic Minimalism",
+        "description": "Clean lines and warm materials to maximize space with elegance.",
+        "images": [
+          "/Images/c4.jpg",
+          "/Images/c5.jpg",
+          "/Images/c6.jpg",
+          "/Images/c7.jpg"
+        ],
+        "coverImage": "/Images/c4.jpg"
+      },
+      {
+        "title": "Contemporary Kitchen",
+        "description": "A perfect blend of classic and modern materials for a versatile design.",
+        "images": [
+          "/Images/c1.jpg",
+          "/Images/c2.jpg",
+          "/Images/c3.jpg"
+        ],
+        "coverImage": "/Images/c1.jpg"
+      }
+    ]
+  },
+  "OurKitchens/European.js": {
+    "blocks": [
+      {
+        "kind": "Typography",
+        "html": "Authentic European Modernity"
+      },
+      {
+        "kind": "h5",
+        "html": "Discover Our European Kitchen Designs"
+      },
+      {
+        "kind": "body1",
+        "html": "We can craft the sleek sophistication of <strong>European Design Kitchens</strong>, where cutting-edge innovation meets contemporary elegance and functionality. These kitchens feature hallmark elements such as clean, minimalist lines, flat-panel cabinetry, high-gloss finishes, or textured wood veneers, blending modern aesthetics with practical efficiency. Designed to your specifications, we can create <strong>frameless cabinetry</strong> for a streamlined look, handleless doors for a sleek, seamless finish, or bold statement pieces that combine functionality with striking design. <br/> <br/> For a refined touch, <strong>Scandinavian-inspired styles</strong> emphasize light woods, muted tones, and natural materials, creating a bright and airy atmosphere. Alternatively, <strong>German-engineered</strong> kitchens deliver precision, durability, and smart storage solutions, while <strong>Italian designs</strong> exude luxury with rich textures, bold colors, and innovative features. Key elements such as integrated appliances, intelligent lighting, and durable surfaces like quartz or ceramic complete the modern European aesthetic. <br/> <br/> Whatever your brand’s vision, let us help you create the perfect <strong>European Design Kitchen</strong> with bespoke solutions tailored to your company's and clients’ style and needs. <br/> <br/> View some of our previous creations for our clients:"
+      },
+      {
+        "kind": "h5",
+        "html": "<br/> <br/> \"Your Partner In Production”"
+      }
+    ],
+    "modernKitchens": [
+      {
+        "title": "Chic Sophistication",
+        "description": "A luxurious European kitchen blending modern materials with timeless chandeliers and sleek finishes.",
+        "images": [
+          "/Images/e1.jpg",
+          "/Images/e2.jpg",
+          "/Images/e3.jpg",
+          "/Images/e4.jpg",
+          "/Images/e5.jpg",
+          "/Images/e6.jpg",
+          "/Images/e7.jpg",
+          "/Images/e8.jpg",
+          "/Images/e9.jpg"
+        ],
+        "coverImage": "/Images/e1.jpg"
+      },
+      {
+        "title": "Rustic Elegance",
+        "description": "A cozy European-style kitchen with natural wood finishes for a welcoming atmosphere.",
+        "images": [
+          "/Images/e10.jpg",
+          "/Images/e11.jpg",
+          "/Images/e12.jpg"
+        ],
+        "coverImage": "/Images/e10.jpg"
+      },
+      {
+        "title": "Timeless Heritage",
+        "description": "A refined design featuring warm tones and intricate woodwork, inspired by European tradition.",
+        "images": [
+          "/Images/e13.jpg",
+          "/Images/e14.jpg",
+          "/Images/e15.jpg",
+          "/Images/e16.jpg"
+        ],
+        "coverImage": "/Images/e13.jpg"
+      }
+    ]
+  },
+  "OurKitchens/Unique.js": {
+    "blocks": [
+      {
+        "kind": "Typography",
+        "html": "If you can Design it we can create it"
+      },
+      {
+        "kind": "h5",
+        "html": "Discover Our Unique Kitchen Designs"
+      },
+      {
+        "kind": "body1",
+        "html": "With over 30 years experience supplying the UK and Europe we can turn our hands to anything quite literally, crafting the natural beauty of <strong> Unique Wood Kitchens</strong>, where bespoke designs meet exceptional craftsmanship to create one-of-a-kind installations. Kitchens can feature hallmark elements such as hand-selected wood grains, custom finishes, and intricate detailing, blending timeless elegance with modern functionality. Designed to your specifications, we can bring almost any vision to life, from rustic charm to contemporary sophistication. <br/> <br/> For a distinctive touch, farmhouse-inspired styles incorporate solid wood cabinets, and warm inviting tones, while <strong> modern wood kitchens</strong> emphasize sleek, minimalist lines and innovative storage solutions. Alternatively, <strong>artisan-crafted kitchens </strong> showcase bold, statement-making designs with custom joinery, intricate carvings, and unique textures. Key features like live-edge countertops, wood-panelled islands, and custom stains or paints highlight the natural beauty of the materials, ensuring each kitchen is a true original. <br/> <br/> If you can design it, we can create it. Whatever your brand’s vision, let us help you bring the perfect <strong> Unique Wood Kitchen </strong> to life with bespoke solutions tailored to your company's and clients’ style and needs. <br/> <br/> View some of our previous creations for our clients:"
+      },
+      {
+        "kind": "h5",
+        "html": "<br/> <br/> \"Your Partner In Production”"
+      }
+    ],
+    "modernKitchens": [
+      {
+        "title": "Forest Green Charm",
+        "description": "A unique kitchen with striking green cabinetry and vintage details, blending boldness with sophistication.",
+        "images": [
+          "/Images/c30.jpg",
+          "/Images/c31.jpg",
+          "/Images/c32.jpg",
+          "/Images/c33.jpg",
+          "/Images/c34.jpg",
+          "/Images/c35.jpg",
+          "/Images/c36.jpg"
+        ],
+        "coverImage": "/Images/c30.jpg"
+      },
+      {
+        "title": "Blue Accents",
+        "description": "A playful design featuring bold blue tones and timeless functionality for a vibrant yet practical space.",
+        "images": [
+          "/Images/u1.jpg",
+          "/Images/u2.jpg",
+          "/Images/u3.jpg",
+          "/Images/u4.jpg",
+          "/Images/u5.jpg",
+          "/Images/u6.jpg"
+        ],
+        "coverImage": "/Images/u1.jpg"
+      },
+      {
+        "title": "Pink Modern",
+        "description": "A charming kitchen with rustic beams and a pop of pink, perfect for those who love to mix tradition with a modern twist.",
+        "images": [
+          "/Images/u10.jpg",
+          "/Images/u11.jpg",
+          "/Images/u12.jpg",
+          "/Images/u13.jpg",
+          "/Images/u14.jpg",
+          "/Images/u15.jpg"
+        ],
+        "coverImage": "/Images/u10.jpg"
+      }
+    ]
+  },
+  "PrivacyPolicy.js": {
+    "blocks": [
+      {
+        "kind": "h1",
+        "html": "Dller Privacy Policy"
+      },
+      {
+        "kind": "p",
+        "html": "<strong>Updated Version – Compliant with UK GDPR and EU GDPR</strong><br/> <strong>Effective Date: 01/01/2025</strong>"
+      },
+      {
+        "kind": "h2",
+        "html": "1. Introduction"
+      },
+      {
+        "kind": "p",
+        "html": "Dller is committed to protecting the privacy and security of personal data in compliance with the <strong> UK General Data Protection Regulation (UK GDPR)</strong>, the <strong> EU General Data Protection Regulation (EU GDPR)</strong>, and the <strong> Data Protection Act 2018</strong>. This Privacy Policy explains how we collect, use, store, and protect personal data from business representatives in the kitchen manufacturing industry."
+      },
+      {
+        "kind": "h2",
+        "html": "2. Scope"
+      },
+      {
+        "kind": "p",
+        "html": "This policy applies to personal data collected from <strong>business representatives</strong>, including <strong> owners, directors, and managers of kitchen companies</strong> with a legitimate interest in our manufacturing services."
+      },
+      {
+        "kind": "h2",
+        "html": "3. Personal Data We Collect"
+      },
+      {
+        "kind": "ul",
+        "html": "<ul> <li><strong>Identity Data:</strong> Name, job title, company name.</li> <li><strong>Contact Data:</strong> Business email, business phone number, company address.</li> <li><strong>Professional Data:</strong> Industry, business interests, interactions with our services.</li> <li><strong>Marketing Preferences:</strong> Communication records, marketing material preferences.</li> </ul>"
+      },
+      {
+        "kind": "h2",
+        "html": "4. How We Collect Data"
+      },
+      {
+        "kind": "p",
+        "html": "We collect personal data through:"
+      },
+      {
+        "kind": "ul",
+        "html": "<ul> <li><strong>Direct interactions:</strong> Phone calls, emails, meetings, trade shows, or website inquiries.</li> <li><strong>Publicly available sources:</strong> Company websites, industry directories, LinkedIn, and other platforms.</li> <li><strong>Third-party providers:</strong> Legitimate business data suppliers.</li> </ul>"
+      },
+      {
+        "kind": "h2",
+        "html": "5. Legal Basis for Processing"
+      },
+      {
+        "kind": "ul",
+        "html": "<ul> <li><strong>Legitimate Interest:</strong> Processing contact details of business owners, directors, and managers to offer relevant B2B services.</li> <li><strong>Contractual Necessity:</strong> To fulfil contracts with customers or suppliers.</li> <li><strong>Legal Obligation:</strong> To comply with legal and regulatory requirements.</li> </ul>"
+      },
+      {
+        "kind": "h2",
+        "html": "6. How We Use Personal Data"
+      },
+      {
+        "kind": "ul",
+        "html": "<ul> <li>Provide and promote our kitchen manufacturing services.</li> <li>Manage and maintain business relationships.</li> <li>Send marketing communications where legitimate interest exists.</li> <li>Respond to inquiries and provide customer support.</li> <li>Conduct market research and improve our services.</li> <li>Ensure compliance with legal and regulatory obligations.</li> </ul>"
+      },
+      {
+        "kind": "h2",
+        "html": "7. Data Sharing & Disclosure"
+      },
+      {
+        "kind": "p",
+        "html": "We do not sell or rent personal data. However, we may share it with:"
+      },
+      {
+        "kind": "ul",
+        "html": "<ul> <li><strong>Service Providers:</strong> Third-party vendors for marketing, IT support, or customer management.</li> <li><strong>Legal & Regulatory Authorities:</strong> If required by law or to protect our legal rights.</li> <li><strong>Business Partners:</strong> If necessary for delivering our services.</li> </ul>"
+      },
+      {
+        "kind": "h2",
+        "html": "8. Contact Information"
+      },
+      {
+        "kind": "p",
+        "html": "If you have questions about this Privacy Policy or wish to exercise your data rights, contact us at:"
+      },
+      {
+        "kind": "p",
+        "html": "<strong>Dller</strong><br/> ul. Lotnicza 90, 26-001 Masłów Pierwszy, Świętokrzyskie Voivodeship<br/> 📧 Email: <a href=\"mailto:kontakt@dller.com\">kontakt@dller.com</a><br/> 📞 Phone: +447779621607"
+      },
+      {
+        "kind": "p",
+        "html": "If you are unsatisfied with our response, you have the right to lodge a complaint with the <a href=\"https://www.ico.org.uk\">UK Information Commissioner’s Office (ICO)</a>."
+      }
+    ]
+  },
+  "CookieSettings.js": {
+    "blocks": [
+      {
+        "kind": "h1",
+        "html": "Dller Cookie Policy"
+      },
+      {
+        "kind": "p",
+        "html": "<strong>Last Updated: 01/01/2025</strong>"
+      },
+      {
+        "kind": "h2",
+        "html": "1. Introduction"
+      },
+      {
+        "kind": "p",
+        "html": "Our website <a href=\"https://www.dller.com\">www.dller.com</a>  uses cookies and similar technologies to enhance user experience and analyze website traffic. This policy explains what cookies are, how we use them, and how you can manage them."
+      },
+      {
+        "kind": "h2",
+        "html": "2. What Are Cookies?"
+      },
+      {
+        "kind": "p",
+        "html": "Cookies are small text files stored on your device when you visit our website. They help improve website functionality, security, analytics, and remember user preferences."
+      },
+      {
+        "kind": "h2",
+        "html": "3. Types of Cookies We Use"
+      },
+      {
+        "kind": "ul",
+        "html": "<ul> <li><strong>Essential Cookies:</strong> Necessary for the website to function.</li> <li><strong>Analytical Cookies:</strong> Collect usage data to improve our services (e.g., Google Analytics).</li> <li><strong>Marketing Cookies:</strong> Used for displaying personalized advertisements.</li> </ul>"
+      },
+      {
+        "kind": "h2",
+        "html": "4. How to Manage Cookies"
+      },
+      {
+        "kind": "p",
+        "html": "You can manage or disable cookies through your browser settings. To adjust cookie settings in different browsers, follow these guides:"
+      },
+      {
+        "kind": "ul",
+        "html": "<ul> <li><a href=\"https://support.google.com/chrome/answer/95647?hl=en\">Google Chrome</a></li> <li><a href=\"https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences\">Mozilla Firefox</a></li> <li><a href=\"https://support.apple.com/en-gb/guide/safari/sfri11471/mac\">Safari</a></li> <li><a href=\"https://support.microsoft.com/en-us/help/4027947/microsoft-edge-delete-cookies\">Microsoft Edge</a></li> </ul>"
+      },
+      {
+        "kind": "h2",
+        "html": "5. Changes to This Cookie Policy"
+      },
+      {
+        "kind": "p",
+        "html": "We may update this Cookie Policy as needed. Any changes will be posted on our website. For more information, contact us at <a href=\"mailto:enquiry@dller.com\">enquiry@dller.com</a>."
+      },
+      {
+        "kind": "h1",
+        "html": "Manage Your Cookie Preferences"
+      },
+      {
+        "kind": "p",
+        "html": "Adjust your cookie preferences below. Essential cookies cannot be disabled as they are required for the website to function properly."
+      }
+    ]
+  }
+}

@@ -1,0 +1,2025 @@
+{
+  "/Images/c20.jpg": [
+    {
+      "url": "/optimized/c20-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/c20-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/c20-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/mz.jpg": [
+    {
+      "url": "/optimized/mz-640.webp",
+      "width": 640,
+      "height": 583
+    },
+    {
+      "url": "/optimized/mz-1280.webp",
+      "width": 820,
+      "height": 747
+    },
+    {
+      "url": "/optimized/mz-1920.webp",
+      "width": 820,
+      "height": 747
+    }
+  ],
+  "/Images/exp.png": [
+    {
+      "url": "/optimized/exp-640.webp",
+      "width": 640,
+      "height": 412
+    },
+    {
+      "url": "/optimized/exp-1280.webp",
+      "width": 1200,
+      "height": 772
+    },
+    {
+      "url": "/optimized/exp-1920.webp",
+      "width": 1200,
+      "height": 772
+    }
+  ],
+  "/Images/skl.png": [
+    {
+      "url": "/optimized/skl-640.webp",
+      "width": 640,
+      "height": 322
+    },
+    {
+      "url": "/optimized/skl-1280.webp",
+      "width": 1280,
+      "height": 643
+    },
+    {
+      "url": "/optimized/skl-1920.webp",
+      "width": 1568,
+      "height": 788
+    }
+  ],
+  "/Images/u12.jpg": [
+    {
+      "url": "/optimized/u12-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/u12-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/u12-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/c23.jpg": [
+    {
+      "url": "/optimized/c23-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/c23-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/c23-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/c17.jpg": [
+    {
+      "url": "/optimized/c17-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/c17-1280.webp",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "url": "/optimized/c17-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/ss4.jpg": [
+    {
+      "url": "/optimized/ss4-640.webp",
+      "width": 640,
+      "height": 367
+    },
+    {
+      "url": "/optimized/ss4-1280.webp",
+      "width": 1280,
+      "height": 733
+    },
+    {
+      "url": "/optimized/ss4-1920.webp",
+      "width": 1920,
+      "height": 1100
+    }
+  ],
+  "/Images/e9.jpg": [
+    {
+      "url": "/optimized/e9-640.webp",
+      "width": 640,
+      "height": 1370
+    },
+    {
+      "url": "/optimized/e9-1280.webp",
+      "width": 1280,
+      "height": 2741
+    },
+    {
+      "url": "/optimized/e9-1920.webp",
+      "width": 1868,
+      "height": 4000
+    }
+  ],
+  "/Images/c5.jpg": [
+    {
+      "url": "/optimized/c5-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/c5-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/c5-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/c2.jpg": [
+    {
+      "url": "/optimized/c2-640.webp",
+      "width": 640,
+      "height": 959
+    },
+    {
+      "url": "/optimized/c2-1280.webp",
+      "width": 1280,
+      "height": 1919
+    },
+    {
+      "url": "/optimized/c2-1920.webp",
+      "width": 1281,
+      "height": 1920
+    }
+  ],
+  "/Images/u11.jpg": [
+    {
+      "url": "/optimized/u11-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/u11-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/u11-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/e12.jpg": [
+    {
+      "url": "/optimized/e12-640.webp",
+      "width": 640,
+      "height": 959
+    },
+    {
+      "url": "/optimized/e12-1280.webp",
+      "width": 1280,
+      "height": 1919
+    },
+    {
+      "url": "/optimized/e12-1920.webp",
+      "width": 1281,
+      "height": 1920
+    }
+  ],
+  "/Images/c13.jpg": [
+    {
+      "url": "/optimized/c13-640.webp",
+      "width": 640,
+      "height": 537
+    },
+    {
+      "url": "/optimized/c13-1280.webp",
+      "width": 940,
+      "height": 788
+    },
+    {
+      "url": "/optimized/c13-1920.webp",
+      "width": 940,
+      "height": 788
+    }
+  ],
+  "/Images/e18.jpg": [
+    {
+      "url": "/optimized/e18-640.webp",
+      "width": 640,
+      "height": 960
+    },
+    {
+      "url": "/optimized/e18-1280.webp",
+      "width": 1280,
+      "height": 1920
+    },
+    {
+      "url": "/optimized/e18-1920.webp",
+      "width": 1280,
+      "height": 1920
+    }
+  ],
+  "/Images/s4.png": [
+    {
+      "url": "/optimized/s4-640.webp",
+      "width": 640,
+      "height": 367
+    },
+    {
+      "url": "/optimized/s4-1280.webp",
+      "width": 1280,
+      "height": 734
+    },
+    {
+      "url": "/optimized/s4-1920.webp",
+      "width": 1532,
+      "height": 879
+    }
+  ],
+  "/Images/man.webp": [
+    {
+      "url": "/optimized/man-640.webp",
+      "width": 640,
+      "height": 366
+    },
+    {
+      "url": "/optimized/man-1280.webp",
+      "width": 1280,
+      "height": 731
+    },
+    {
+      "url": "/optimized/man-1920.webp",
+      "width": 1792,
+      "height": 1024
+    }
+  ],
+  "/Images/e15.jpg": [
+    {
+      "url": "/optimized/e15-640.webp",
+      "width": 640,
+      "height": 959
+    },
+    {
+      "url": "/optimized/e15-1280.webp",
+      "width": 1280,
+      "height": 1919
+    },
+    {
+      "url": "/optimized/e15-1920.webp",
+      "width": 1281,
+      "height": 1920
+    }
+  ],
+  "/Images/c34.jpg": [
+    {
+      "url": "/optimized/c34-640.webp",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "url": "/optimized/c34-1280.webp",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "url": "/optimized/c34-1920.webp",
+      "width": 1080,
+      "height": 1080
+    }
+  ],
+  "/Images/historycover.png": [
+    {
+      "url": "/optimized/historycover-640.webp",
+      "width": 640,
+      "height": 358
+    },
+    {
+      "url": "/optimized/historycover-1280.webp",
+      "width": 1280,
+      "height": 717
+    },
+    {
+      "url": "/optimized/historycover-1920.webp",
+      "width": 1343,
+      "height": 752
+    }
+  ],
+  "/Images/u15.jpg": [
+    {
+      "url": "/optimized/u15-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/u15-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/u15-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/c22.jpg": [
+    {
+      "url": "/optimized/c22-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/c22-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/c22-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/modern.png": [
+    {
+      "url": "/optimized/modern-640.webp",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "url": "/optimized/modern-1280.webp",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "url": "/optimized/modern-1920.webp",
+      "width": 1024,
+      "height": 1024
+    }
+  ],
+  "/Images/e11.jpg": [
+    {
+      "url": "/optimized/e11-640.webp",
+      "width": 640,
+      "height": 959
+    },
+    {
+      "url": "/optimized/e11-1280.webp",
+      "width": 1280,
+      "height": 1919
+    },
+    {
+      "url": "/optimized/e11-1920.webp",
+      "width": 1281,
+      "height": 1920
+    }
+  ],
+  "/Images/c26.jpg": [
+    {
+      "url": "/optimized/c26-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/c26-1280.webp",
+      "width": 1280,
+      "height": 961
+    },
+    {
+      "url": "/optimized/c26-1920.webp",
+      "width": 1920,
+      "height": 1441
+    }
+  ],
+  "/Images/m9.jpg": [
+    {
+      "url": "/optimized/m9-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/m9-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/m9-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/ss5.jpg": [
+    {
+      "url": "/optimized/ss5-640.webp",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "url": "/optimized/ss5-1280.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "url": "/optimized/ss5-1920.webp",
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "/Images/c33.jpg": [
+    {
+      "url": "/optimized/c33-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/c33-1280.webp",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "url": "/optimized/c33-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/c10.jpg": [
+    {
+      "url": "/optimized/c10-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/c10-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/c10-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/4.jpg": [
+    {
+      "url": "/optimized/4-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/4-1280.webp",
+      "width": 960,
+      "height": 720
+    },
+    {
+      "url": "/optimized/4-1920.webp",
+      "width": 960,
+      "height": 720
+    }
+  ],
+  "/Images/e1.jpg": [
+    {
+      "url": "/optimized/e1-640.webp",
+      "width": 640,
+      "height": 299
+    },
+    {
+      "url": "/optimized/e1-1280.webp",
+      "width": 1280,
+      "height": 598
+    },
+    {
+      "url": "/optimized/e1-1920.webp",
+      "width": 1920,
+      "height": 897
+    }
+  ],
+  "/Images/c21.jpg": [
+    {
+      "url": "/optimized/c21-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/c21-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/c21-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/c36.jpg": [
+    {
+      "url": "/optimized/c36-640.webp",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "url": "/optimized/c36-1280.webp",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "url": "/optimized/c36-1920.webp",
+      "width": 1080,
+      "height": 1080
+    }
+  ],
+  "/Images/ss6.jpg": [
+    {
+      "url": "/optimized/ss6-640.webp",
+      "width": 640,
+      "height": 426
+    },
+    {
+      "url": "/optimized/ss6-1280.webp",
+      "width": 1280,
+      "height": 852
+    },
+    {
+      "url": "/optimized/ss6-1920.webp",
+      "width": 1622,
+      "height": 1080
+    }
+  ],
+  "/Images/modetool.png": [
+    {
+      "url": "/optimized/modetool-640.webp",
+      "width": 640,
+      "height": 361
+    },
+    {
+      "url": "/optimized/modetool-1280.webp",
+      "width": 1280,
+      "height": 722
+    },
+    {
+      "url": "/optimized/modetool-1920.webp",
+      "width": 1338,
+      "height": 755
+    }
+  ],
+  "/Images/ss2.png": [
+    {
+      "url": "/optimized/ss2-640.webp",
+      "width": 640,
+      "height": 322
+    },
+    {
+      "url": "/optimized/ss2-1280.webp",
+      "width": 1280,
+      "height": 643
+    },
+    {
+      "url": "/optimized/ss2-1920.webp",
+      "width": 1568,
+      "height": 788
+    }
+  ],
+  "/Images/e10.jpg": [
+    {
+      "url": "/optimized/e10-640.webp",
+      "width": 640,
+      "height": 959
+    },
+    {
+      "url": "/optimized/e10-1280.webp",
+      "width": 1280,
+      "height": 1919
+    },
+    {
+      "url": "/optimized/e10-1920.webp",
+      "width": 1281,
+      "height": 1920
+    }
+  ],
+  "/Images/m7.jpg": [
+    {
+      "url": "/optimized/m7-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/m7-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/m7-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/tsl.png": [
+    {
+      "url": "/optimized/tsl-640.webp",
+      "width": 640,
+      "height": 353
+    },
+    {
+      "url": "/optimized/tsl-1280.webp",
+      "width": 1280,
+      "height": 706
+    },
+    {
+      "url": "/optimized/tsl-1920.webp",
+      "width": 1507,
+      "height": 831
+    }
+  ],
+  "/Images/c24.jpg": [
+    {
+      "url": "/optimized/c24-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/c24-1280.webp",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "url": "/optimized/c24-1920.webp",
+      "width": 1920,
+      "height": 1440
+    }
+  ],
+  "/Images/c8.jpg": [
+    {
+      "url": "/optimized/c8-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/c8-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/c8-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/e17.jpg": [
+    {
+      "url": "/optimized/e17-640.webp",
+      "width": 640,
+      "height": 960
+    },
+    {
+      "url": "/optimized/e17-1280.webp",
+      "width": 1280,
+      "height": 1920
+    },
+    {
+      "url": "/optimized/e17-1920.webp",
+      "width": 1280,
+      "height": 1920
+    }
+  ],
+  "/Images/1.jpg": [
+    {
+      "url": "/optimized/1-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/1-1280.webp",
+      "width": 960,
+      "height": 720
+    },
+    {
+      "url": "/optimized/1-1920.webp",
+      "width": 960,
+      "height": 720
+    }
+  ],
+  "/Images/e6.jpg": [
+    {
+      "url": "/optimized/e6-640.webp",
+      "width": 640,
+      "height": 1370
+    },
+    {
+      "url": "/optimized/e6-1280.webp",
+      "width": 1280,
+      "height": 2741
+    },
+    {
+      "url": "/optimized/e6-1920.webp",
+      "width": 1868,
+      "height": 4000
+    }
+  ],
+  "/Images/s2.jpg": [
+    {
+      "url": "/optimized/s2-640.webp",
+      "width": 640,
+      "height": 427
+    },
+    {
+      "url": "/optimized/s2-1280.webp",
+      "width": 1280,
+      "height": 854
+    },
+    {
+      "url": "/optimized/s2-1920.webp",
+      "width": 1920,
+      "height": 1281
+    }
+  ],
+  "/Images/c31.jpg": [
+    {
+      "url": "/optimized/c31-640.webp",
+      "width": 640,
+      "height": 717
+    },
+    {
+      "url": "/optimized/c31-1280.webp",
+      "width": 1280,
+      "height": 1434
+    },
+    {
+      "url": "/optimized/c31-1920.webp",
+      "width": 1920,
+      "height": 2152
+    }
+  ],
+  "/Images/u4.jpg": [
+    {
+      "url": "/optimized/u4-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/u4-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/u4-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/e19.jpg": [
+    {
+      "url": "/optimized/e19-640.webp",
+      "width": 640,
+      "height": 960
+    },
+    {
+      "url": "/optimized/e19-1280.webp",
+      "width": 1280,
+      "height": 1920
+    },
+    {
+      "url": "/optimized/e19-1920.webp",
+      "width": 1280,
+      "height": 1920
+    }
+  ],
+  "/Images/c16.jpg": [
+    {
+      "url": "/optimized/c16-640.webp",
+      "width": 640,
+      "height": 481
+    },
+    {
+      "url": "/optimized/c16-1280.webp",
+      "width": 1280,
+      "height": 961
+    },
+    {
+      "url": "/optimized/c16-1920.webp",
+      "width": 1920,
+      "height": 1442
+    }
+  ],
+  "/Images/u3.jpg": [
+    {
+      "url": "/optimized/u3-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/u3-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/u3-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/ch.jpg": [
+    {
+      "url": "/optimized/ch-640.webp",
+      "width": 640,
+      "height": 583
+    },
+    {
+      "url": "/optimized/ch-1280.webp",
+      "width": 820,
+      "height": 747
+    },
+    {
+      "url": "/optimized/ch-1920.webp",
+      "width": 820,
+      "height": 747
+    }
+  ],
+  "/Images/m2.jpg": [
+    {
+      "url": "/optimized/m2-640.webp",
+      "width": 640,
+      "height": 427
+    },
+    {
+      "url": "/optimized/m2-1280.webp",
+      "width": 1280,
+      "height": 854
+    },
+    {
+      "url": "/optimized/m2-1920.webp",
+      "width": 1920,
+      "height": 1281
+    }
+  ],
+  "/Images/u6.jpg": [
+    {
+      "url": "/optimized/u6-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/u6-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/u6-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/e7.jpg": [
+    {
+      "url": "/optimized/e7-640.webp",
+      "width": 640,
+      "height": 299
+    },
+    {
+      "url": "/optimized/e7-1280.webp",
+      "width": 1280,
+      "height": 598
+    },
+    {
+      "url": "/optimized/e7-1920.webp",
+      "width": 1920,
+      "height": 897
+    }
+  ],
+  "/Images/ms.JPG": [
+    {
+      "url": "/optimized/ms-640.webp",
+      "width": 640,
+      "height": 427
+    },
+    {
+      "url": "/optimized/ms-1280.webp",
+      "width": 1024,
+      "height": 683
+    },
+    {
+      "url": "/optimized/ms-1920.webp",
+      "width": 1024,
+      "height": 683
+    }
+  ],
+  "/Images/se.jpg": [
+    {
+      "url": "/optimized/se-640.webp",
+      "width": 640,
+      "height": 564
+    },
+    {
+      "url": "/optimized/se-1280.webp",
+      "width": 1280,
+      "height": 1129
+    },
+    {
+      "url": "/optimized/se-1920.webp",
+      "width": 1869,
+      "height": 1648
+    }
+  ],
+  "/Images/s1.jpg": [
+    {
+      "url": "/optimized/s1-640.webp",
+      "width": 640,
+      "height": 399
+    },
+    {
+      "url": "/optimized/s1-1280.webp",
+      "width": 1280,
+      "height": 799
+    },
+    {
+      "url": "/optimized/s1-1920.webp",
+      "width": 1920,
+      "height": 1198
+    }
+  ],
+  "/Images/u10.jpg": [
+    {
+      "url": "/optimized/u10-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/u10-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/u10-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/u5.jpg": [
+    {
+      "url": "/optimized/u5-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/u5-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/u5-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/c18.jpg": [
+    {
+      "url": "/optimized/c18-640.webp",
+      "width": 640,
+      "height": 478
+    },
+    {
+      "url": "/optimized/c18-1280.webp",
+      "width": 1280,
+      "height": 956
+    },
+    {
+      "url": "/optimized/c18-1920.webp",
+      "width": 1920,
+      "height": 1434
+    }
+  ],
+  "/Images/at.JPG": [
+    {
+      "url": "/optimized/at-640.webp",
+      "width": 640,
+      "height": 427
+    },
+    {
+      "url": "/optimized/at-1280.webp",
+      "width": 1280,
+      "height": 854
+    },
+    {
+      "url": "/optimized/at-1920.webp",
+      "width": 1920,
+      "height": 1282
+    }
+  ],
+  "/Images/e16.jpg": [
+    {
+      "url": "/optimized/e16-640.webp",
+      "width": 640,
+      "height": 959
+    },
+    {
+      "url": "/optimized/e16-1280.webp",
+      "width": 1280,
+      "height": 1919
+    },
+    {
+      "url": "/optimized/e16-1920.webp",
+      "width": 1281,
+      "height": 1920
+    }
+  ],
+  "/Images/ss1.png": [
+    {
+      "url": "/optimized/ss1-640.webp",
+      "width": 640,
+      "height": 249
+    },
+    {
+      "url": "/optimized/ss1-1280.webp",
+      "width": 1280,
+      "height": 498
+    },
+    {
+      "url": "/optimized/ss1-1920.webp",
+      "width": 1492,
+      "height": 581
+    }
+  ],
+  "/Images/ss3.jpg": [
+    {
+      "url": "/optimized/ss3-640.webp",
+      "width": 640,
+      "height": 516
+    },
+    {
+      "url": "/optimized/ss3-1280.webp",
+      "width": 1280,
+      "height": 1031
+    },
+    {
+      "url": "/optimized/ss3-1920.webp",
+      "width": 1920,
+      "height": 1547
+    }
+  ],
+  "/Images/u13.jpg": [
+    {
+      "url": "/optimized/u13-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/u13-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/u13-1920.webp",
+      "width": 1561,
+      "height": 1170
+    }
+  ],
+  "/Images/servi.jpg": [
+    {
+      "url": "/optimized/servi-640.webp",
+      "width": 640,
+      "height": 427
+    },
+    {
+      "url": "/optimized/servi-1280.webp",
+      "width": 1280,
+      "height": 853
+    },
+    {
+      "url": "/optimized/servi-1920.webp",
+      "width": 1920,
+      "height": 1280
+    }
+  ],
+  "/Images/c32.jpg": [
+    {
+      "url": "/optimized/c32-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/c32-1280.webp",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "url": "/optimized/c32-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/ct.jpg": [
+    {
+      "url": "/optimized/ct-640.webp",
+      "width": 640,
+      "height": 299
+    },
+    {
+      "url": "/optimized/ct-1280.webp",
+      "width": 1280,
+      "height": 598
+    },
+    {
+      "url": "/optimized/ct-1920.webp",
+      "width": 1920,
+      "height": 897
+    }
+  ],
+  "/Images/m3.jpg": [
+    {
+      "url": "/optimized/m3-640.webp",
+      "width": 640,
+      "height": 960
+    },
+    {
+      "url": "/optimized/m3-1280.webp",
+      "width": 1280,
+      "height": 1920
+    },
+    {
+      "url": "/optimized/m3-1920.webp",
+      "width": 1280,
+      "height": 1920
+    }
+  ],
+  "/Images/c35.jpg": [
+    {
+      "url": "/optimized/c35-640.webp",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "url": "/optimized/c35-1280.webp",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "url": "/optimized/c35-1920.webp",
+      "width": 1080,
+      "height": 1080
+    }
+  ],
+  "/Images/col.webp": [
+    {
+      "url": "/optimized/col-640.webp",
+      "width": 640,
+      "height": 366
+    },
+    {
+      "url": "/optimized/col-1280.webp",
+      "width": 1280,
+      "height": 731
+    },
+    {
+      "url": "/optimized/col-1920.webp",
+      "width": 1792,
+      "height": 1024
+    }
+  ],
+  "/Images/u2.jpg": [
+    {
+      "url": "/optimized/u2-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/u2-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/u2-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/e14.jpg": [
+    {
+      "url": "/optimized/e14-640.webp",
+      "width": 640,
+      "height": 427
+    },
+    {
+      "url": "/optimized/e14-1280.webp",
+      "width": 1280,
+      "height": 854
+    },
+    {
+      "url": "/optimized/e14-1920.webp",
+      "width": 1920,
+      "height": 1281
+    }
+  ],
+  "/Images/w.jpg": [
+    {
+      "url": "/optimized/w-640.webp",
+      "width": 640,
+      "height": 583
+    },
+    {
+      "url": "/optimized/w-1280.webp",
+      "width": 820,
+      "height": 747
+    },
+    {
+      "url": "/optimized/w-1920.webp",
+      "width": 820,
+      "height": 747
+    }
+  ],
+  "/Images/e2.jpg": [
+    {
+      "url": "/optimized/e2-640.webp",
+      "width": 640,
+      "height": 299
+    },
+    {
+      "url": "/optimized/e2-1280.webp",
+      "width": 1280,
+      "height": 598
+    },
+    {
+      "url": "/optimized/e2-1920.webp",
+      "width": 1920,
+      "height": 897
+    }
+  ],
+  "/Images/c3.jpg": [
+    {
+      "url": "/optimized/c3-640.webp",
+      "width": 640,
+      "height": 427
+    },
+    {
+      "url": "/optimized/c3-1280.webp",
+      "width": 1280,
+      "height": 854
+    },
+    {
+      "url": "/optimized/c3-1920.webp",
+      "width": 1920,
+      "height": 1281
+    }
+  ],
+  "/Images/c12.jpg": [
+    {
+      "url": "/optimized/c12-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/c12-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/c12-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/c19.jpg": [
+    {
+      "url": "/optimized/c19-640.webp",
+      "width": 640,
+      "height": 479
+    },
+    {
+      "url": "/optimized/c19-1280.webp",
+      "width": 1280,
+      "height": 958
+    },
+    {
+      "url": "/optimized/c19-1920.webp",
+      "width": 1920,
+      "height": 1437
+    }
+  ],
+  "/Images/e3.jpg": [
+    {
+      "url": "/optimized/e3-640.webp",
+      "width": 640,
+      "height": 299
+    },
+    {
+      "url": "/optimized/e3-1280.webp",
+      "width": 1280,
+      "height": 598
+    },
+    {
+      "url": "/optimized/e3-1920.webp",
+      "width": 1920,
+      "height": 897
+    }
+  ],
+  "/Images/ss2.webp": [
+    {
+      "url": "/optimized/ss2-640.webp",
+      "width": 640,
+      "height": 366
+    },
+    {
+      "url": "/optimized/ss2-1280.webp",
+      "width": 1280,
+      "height": 731
+    },
+    {
+      "url": "/optimized/ss2-1920.webp",
+      "width": 1792,
+      "height": 1024
+    }
+  ],
+  "/Images/tom.jpg": [
+    {
+      "url": "/optimized/tom-640.webp",
+      "width": 640,
+      "height": 583
+    },
+    {
+      "url": "/optimized/tom-1280.webp",
+      "width": 820,
+      "height": 747
+    },
+    {
+      "url": "/optimized/tom-1920.webp",
+      "width": 820,
+      "height": 747
+    }
+  ],
+  "/Images/c11.jpg": [
+    {
+      "url": "/optimized/c11-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/c11-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/c11-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/3.jpg": [
+    {
+      "url": "/optimized/3-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/3-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/3-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/moderntools.png": [
+    {
+      "url": "/optimized/moderntools-640.webp",
+      "width": 640,
+      "height": 441
+    },
+    {
+      "url": "/optimized/moderntools-1280.webp",
+      "width": 912,
+      "height": 628
+    },
+    {
+      "url": "/optimized/moderntools-1920.webp",
+      "width": 912,
+      "height": 628
+    }
+  ],
+  "/Images/c1.jpg": [
+    {
+      "url": "/optimized/c1-640.webp",
+      "width": 640,
+      "height": 427
+    },
+    {
+      "url": "/optimized/c1-1280.webp",
+      "width": 1280,
+      "height": 854
+    },
+    {
+      "url": "/optimized/c1-1920.webp",
+      "width": 1920,
+      "height": 1281
+    }
+  ],
+  "/Images/c6.jpg": [
+    {
+      "url": "/optimized/c6-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/c6-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/c6-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/2.jpg": [
+    {
+      "url": "/optimized/2-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/2-1280.webp",
+      "width": 960,
+      "height": 720
+    },
+    {
+      "url": "/optimized/2-1920.webp",
+      "width": 960,
+      "height": 720
+    }
+  ],
+  "/Images/ss3.webp": [
+    {
+      "url": "/optimized/ss3-640.webp",
+      "width": 640,
+      "height": 366
+    },
+    {
+      "url": "/optimized/ss3-1280.webp",
+      "width": 1280,
+      "height": 731
+    },
+    {
+      "url": "/optimized/ss3-1920.webp",
+      "width": 1792,
+      "height": 1024
+    }
+  ],
+  "/Images/c15.jpg": [
+    {
+      "url": "/optimized/c15-640.webp",
+      "width": 640,
+      "height": 537
+    },
+    {
+      "url": "/optimized/c15-1280.webp",
+      "width": 940,
+      "height": 788
+    },
+    {
+      "url": "/optimized/c15-1920.webp",
+      "width": 940,
+      "height": 788
+    }
+  ],
+  "/Images/mtc.png": [
+    {
+      "url": "/optimized/mtc-640.webp",
+      "width": 640,
+      "height": 299
+    },
+    {
+      "url": "/optimized/mtc-1280.webp",
+      "width": 1280,
+      "height": 598
+    },
+    {
+      "url": "/optimized/mtc-1920.webp",
+      "width": 1659,
+      "height": 775
+    }
+  ],
+  "/Images/pr.png": [
+    {
+      "url": "/optimized/pr-640.webp",
+      "width": 640,
+      "height": 531
+    },
+    {
+      "url": "/optimized/pr-1280.webp",
+      "width": 843,
+      "height": 700
+    },
+    {
+      "url": "/optimized/pr-1920.webp",
+      "width": 843,
+      "height": 700
+    }
+  ],
+  "/Images/m1.jpg": [
+    {
+      "url": "/optimized/m1-640.webp",
+      "width": 640,
+      "height": 427
+    },
+    {
+      "url": "/optimized/m1-1280.webp",
+      "width": 1280,
+      "height": 853
+    },
+    {
+      "url": "/optimized/m1-1920.webp",
+      "width": 1920,
+      "height": 1280
+    }
+  ],
+  "/Images/c27.jpg": [
+    {
+      "url": "/optimized/c27-640.webp",
+      "width": 640,
+      "height": 482
+    },
+    {
+      "url": "/optimized/c27-1280.webp",
+      "width": 1280,
+      "height": 963
+    },
+    {
+      "url": "/optimized/c27-1920.webp",
+      "width": 1920,
+      "height": 1445
+    }
+  ],
+  "/Images/e13.jpg": [
+    {
+      "url": "/optimized/e13-640.webp",
+      "width": 640,
+      "height": 427
+    },
+    {
+      "url": "/optimized/e13-1280.webp",
+      "width": 1280,
+      "height": 854
+    },
+    {
+      "url": "/optimized/e13-1920.webp",
+      "width": 1920,
+      "height": 1281
+    }
+  ],
+  "/Images/ss31.jpg": [
+    {
+      "url": "/optimized/ss31-640.webp",
+      "width": 640,
+      "height": 160
+    },
+    {
+      "url": "/optimized/ss31-1280.webp",
+      "width": 1280,
+      "height": 319
+    },
+    {
+      "url": "/optimized/ss31-1920.webp",
+      "width": 1792,
+      "height": 447
+    }
+  ],
+  "/Images/s3.jpg": [
+    {
+      "url": "/optimized/s3-640.webp",
+      "width": 640,
+      "height": 427
+    },
+    {
+      "url": "/optimized/s3-1280.webp",
+      "width": 1280,
+      "height": 854
+    },
+    {
+      "url": "/optimized/s3-1920.webp",
+      "width": 1920,
+      "height": 1281
+    }
+  ],
+  "/Images/e4.jpg": [
+    {
+      "url": "/optimized/e4-640.webp",
+      "width": 640,
+      "height": 1370
+    },
+    {
+      "url": "/optimized/e4-1280.webp",
+      "width": 1280,
+      "height": 2741
+    },
+    {
+      "url": "/optimized/e4-1920.webp",
+      "width": 1868,
+      "height": 4000
+    }
+  ],
+  "/Images/why.webp": [
+    {
+      "url": "/optimized/why-640.webp",
+      "width": 640,
+      "height": 366
+    },
+    {
+      "url": "/optimized/why-1280.webp",
+      "width": 1280,
+      "height": 731
+    },
+    {
+      "url": "/optimized/why-1920.webp",
+      "width": 1792,
+      "height": 1024
+    }
+  ],
+  "/Images/c25.jpg": [
+    {
+      "url": "/optimized/c25-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/c25-1280.webp",
+      "width": 1280,
+      "height": 961
+    },
+    {
+      "url": "/optimized/c25-1920.webp",
+      "width": 1920,
+      "height": 1441
+    }
+  ],
+  "/Images/ss1.webp": [
+    {
+      "url": "/optimized/ss1-640.webp",
+      "width": 640,
+      "height": 366
+    },
+    {
+      "url": "/optimized/ss1-1280.webp",
+      "width": 1280,
+      "height": 731
+    },
+    {
+      "url": "/optimized/ss1-1920.webp",
+      "width": 1792,
+      "height": 1024
+    }
+  ],
+  "/Images/c4.jpg": [
+    {
+      "url": "/optimized/c4-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/c4-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/c4-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/e8.jpg": [
+    {
+      "url": "/optimized/e8-640.webp",
+      "width": 640,
+      "height": 299
+    },
+    {
+      "url": "/optimized/e8-1280.webp",
+      "width": 1280,
+      "height": 598
+    },
+    {
+      "url": "/optimized/e8-1920.webp",
+      "width": 1920,
+      "height": 897
+    }
+  ],
+  "/Images/enviro.png": [
+    {
+      "url": "/optimized/enviro-640.webp",
+      "width": 640,
+      "height": 346
+    },
+    {
+      "url": "/optimized/enviro-1280.webp",
+      "width": 1280,
+      "height": 693
+    },
+    {
+      "url": "/optimized/enviro-1920.webp",
+      "width": 1336,
+      "height": 723
+    }
+  ],
+  "/Images/c14.jpg": [
+    {
+      "url": "/optimized/c14-640.webp",
+      "width": 640,
+      "height": 537
+    },
+    {
+      "url": "/optimized/c14-1280.webp",
+      "width": 940,
+      "height": 788
+    },
+    {
+      "url": "/optimized/c14-1920.webp",
+      "width": 940,
+      "height": 788
+    }
+  ],
+  "/Images/traditional.png": [
+    {
+      "url": "/optimized/traditional-640.webp",
+      "width": 640,
+      "height": 357
+    },
+    {
+      "url": "/optimized/traditional-1280.webp",
+      "width": 1280,
+      "height": 714
+    },
+    {
+      "url": "/optimized/traditional-1920.webp",
+      "width": 1344,
+      "height": 750
+    }
+  ],
+  "/Images/c28.jpg": [
+    {
+      "url": "/optimized/c28-640.webp",
+      "width": 640,
+      "height": 481
+    },
+    {
+      "url": "/optimized/c28-1280.webp",
+      "width": 1280,
+      "height": 961
+    },
+    {
+      "url": "/optimized/c28-1920.webp",
+      "width": 1920,
+      "height": 1442
+    }
+  ],
+  "/Images/c29.jpg": [
+    {
+      "url": "/optimized/c29-640.webp",
+      "width": 640,
+      "height": 482
+    },
+    {
+      "url": "/optimized/c29-1280.webp",
+      "width": 1280,
+      "height": 963
+    },
+    {
+      "url": "/optimized/c29-1920.webp",
+      "width": 1920,
+      "height": 1445
+    }
+  ],
+  "/Images/colaborative.png": [
+    {
+      "url": "/optimized/colaborative-640.webp",
+      "width": 640,
+      "height": 377
+    },
+    {
+      "url": "/optimized/colaborative-1280.webp",
+      "width": 992,
+      "height": 584
+    },
+    {
+      "url": "/optimized/colaborative-1920.webp",
+      "width": 992,
+      "height": 584
+    }
+  ],
+  "/Images/u14.jpg": [
+    {
+      "url": "/optimized/u14-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/u14-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/u14-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/c7.jpg": [
+    {
+      "url": "/optimized/c7-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/c7-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/c7-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/m8.jpg": [
+    {
+      "url": "/optimized/m8-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/m8-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/m8-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/manufacture.png": [
+    {
+      "url": "/optimized/manufacture-640.webp",
+      "width": 640,
+      "height": 359
+    },
+    {
+      "url": "/optimized/manufacture-1280.webp",
+      "width": 1280,
+      "height": 718
+    },
+    {
+      "url": "/optimized/manufacture-1920.webp",
+      "width": 1333,
+      "height": 748
+    }
+  ],
+  "/Images/c30.jpg": [
+    {
+      "url": "/optimized/c30-640.webp",
+      "width": 640,
+      "height": 399
+    },
+    {
+      "url": "/optimized/c30-1280.webp",
+      "width": 1280,
+      "height": 799
+    },
+    {
+      "url": "/optimized/c30-1920.webp",
+      "width": 1920,
+      "height": 1198
+    }
+  ],
+  "/Images/cd.jpg": [
+    {
+      "url": "/optimized/cd-640.webp",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "url": "/optimized/cd-1280.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "url": "/optimized/cd-1920.webp",
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "/Images/km.jpg": [
+    {
+      "url": "/optimized/km-640.webp",
+      "width": 640,
+      "height": 607
+    },
+    {
+      "url": "/optimized/km-1280.webp",
+      "width": 1280,
+      "height": 1215
+    },
+    {
+      "url": "/optimized/km-1920.webp",
+      "width": 1412,
+      "height": 1340
+    }
+  ],
+  "/Images/u1.jpg": [
+    {
+      "url": "/optimized/u1-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/u1-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/u1-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/e5.jpg": [
+    {
+      "url": "/optimized/e5-640.webp",
+      "width": 640,
+      "height": 1370
+    },
+    {
+      "url": "/optimized/e5-1280.webp",
+      "width": 1280,
+      "height": 2741
+    },
+    {
+      "url": "/optimized/e5-1920.webp",
+      "width": 1868,
+      "height": 4000
+    }
+  ],
+  "/Images/c9.jpg": [
+    {
+      "url": "/optimized/c9-640.webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "/optimized/c9-1280.webp",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "url": "/optimized/c9-1920.webp",
+      "width": 1920,
+      "height": 1439
+    }
+  ],
+  "/Images/m4.jpg": [
+    {
+      "url": "/optimized/m4-640.webp",
+      "width": 640,
+      "height": 960
+    },
+    {
+      "url": "/optimized/m4-1280.webp",
+      "width": 1280,
+      "height": 1920
+    },
+    {
+      "url": "/optimized/m4-1920.webp",
+      "width": 1280,
+      "height": 1920
+    }
+  ]
+}
