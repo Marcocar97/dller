@@ -104,7 +104,7 @@ const handleUserMessage = (text) => {
       "service_8qd27im", // Reemplaza con tu servicio de EmailJS
       "template_luu9gag", // Reemplaza con tu plantilla de EmailJS
       { user_name: updatedUserDetails.name, user_email: updatedUserDetails.email },
-      "q8SYdWtSShPPbGI8c" // Tu clave pública de EmailJS
+      "AyES0hKJgziBiuEgG" // Tu clave pública de EmailJS
     ).then(
       () => {
         setMessages((prev) => [

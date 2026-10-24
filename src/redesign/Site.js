@@ -44,7 +44,7 @@ const description =
 const configuration = {
   service: process.env.REACT_APP_EMAILJS_SERVICE_ID || "service_8qd27im",
   template: process.env.REACT_APP_EMAILJS_TEMPLATE_ID || "template_luu9gag",
-  publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY || "q8SYdWtSShPPbGI8c",
+  publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY || "AyES0hKJgziBiuEgG",
 };
 const get = (file, index) => content[file].blocks[index].html;
 const clean = (text) =>

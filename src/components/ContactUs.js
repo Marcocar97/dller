@@ -81,7 +81,7 @@ function ContactUs() {
         'service_8qd27im', // ID del servicio
         'template_luu9gag', // ID de la plantilla
         formRef.current,
-        'q8SYdWtSShPPbGI8c' // Clave pública
+        'AyES0hKJgziBiuEgG' // Clave pública
       )
       .then(
         () => {
